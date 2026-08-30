@@ -1,0 +1,31 @@
+{
+  "site_title": "논문 라디오 — mHealth 연구 브리핑",
+  "site_base_url": "",
+  "lookback_days": 120,
+  "max_papers_per_topic": 6,
+  "journals": [
+    "J Med Internet Res",
+    "JMIR Mhealth Uhealth",
+    "NPJ Digit Med",
+    "Lancet Digit Health",
+    "Med Sci Sports Exerc",
+    "Br J Sports Med",
+    "Diabetes Care",
+    "Diabetes Technol Ther",
+    "Int J Behav Nutr Phys Act",
+    "Obesity (Silver Spring)",
+    "Nature Medicine"
+  ],
+  "topics": {
+    "JITAI": "\"just-in-time adaptive intervention\" OR \"JITAI\"",
+    "웨어러블": "(\"wearable\" OR \"smartwatch\" OR \"activity tracker\" OR \"fitness tracker\") AND (health OR intervention OR monitoring)",
+    "당뇨": "(diabetes OR \"type 2 diabetes\" OR prediabetes OR \"continuous glucose\") AND (mhealth OR \"mobile health\" OR app OR digital OR wearable)",
+    "비만": "(obesity OR \"weight loss\" OR \"weight management\") AND (mhealth OR \"mobile health\" OR app OR digital)",
+    "운동": "(\"physical activity\" OR exercise) AND (intervention OR promotion) AND (app OR mobile OR wearable OR digital)"
+  },
+  "claude_cli": "C:\\Users\\dtsh5\\AppData\\Roaming\\npm\\claude.cmd",
+  "tts_voices": {
+    "host_a": "ko-KR-SunHiNeural",
+    "host_b": "ko-KR-InJoonNeural"
+  }
+}
