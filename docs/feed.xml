@@ -5,7 +5,7 @@
     <link>https://djhl36.github.io/paper-radio</link>
     <language>ko</language>
     <description>JITAI · 웨어러블 · mHealth · 당뇨 · 비만 · 운동 분야 최신 논문을 한국어 라디오로 듣는 자동 브리핑</description>
-    <lastBuildDate>Sun, 30 Aug 2026 01:11:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 01:28:14 GMT</lastBuildDate>
     <itunes:category text="Science"/>
     <item>
       <title>핏빗과 맞춤 문자메시지를 활용한 '덜 앉기(Sit Less)' 프로그램: 관상동맥질환·제2형 당뇨 환자 대상 2건의 병행 무작위대조시험</title>
@@ -16,6 +16,38 @@
       <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-56497.mp3" length="1133280" type="audio/mpeg"/>
     </item>
     <item>
+      <title>웨어러블 반사형 광용적맥파 측정의 기계적 접촉 조건에 관한 스코핑 리뷰</title>
+      <description>손목 센서를 누르는 힘이 심박·산소포화도 측정 정확도를 좌우한다 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/99333</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-99333</link>
+      <guid isPermaLink="false">doi-10-2196-99333</guid>
+      <pubDate>Sun, 23 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-99333.mp3" length="2176848" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>현대적 당뇨 관리 환경에서 제1형 당뇨병 성인의 경증 비증식 당뇨망막병증 자연 경과</title>
+      <description>경증 당뇨망막병증, 5년 새 절반 이상이 되돌아갔고 열쇠는 당화혈색소였다 — Diabetes technology &amp; therapeutics (2026). 원문: https://doi.org/10.1177/15209156261481005</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-1177-15209156261481005</link>
+      <guid isPermaLink="false">doi-10-1177-15209156261481005</guid>
+      <pubDate>Thu, 20 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-1177-15209156261481005.mp3" length="2225232" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>운동 유발성 고체온 상태의 소방관에서 웨어러블 열스트레스 모니터의 타당도와 신뢰도</title>
+      <description>웨어러블 심부체온 측정기, 추세는 보지만 안전 판단엔 부정확 — Medicine and science in sports and exercise (2026). 원문: https://doi.org/10.1249/mss.0000000000004113</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-1249-mss-0000000000004113</link>
+      <guid isPermaLink="false">doi-10-1249-mss-0000000000004113</guid>
+      <pubDate>Tue, 18 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-1249-mss-0000000000004113.mp3" length="2003616" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>혈액투석 통로 확보를 위한 생체공학 무세포 조직공학 혈관과 자가 동정맥루의 비교: 다기관 무작위 대조 3상 임상시험</title>
+      <description>인공 조직혈관이 자가 동정맥루보다 개통률과 사용기간에서 우수 — The Lancet. Digital health (2026). 원문: https://doi.org/10.1016/j.landig.2026.101036</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-1016-j-landig-2026-101036</link>
+      <guid isPermaLink="false">doi-10-1016-j-landig-2026-101036</guid>
+      <pubDate>Mon, 17 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-1016-j-landig-2026-101036.mp3" length="1771056" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>고령자 인지기능을 위한 디지털 운동 중재: 무작위대조시험 51편의 베이지안 네트워크 메타분석</title>
       <description>디지털 운동 4종 비교 — 엑서게임은 전반적 인지, 원격운동은 기억력에 가장 효과적 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/92764</description>
       <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-92764</link>
@@ -24,12 +56,84 @@
       <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-92764.mp3" length="1107792" type="audio/mpeg"/>
     </item>
     <item>
+      <title>움직이는 혈당: 대규모 관찰 코호트에서 실제 임상 환경의 혈당 조절 시간적 패턴 규명</title>
+      <description>연속혈당측정 860만 일 분석, 주중 수요일 혈당 목표 범위가 가장 높았다 — Diabetes care (2026). 원문: https://doi.org/10.2337/dc26-0886</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2337-dc26-0886</link>
+      <guid isPermaLink="false">doi-10-2337-dc26-0886</guid>
+      <pubDate>Sun, 16 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2337-dc26-0886.mp3" length="1976256" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>이중 웨어러블 멀티태스크 학습을 활용한 자유생활 신체행동 및 활동강도의 강건한 평가: 다기관 WEALTH 프로젝트의 개발 및 평가 연구</title>
+      <description>허벅지와 허리 센서를 함께 쓰면 일상 속 행동·강도 측정이 더 정확해진다 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/94302</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-94302</link>
+      <guid isPermaLink="false">doi-10-2196-94302</guid>
+      <pubDate>Thu, 13 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-94302.mp3" length="2299824" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>근로자의 심리적 디스트레스 감소를 위한 신체활동 촉진 모바일 헬스 중재: 무작위 대조 시험</title>
+      <description>스마트폰 앱이 근로자 스트레스를 3개월간 소폭 낮췄으나 효과는 지속되지 않음 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/96072</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-96072</link>
+      <guid isPermaLink="false">doi-10-2196-96072</guid>
+      <pubDate>Thu, 13 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-96072.mp3" length="1972224" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>만성 심부전 성인의 신체 기능 개선을 위한 디지털 헬스 기술: 무작위 대조 시험에 대한 체계적 문헌고찰 및 메타분석</title>
+      <description>디지털 헬스는 심부전 환자의 운동 능력을 높이지만 일상 활동량까지 늘리진 않는다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/91820</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-91820</link>
+      <guid isPermaLink="false">doi-10-2196-91820</guid>
+      <pubDate>Wed, 12 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-91820.mp3" length="1789776" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>부인암 생존자의 신체활동 앱 장기 사용 실태: 레츠고 연구의 12개월 전향적 다기관 준실험 연구</title>
+      <description>부인암 생존자 72퍼센트가 1년간 앱을 반복 사용했지만 활동량은 보통 수준 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/84838</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-84838</link>
+      <guid isPermaLink="false">doi-10-2196-84838</guid>
+      <pubDate>Wed, 12 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-84838.mp3" length="1914480" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>제2형 당뇨병 자기관리를 위한 디지털 헬스 중재의 행동 기전: 전향적 종단 코호트 연구</title>
+      <description>당뇨 자기관리 지속의 핵심은 자신감보다 사회·물리적 환경이었다 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/79081</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-79081</link>
+      <guid isPermaLink="false">doi-10-2196-79081</guid>
+      <pubDate>Sun, 09 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-79081.mp3" length="2036592" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>소아·청소년(6~18세) 비만을 부추기는 소셜미디어: 이제는 규제가 필요한 시점</title>
+      <description>소셜미디어는 바꿀 수 있는 비만 유발 환경, 연령별 규제가 답 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/95678</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-95678</link>
+      <guid isPermaLink="false">doi-10-2196-95678</guid>
+      <pubDate>Sun, 09 Aug 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-95678.mp3" length="1813104" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>만성질환자의 좌식행동 감소와 신체활동 촉진을 위한 적시적응형중재(JITAI): 주제범위 문헌고찰</title>
       <description>만성질환자 대상 JITAI 연구 14편 분석 — 신체활동 촉진에 예비적 긍정 근거 확인 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/81378</description>
       <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-81378</link>
       <guid isPermaLink="false">doi-10-2196-81378</guid>
       <pubDate>Thu, 06 Aug 2026 15:00:00 GMT</pubDate>
       <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-81378.mp3" length="1151856" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>자기효능감과 흡연 태도의 하루 중 변화 양상: 금연 동기와 흡연 보류 행동에 관한 생태순간평가 연구</title>
+      <description>하루 중 자신감이 빠르게 오르는 날일수록 담배를 참을 확률이 높다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/87117</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-87117</link>
+      <guid isPermaLink="false">doi-10-2196-87117</guid>
+      <pubDate>Wed, 22 Jul 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-87117.mp3" length="2057040" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>모바일 기반 만성질환 관리 프로그램과 직장인 건강의 장기 연관성: 4년 후향적 코호트 연구</title>
+      <description>12주 모바일 건강관리, 4년 뒤에도 직장인 대사지표 개선과 연관 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/82822</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-82822</link>
+      <guid isPermaLink="false">doi-10-2196-82822</guid>
+      <pubDate>Wed, 22 Jul 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-82822.mp3" length="2152080" type="audio/mpeg"/>
     </item>
     <item>
       <title>혈당 관리·심장대사·정신건강에 대한 앱 기반 중재의 효과: 메타분석을 포함한 엄브렐라 리뷰</title>
@@ -46,6 +150,54 @@
       <guid isPermaLink="false">doi-10-2196-92139</guid>
       <pubDate>Wed, 15 Jul 2026 15:00:00 GMT</pubDate>
       <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-92139.mp3" length="1024848" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>웨어러블 생체신호와 심리적 취약성을 활용한 청년층 고위험 음주 삽화의 일주일 앞 예측: 전향적 관찰 기계학습 연구</title>
+      <description>웨어러블과 심리 취약성을 합친 모델, 다음 주 고위험 음주를 민감도 65퍼센트로 예측 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/88223</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-88223</link>
+      <guid isPermaLink="false">doi-10-2196-88223</guid>
+      <pubDate>Thu, 09 Jul 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-88223.mp3" length="1758960" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>알스폰3 발현이 체지방과 혈중 지질에 미치는 성별 차이 효과: 오믹스 멘델 무작위화 연구</title>
+      <description>여성에서만 알스폰3가 내장지방과 중성지방을 높였다 — Obesity (Silver Spring, Md.) (2026). 원문: https://doi.org/10.1002/oby.70252</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-1002-oby-70252</link>
+      <guid isPermaLink="false">doi-10-1002-oby-70252</guid>
+      <pubDate>Tue, 07 Jul 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-1002-oby-70252.mp3" length="2020896" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>자기주도적 스트레스 관리에서 인공지능의 새로운 역할: 체계적 문헌고찰</title>
+      <description>인공지능 도구가 다섯 가지 기능으로 스스로 하는 스트레스 관리를 돕는다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/90709</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-90709</link>
+      <guid isPermaLink="false">doi-10-2196-90709</guid>
+      <pubDate>Tue, 23 Jun 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-90709.mp3" length="2369088" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>스마트폰 기반 생태순간 모바일 헬스 중재로 청소년의 심리적 회복탄력성과 웰빙 증진하기: 마이크로무작위 시험의 2차 분석</title>
+      <description>청소년 대상 스마트폰 마음챙김 훈련, 즉각적 기분 개선 효과는 확인되지 않았다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/85552</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-85552</link>
+      <guid isPermaLink="false">doi-10-2196-85552</guid>
+      <pubDate>Wed, 17 Jun 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-85552.mp3" length="2091744" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>공동 설계 권고안을 통한 참여형 정밀 건강을 향하여: 청소년 및 청년 대상 적시 적응형 개입에 대한 체계적 문헌고찰</title>
+      <description>청소년·청년용 실시간 맞춤 건강개입 61건, 설계는 얕고 보고는 부실했다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/84422</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-84422</link>
+      <guid isPermaLink="false">doi-10-2196-84422</guid>
+      <pubDate>Wed, 20 May 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-84422.mp3" length="2042640" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>체력에서 인지로: 건강한 성인의 생리 지표를 활용한 기계학습 기반 인지 수행 예측</title>
+      <description>심혈관·자율신경 지표만으로 인지 수행 그룹을 약 71퍼센트 정확도로 구분 — Medicine and science in sports and exercise (2026). 원문: https://doi.org/10.1249/mss.0000000000004024</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-1249-mss-0000000000004024</link>
+      <guid isPermaLink="false">doi-10-1249-mss-0000000000004024</guid>
+      <pubDate>Tue, 05 May 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-1249-mss-0000000000004024.mp3" length="1805472" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>

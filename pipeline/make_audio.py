@@ -32,10 +32,10 @@ async def synth_line(text, voice):
 async def make_episode(script, voices, out_path):
     parts = []
     for line in script:
-        voice = voices.get(line["speaker"], list(voices.values())[0])
-        text = line["text"].strip()
+        text = (line.get("text") or "").strip()
         if not text:
-            continue
+            continue  # 빈 줄이나 형식이 어긋난 줄은 건너뜀
+        voice = voices.get(line.get("speaker"), list(voices.values())[0])
         for attempt in range(3):
             try:
                 parts.append(await synth_line(text, voice))
@@ -54,23 +54,30 @@ async def main():
     db = json.loads((DATA / "papers.json").read_text(encoding="utf-8"))
     AUDIO.mkdir(parents=True, exist_ok=True)
     done = 0
+    sem = asyncio.Semaphore(3)
 
-    for summary_file in sorted((DATA / "summaries").glob("*.json")):
-        summary = json.loads(summary_file.read_text(encoding="utf-8"))
+    async def run_one(summary):
+        nonlocal done
         pid = summary["id"]
         out_path = AUDIO / f"{pid}.mp3"
-        if out_path.exists():
-            continue
-        try:
-            await make_episode(summary["script"], voices, out_path)
-            if pid in db:
-                db[pid]["status"] = "ready"
-            done += 1
-            print(f"[audio] 완료: {pid} ({out_path.stat().st_size // 1024}KB)")
-        except Exception as e:
-            print(f"[audio] 실패: {pid}: {e}", file=sys.stderr)
-            if out_path.exists():
-                out_path.unlink()
+        async with sem:
+            try:
+                await make_episode(summary["script"], voices, out_path)
+                if pid in db:
+                    db[pid]["status"] = "ready"
+                done += 1
+                print(f"[audio] 완료: {pid} ({out_path.stat().st_size // 1024}KB)", flush=True)
+            except Exception as e:
+                print(f"[audio] 실패: {pid}: {e}", file=sys.stderr, flush=True)
+                if out_path.exists():
+                    out_path.unlink()
+
+    tasks = []
+    for summary_file in sorted((DATA / "summaries").glob("*.json")):
+        summary = json.loads(summary_file.read_text(encoding="utf-8"))
+        if not (AUDIO / f"{summary['id']}.mp3").exists():
+            tasks.append(run_one(summary))
+    await asyncio.gather(*tasks)
 
     (DATA / "papers.json").write_text(
         json.dumps(db, ensure_ascii=False, indent=2), encoding="utf-8"

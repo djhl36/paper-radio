@@ -8,6 +8,7 @@ import json
 import re
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -65,31 +66,38 @@ def call_claude(cli, prompt):
     return json.loads(m.group(0))
 
 
+def summarize_one(cfg, pid, paper):
+    prompt = PROMPT.format(**paper)
+    result = call_claude(cfg["claude_cli"], prompt)
+    result["id"] = pid
+    (SUMMARIES / f"{pid}.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+
 def main():
     cfg = load_config()
     db = json.loads((DATA / "papers.json").read_text(encoding="utf-8"))
     SUMMARIES.mkdir(parents=True, exist_ok=True)
     done = failed = 0
 
-    for pid, paper in db.items():
-        out_path = SUMMARIES / f"{pid}.json"
-        if out_path.exists():
-            continue
-        if len(paper.get("abstract", "")) < 400:
-            continue  # 초록이 너무 짧으면(사설 등) 건너뜀
-        prompt = PROMPT.format(**paper)
-        try:
-            result = call_claude(cfg["claude_cli"], prompt)
-            result["id"] = pid
-            out_path.write_text(
-                json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
-            )
-            paper["status"] = "summarized"
-            done += 1
-            print(f"[summarize] 완료: {pid}")
-        except Exception as e:
-            failed += 1
-            print(f"[summarize] 실패: {pid}: {e}", file=sys.stderr)
+    todo = [
+        (pid, paper) for pid, paper in db.items()
+        if not (SUMMARIES / f"{pid}.json").exists()
+        and len(paper.get("abstract", "")) >= 400  # 초록이 너무 짧으면(사설 등) 건너뜀
+    ]
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        futures = {pool.submit(summarize_one, cfg, pid, paper): pid for pid, paper in todo}
+        for fut in as_completed(futures):
+            pid = futures[fut]
+            try:
+                fut.result()
+                db[pid]["status"] = "summarized"
+                done += 1
+                print(f"[summarize] 완료: {pid}", flush=True)
+            except Exception as e:
+                failed += 1
+                print(f"[summarize] 실패: {pid}: {e}", file=sys.stderr, flush=True)
 
     (DATA / "papers.json").write_text(
         json.dumps(db, ensure_ascii=False, indent=2), encoding="utf-8"

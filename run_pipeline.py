@@ -9,7 +9,7 @@ STEPS = ["fetch_papers.py", "summarize.py", "make_audio.py", "build_site.py"]
 
 for step in STEPS:
     print(f"\n===== {step} =====")
-    r = subprocess.run([sys.executable, str(ROOT / "pipeline" / step)])
+    r = subprocess.run([sys.executable, "-u", str(ROOT / "pipeline" / step)])
     if r.returncode != 0:
         print(f"[run] {step} 실패 (계속 진행)", file=sys.stderr)
 
