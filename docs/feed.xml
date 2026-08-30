@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>논문 라디오 — mHealth 연구 브리핑</title>
-    <link>./</link>
+    <link>https://djhl36.github.io/paper-radio</link>
     <language>ko</language>
     <description>JITAI · 웨어러블 · mHealth · 당뇨 · 비만 · 운동 분야 최신 논문을 한국어 라디오로 듣는 자동 브리핑</description>
-    <lastBuildDate>Sat, 29 Aug 2026 23:47:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 01:11:47 GMT</lastBuildDate>
     <itunes:category text="Science"/>
     <item>
       <title>핏빗과 맞춤 문자메시지를 활용한 '덜 앉기(Sit Less)' 프로그램: 관상동맥질환·제2형 당뇨 환자 대상 2건의 병행 무작위대조시험</title>
       <description>12주 '덜 앉기' 프로그램으로 당화혈색소 0.4%p 유의하게 감소 — 서울대 간호대 참여 연구 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/56497</description>
-      <link>#p/doi-10-2196-56497</link>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-56497</link>
       <guid isPermaLink="false">doi-10-2196-56497</guid>
       <pubDate>Mon, 24 Aug 2026 15:00:00 GMT</pubDate>
-      <enclosure url="audio/doi-10-2196-56497.mp3" length="1133280" type="audio/mpeg"/>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-56497.mp3" length="1133280" type="audio/mpeg"/>
     </item>
     <item>
       <title>고령자 인지기능을 위한 디지털 운동 중재: 무작위대조시험 51편의 베이지안 네트워크 메타분석</title>
       <description>디지털 운동 4종 비교 — 엑서게임은 전반적 인지, 원격운동은 기억력에 가장 효과적 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/92764</description>
-      <link>#p/doi-10-2196-92764</link>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-92764</link>
       <guid isPermaLink="false">doi-10-2196-92764</guid>
       <pubDate>Mon, 17 Aug 2026 15:00:00 GMT</pubDate>
-      <enclosure url="audio/doi-10-2196-92764.mp3" length="1107792" type="audio/mpeg"/>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-92764.mp3" length="1107792" type="audio/mpeg"/>
     </item>
     <item>
       <title>만성질환자의 좌식행동 감소와 신체활동 촉진을 위한 적시적응형중재(JITAI): 주제범위 문헌고찰</title>
       <description>만성질환자 대상 JITAI 연구 14편 분석 — 신체활동 촉진에 예비적 긍정 근거 확인 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/81378</description>
-      <link>#p/doi-10-2196-81378</link>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-81378</link>
       <guid isPermaLink="false">doi-10-2196-81378</guid>
       <pubDate>Thu, 06 Aug 2026 15:00:00 GMT</pubDate>
-      <enclosure url="audio/doi-10-2196-81378.mp3" length="1151856" type="audio/mpeg"/>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-81378.mp3" length="1151856" type="audio/mpeg"/>
     </item>
     <item>
       <title>혈당 관리·심장대사·정신건강에 대한 앱 기반 중재의 효과: 메타분석을 포함한 엄브렐라 리뷰</title>
       <description>17만 명 데이터 종합 — 건강 앱은 혈당·혈압·체중·정신건강을 유의하게 개선 — The Lancet. Digital health (2026). 원문: https://doi.org/10.1016/j.landig.2026.101009</description>
-      <link>#p/doi-10-1016-j-landig-2026-101009</link>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-1016-j-landig-2026-101009</link>
       <guid isPermaLink="false">doi-10-1016-j-landig-2026-101009</guid>
       <pubDate>Mon, 20 Jul 2026 15:00:00 GMT</pubDate>
-      <enclosure url="audio/doi-10-1016-j-landig-2026-101009.mp3" length="1130544" type="audio/mpeg"/>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-1016-j-landig-2026-101009.mp3" length="1130544" type="audio/mpeg"/>
     </item>
     <item>
       <title>식이 건강관리에서의 적시적응형중재(JITAI) 적용: 체계적 문헌고찰</title>
       <description>식이 JITAI 연구 20편 분석 — 자기모니터링·식행동 개선엔 일관된 효과, 체중 등 임상지표는 아직 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/92139</description>
-      <link>#p/doi-10-2196-92139</link>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-92139</link>
       <guid isPermaLink="false">doi-10-2196-92139</guid>
       <pubDate>Wed, 15 Jul 2026 15:00:00 GMT</pubDate>
-      <enclosure url="audio/doi-10-2196-92139.mp3" length="1024848" type="audio/mpeg"/>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-92139.mp3" length="1024848" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>

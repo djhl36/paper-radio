@@ -1,6 +1,6 @@
 {
   "site_title": "논문 라디오 — mHealth 연구 브리핑",
-  "site_base_url": "",
+  "site_base_url": "https://djhl36.github.io/paper-radio",
   "lookback_days": 120,
   "max_papers_per_topic": 6,
   "journals": [
