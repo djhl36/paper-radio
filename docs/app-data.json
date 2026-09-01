@@ -1,6 +1,57 @@
 {
- "generated": "2026-08-30 10:28",
+ "generated": "2026-09-01 12:19",
  "papers": [
+  {
+   "id": "doi-10-2337-dc26-0692",
+   "title": "Effects of Menstrual Cycle on Insulin Sensitivity in Type 1 Diabetes: An Observational Study of Individuals Using an Automated Insulin Delivery System",
+   "year": "2026",
+   "pub_date": "2026-09-01",
+   "journal": "Diabetes care",
+   "authors": "Hossmann S, Friedman M, Lizoain A, Caduff M, Braunack-Mayer V, Burlando L, Lal RA, Cengiz E, Braune K, Reger-Tan S, Knopf A, Züger T, Khan-Gallo S, Rothenbühler M.",
+   "affiliation": "Diabetes Center Berne, Bern, Switzerland",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2337/dc26-0692",
+   "has_audio": true,
+   "title_ko": "제1형 당뇨병에서 월경 주기가 인슐린 민감도에 미치는 영향: 자동 인슐린 주입 시스템 사용자를 대상으로 한 관찰 연구",
+   "one_liner": "황체기엔 인슐린 요구량이 늘고 민감도는 약 5퍼센트 떨어진다",
+   "summary_md": "## 배경\n제1형 당뇨병을 가진 월경 여성은 주기에 따른 호르몬 변동으로 인슐린 민감도와 혈당이 달라질 수 있다. 자동 인슐린 주입 시스템(AID)이 보편화된 지금도 이 문제가 해결됐는지는 불확실하다.\n\n## 방법\n분산형 관찰 연구로, 규칙적 월경 주기를 보고한 AID 사용 성인이 자발적으로 참여해 익명화된 연속혈당측정(CGM), 인슐린 주입, 탄수화물 섭취, 월경 주기 데이터를 기증했다. 총 77명이 380회 주기를 제공했고, CGM 시계열에서 잠재 인슐린 민감도를 추정하는 계층적 베이지안 상태공간 모델을 적용했다.\n\n## 결과\n총 일일 인슐린 용량과 탄수화물 섭취량은 황체기에 정점을 찍었고, 이 시기 평균 혈당은 더 높고 목표범위 내 시간(TIR)은 감소했다. 모델 추정 인슐린 민감도는 초기 난포기에 +2.6퍼센트(신뢰구간 0.3~5.0), 중기 황체기에 -2.6퍼센트(신뢰구간 -5.2~-0.1)로 두 시기 간 약 5퍼센트 차이를 보였다. 참여자의 84.7퍼센트가 이 집단 경향과 일치했으나 개인차는 상당했다.\n\n## 시사점\n월경 주기는 혈당 조절의 실질적 변수이며, 현재의 진료지침과 AID 알고리즘은 이를 반영하지 못하고 있다. 주기 단계를 입력으로 받는 개인화된 자동 조절이 필요하다."
+  },
+  {
+   "id": "doi-10-1016-j-landig-2026-101031",
+   "title": "Performance and label efficiency of traditional deep-learning models and a retina-specific foundation model for ocular and systemic disease detection: a retrospective comparative study",
+   "year": "2026",
+   "pub_date": "2026-08-28",
+   "journal": "The Lancet. Digital health",
+   "authors": "Yew SME, Lei X, Goh JHL, Zou K, Chen Y, Srinivasan S, Chee ML, Pushpanathan K, Hou Q, Soh ZD, Xue CC, Yu MCY, Sabanayagam C, Tai ES, Sim X, Wang YX, Jonas JB, Nangia V, Yang GD, Ran AR, Cheung CY, Feng Y, Zhou J, Goh RSM, Zhou Y, Keane PA, Liu Y, Cheng CY, Tham YC.",
+   "affiliation": "Department of Ophthalmology, Yong Loo Lin School of Medicine, National University of Singapore, Singapore; Centre for Innovation and Precision Eye Health, Yong Loo Lin School of Medicine, National University of Singapore, Singapore",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.1016/j.landig.2026.101031",
+   "has_audio": true,
+   "title_ko": "안과 및 전신 질환 검출에서 전통적 딥러닝 모델과 망막 특화 파운데이션 모델의 성능 및 라벨 효율성 비교: 후향적 비교 연구",
+   "one_liner": "대규모 데이터에선 기존 모델과 대등, 소규모에선 파운데이션 모델 우세",
+   "summary_md": "## 배경\n망막 영상으로 자기지도학습된 파운데이션 모델 렛파운드가 주목받고 있으나, 기존 지도학습 딥러닝 모델 대비 실제 우위는 불분명했다. 연구진은 렛파운드와 이미지넷 사전학습 모델 3종(레스넷50, 비전 트랜스포머 베이스, 스윈V2)을 비교했다.\n\n## 방법\n안과 질환 4종(질환 관련 시력저하, 임상적으로 유의한 백내장, 녹내장, 당뇨망막병증)과 전신 질환 3종(당뇨병, 고혈압, 만성콩팥병)을 대상으로 했다. 학습 데이터의 100퍼센트, 50퍼센트, 20퍼센트 및 고정 소규모(100, 200, 400장; 당뇨망막병증은 250, 500장)로 미세조정 후, 싱가포르 SEED 코호트(1842~1만 474장)와 베이징·중앙인도·영국 바이오뱅크 등 외부 데이터셋에서 검증했다. AUC를 2000회 부트스트랩으로 비교했다.\n\n## 결과\n전체 데이터 미세조정 시 안과 질환에서 전통 모델 AUC 0.914~0.965, 렛파운드 0.938~0.966으로 유사했다. 소규모에서는 당뇨망막병증(클래스당 100장 이하)과 녹내장(400장 이하)에서 레스넷50이 렛파운드보다 유의하게 낮았으나(p≤0.0001), 스윈V2는 렛파운드와 대등했다. 녹내장 400장 미세조정 시 렛파운드는 SEED 0.908, ODIR-5K 0.835, PAPILA 0.779, GAMMA 0.990을 기록했다.\n\n## 시사점\n파운데이션 모델은 만능이 아니다. 데이터가 충분하면 최신 전통 모델로 충분하고, 라벨이 부족하거나 전신 질환처럼 신호가 미묘한 과제에서 렛파운드의 라벨 효율성이 빛난다."
+  },
+  {
+   "id": "doi-10-2196-91747",
+   "title": "Digital Phenotyping in Health Research: Scoping Review of Methods, Gaps, and Opportunities",
+   "year": "2026",
+   "pub_date": "2026-08-27",
+   "journal": "Journal of medical Internet research",
+   "authors": "Badier N, Lafitte A, Difernand A, Aguayo GA, Fagherazzi G, Onnela JP, Vittrant B, Lechat B, De Larochelambert Q, Toussaint JF, Delrieu L.",
+   "affiliation": "Institut de Recherche bio-Médicale et d'Epidémiologie du Sport, Paris, Île-de-France, France",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/91747",
+   "has_audio": true,
+   "title_ko": "건강 연구에서의 디지털 표현형: 방법론, 공백, 기회에 대한 스코핑 리뷰",
+   "one_liner": "웨어러블 건강 연구 162편 중 표본수 근거 제시는 30%뿐",
+   "summary_md": "## 배경\n스마트워치와 활동량계 같은 연결형 기기는 행동, 생리, 환경 데이터를 끊임없이 만들어냅니다. 이를 활용해 개인의 건강 상태를 파악하는 디지털 표현형이 유망한 패러다임으로 떠올랐지만, 이 데이터를 어떻게 분석해야 하는지에 대한 합의는 부족합니다. 분석 관행이 제각각이고 방법론 보고가 부실하면 재현성과 비교 가능성, 결과의 타당성이 흔들립니다.\n\n## 방법\n펍메드, 스코퍼스, 엠베이스, 웹오브사이언스를 검색하고 구글 스콜라를 보조로 활용해 2024년 12월 31일까지 발표된 논문을 수집했습니다. 사람을 대상으로 웨어러블 기기를 사용한 종단 연구가 대상이며, 여러 연구자가 독립적으로 선별했습니다. 표본 크기 결정, 변수 선택과 정의, 데이터 정제와 전처리, 디지털 표현형 방법, 예측 모델링, 대규모 데이터에서의 통계적 유의성 처리라는 6개 방법론 영역을 추출했습니다.\n\n## 결과\n총 162편이 포함됐고 89퍼센트인 144편이 2018년 이후, 57퍼센트인 92편이 북미 연구였습니다. 기기는 활동량계 81편 50퍼센트, 스마트폰 35편 22퍼센트, 가속도계 26편 16퍼센트, 스마트워치 24편 15퍼센트 순이었습니다. 주요 결과 변수는 활동량 67편 41퍼센트, 수면 65편 40퍼센트, 걸음 수 63편 39퍼센트, 심박수 46편 28퍼센트였습니다. 전처리는 88편 54퍼센트로 가장 많이 보고됐지만 결측치 처리는 35편 22퍼센트에 그쳤습니다. 표본 크기 결정 방법은 48편 30퍼센트, 변수 선택 방법은 43편 27퍼센트, 디지털 표현형 기법은 48편 30퍼센트로 주로 회귀 기반이었고, 예측 모델링은 28편 17퍼센트에 불과하며 검증 절차 보고가 빈약했습니다. 고차원 데이터의 통계적 문제를 명시적으로 논의한 연구는 7편 4.3퍼센트뿐이었습니다.\n\n## 시사점\n디지털 표현형 연구는 빠르게 성장하지만 방법론은 여전히 이질적이고 표준화되지 않았습니다. 명확한 분석 프레임워크와 일관된 보고 관행이 필요하며, 특히 표본 크기 산정, 전처리, 변수 정의, 예측 모델 검증, 통계적 추론의 투명성 확보가 시급합니다."
+  },
   {
    "id": "doi-10-2196-109935",
    "title": "Can Your Fitness Tracker Actually Predict an Injury? ",
