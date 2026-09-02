@@ -26,6 +26,7 @@ from engine.geometry import (  # noqa: E402
     DOUBLES_HALF_W,
     HALF_LENGTH,
     LINE_SEGMENTS,
+    LINE_WIDTH,
     SERVICE_LINE_Y,
     SINGLES_HALF_W,
     serve_target_box,
@@ -191,11 +192,18 @@ def draw_court(cam: Camera) -> np.ndarray:
               (DOUBLES_HALF_W + pad, HALF_LENGTH + pad), (-DOUBLES_HALF_W - pad, HALF_LENGTH + pad)]
     poly = np.array([cam.project((x, y, 0))[:2] for x, y in ground], np.int32)
     cv2.fillPoly(img, [poly], COURT_COLOR)
+    # 라인 폭은 규격(5cm)을 실제로 투영해서 정한다. 코트 앞쪽은 굵고 뒤쪽은 얇아야
+    # 원근이 맞는데, cv2.line 은 두께가 일정하므로 세그먼트를 잘라서 그린다.
     for (a, b) in LINE_SEGMENTS:
-        p1 = cam.project((a[0], a[1], 0))
-        p2 = cam.project((b[0], b[1], 0))
-        thick = max(1, int(round(2400.0 / (p1[2] + p2[2]))))
-        cv2.line(img, (int(p1[0]), int(p1[1])), (int(p2[0]), int(p2[1])), LINE_COLOR, thick, cv2.LINE_AA)
+        steps = 12
+        for k in range(steps):
+            t0, t1 = k / steps, (k + 1) / steps
+            q1 = cam.project((a[0] + (b[0] - a[0]) * t0, a[1] + (b[1] - a[1]) * t0, 0))
+            q2 = cam.project((a[0] + (b[0] - a[0]) * t1, a[1] + (b[1] - a[1]) * t1, 0))
+            depth = 0.5 * (q1[2] + q2[2])
+            thick = max(1, int(round(cam.f * LINE_WIDTH / max(depth, 0.1))))
+            cv2.line(img, (int(q1[0]), int(q1[1])), (int(q2[0]), int(q2[1])),
+                     LINE_COLOR, thick, cv2.LINE_AA)
     # 네트
     for x in np.linspace(-DOUBLES_HALF_W, DOUBLES_HALF_W, 60):
         top = cam.project((x, 0.0, 0.95 - 0.04 * (1 - abs(x) / DOUBLES_HALF_W)))

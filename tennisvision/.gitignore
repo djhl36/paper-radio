@@ -13,3 +13,4 @@ app/node_modules/
 app/dist/
 .venv/
 .pytest_cache/
+certs/
