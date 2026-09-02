@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+data/*.db
+data/uploads/
+data/analyses/
+data/clips/
+data/_dbg.pkl
+data/*.mp4
+data/*.webm
+data/*.truth.json
+data/sample_analysis.json
+app/node_modules/
+app/dist/
+.venv/
+.pytest_cache/

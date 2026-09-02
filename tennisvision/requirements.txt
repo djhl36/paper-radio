@@ -1,0 +1,16 @@
+# 핵심 (이것만 있으면 전체 파이프라인이 돈다)
+numpy>=1.26
+opencv-python-headless>=4.9
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlmodel>=0.0.16
+python-multipart>=0.0.9
+websockets>=12.0
+
+# 개발/테스트
+pytest>=8.0
+httpx>=0.27
+
+# 선택 — 있으면 정확도가 올라간다 (engine/vision/detectors.py 가 자동 감지)
+# ultralytics>=8.2        # YOLO 선수 검출
+# torch>=2.2              # TrackNet 공 검출
