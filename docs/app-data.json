@@ -1,6 +1,127 @@
 {
- "generated": "2026-09-01 12:19",
+ "generated": "2026-09-07 09:26",
  "papers": [
+  {
+   "id": "doi-10-2196-94675",
+   "title": "Prevalence of Use of Mobile Food Delivery Services During School Hours in the United States: Survey Study",
+   "year": "2026",
+   "pub_date": "2026-09-04",
+   "journal": "Journal of medical Internet research",
+   "authors": "Matsuzaki M, Ting AW, Birk N, Acosta ME, Tarazona Meza CE, Sánchez BN, Sanchez-Vaznaugh EV, Bromage S.",
+   "affiliation": "Department of International Health, Johns Hopkins Bloomberg School of Public Health, Johns Hopkins University, Baltimore, MD, United States",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/94675",
+   "has_audio": true,
+   "title_ko": "미국 학교 수업 시간 중 모바일 음식 배달 서비스 이용 실태: 설문 연구",
+   "one_liner": "미국 청소년 4명 중 1명이 수업 시간에 음식 배달 앱을 쓴다",
+   "summary_md": "## 배경\n지난 20년간 미국의 연방 및 주 단위 학교 영양 정책은 급식의 질과 아동 비만 지표를 개선해 왔다. 그러나 모바일 음식 배달 앱이 학교 안까지 파고들면서, 학교가 관리하던 식품 환경 바깥에서 새로운 식이 위험이 생길 수 있다는 우려가 제기된다.\n\n## 방법\n2025년 7~8월, 시카고대 NORC의 AmeriSpeak Teen Omnibus 패널을 통해 전국 온라인 설문을 실시했다. 대상은 13~17세 청소년 1,027명. 연령, 성별, 인종·민족, 가구 소득, 지역별로 가중치를 적용한 이용 행태 분포를 카이제곱 검정으로 비교했고, 찬반 이유를 묻는 개방형 문항은 주제 분석했다.\n\n## 결과\n약 4명 중 1명이 수업 시간 중 배달 서비스를 이용한 경험이 있었고, 방과 후 이용은 절반에 가까웠다. 주문 품목은 패스트푸드 58.8%, 가당 음료 34.1%로 높았던 반면 곡물 볼, 과일, 튀기지 않은 채소, 무가당 음료는 훨씬 적었다. 서부 지역 청소년의 34.0%가 수업 중 배달을 허용하는 학교에 다녔는데 이는 타 지역보다 뚜렷이 높은 수치였고, 동시에 서부 학생들은 높은 비용을 미이용 사유로 더 자주 꼽았다. 응답자의 47.2%가 수업 중 배달에 찬성했으나, 찬반과 무관하게 학습 환경 방해가 공통된 우려로 지적됐다.\n\n## 시사점\n학교 영양 정책은 이제 매점과 급식실 같은 물리적 식품 환경뿐 아니라 배달 앱이라는 디지털 식품 환경까지 함께 다뤄야 한다. 금지 일변도보다 학생의 실제 접근 경로와 이용 동기를 반영한 설계가 평생 건강한 식습관 형성에 유리하다."
+  },
+  {
+   "id": "doi-10-2196-86629",
+   "title": "Graph-Based Modeling of Behavioral Transitions for Digital Health Applications: Trajectory Analysis Framework",
+   "year": "2026",
+   "pub_date": "2026-09-04",
+   "journal": "Journal of medical Internet research",
+   "authors": "Kircali Ata S, Zhou W, Tandi J, Lee WQ, Chan YE, Guretno F, Veeramani A, Liu W, Tan J, Wijaya FB, Lim N, Krishnaswamy P, Erdt M.",
+   "affiliation": "Agency for Science, Technology and Research (A*STAR), Institute for Infocomm Research (I2R), 1 Fusionopolis Way, #21-01 Connexis South Tower, Singapore, 138632, Singapore",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/86629",
+   "has_audio": true,
+   "title_ko": "디지털 헬스 앱에서 행동 전이를 그래프로 모델링하다: 궤적 분석 프레임워크",
+   "one_liner": "3만6천여 명 32주 데이터로 행동 변화 경로를 그래프로 예측",
+   "summary_md": "## 배경\n디지털 헬스 앱은 방대한 행동 데이터를 만들어내지만, 사용자가 한 행동 상태에서 다른 상태로 '어떻게' 옮겨가는지는 잘 알려져 있지 않다. 기존 방법은 실제 행동 변화의 미묘하고 시간에 따라 달라지는 특성을 담아내기 어려워, 개인 맞춤 개입 설계에 한계가 있었다.\n\n## 방법\n싱가포르 건강증진청이 운영하는 인구집단 건강 프로그램의 사용자 3만 6574명, 32주치 데이터를 분석했다. 연구진은 그래프 기반 행동 궤적 모델인 그래프비트램을 개발해, 사용자 유사도 그래프 위의 최단 경로로 행동 전이를 모델링했다. 경로를 시간에 따라 누적해 목표 행동 상태로의 진행과 변화의 방향·크기·시점을 정량화했고, 전이 행렬과 특징별 경로를 스피어만 상관, 피셔 z 변환 평균, 코사인 거리로 실제 데이터와 대조 검증했다.\n\n## 결과\n관측된 전이 행렬과 모델 전이 행렬은 스피어만 상관 0.82로 강하게 일치했다. 특징 수준에서도 개인 맞춤 전이는 상관 0.97, 코사인 거리 0.24, 실세계 전이는 상관 0.79, 코사인 거리 0.41을 보였다. 반면 주중 대비 주말 중강도 이상 신체활동 비율, 건강식품·음료 구매 선호, 마지막 접속 같은 참여 지표는 개인마다 다른 맥락 의존적 양상을 보였다. 오래 앉아 있는 활동 상태에서 건강한 식습관을 갖춘 활동 상태로의 전이를 들여다보니, 건강식품 구매 선호는 궤적 후반에 나타났지만 일단 움직이기 시작하면 더 가파르고 빠르게 변했다.\n\n## 시사점\n행동마다 바뀌기 시작하는 시점과 속도가 다르므로, 개입은 모든 항목을 동시에 밀어붙이기보다 자연스러운 변화 순서에 맞춰 시점을 조율해야 한다. 그래프비트램은 해석 가능한 형태로 이 순서를 보여주어 맞춤형 넛지 설계의 근거가 된다."
+  },
+  {
+   "id": "doi-10-2196-77150",
+   "title": "Proximal Effects of a Transdiagnostic, Ecological Momentary Intervention for Enhancing Resilience in Help-Seeking Young People (EMIcompass): Findings From a Secondary Analysis of an Exploratory Randomized Controlled Trial",
+   "year": "2026",
+   "pub_date": "2026-09-03",
+   "journal": "Journal of medical Internet research",
+   "authors": "Gugel J, Rauschenberg C, Paetzold Jaehme I, Schick A, Wierzba E, Hirjak D, Boehnke JR, Boecking B, Reininghaus U.",
+   "affiliation": "Department of Public Mental Health, Central Institute of Mental Health, Medical Faculty Mannheim, Heidelberg University, J5, Mannheim, 68159, Germany, 49 062117031930",
+   "topics": [
+    "JITAI"
+   ],
+   "url": "https://doi.org/10.2196/77150",
+   "has_audio": true,
+   "title_ko": "도움을 요청하는 청년의 회복탄력성을 높이기 위한 범진단적 생태순간중재의 근접 효과: 탐색적 무작위 대조시험의 2차 분석 결과",
+   "one_liner": "순간중재 직후 부정정서·스트레스가 소폭 줄었지만 통계적 확증은 못 했다",
+   "summary_md": "## 배경\n생태순간중재는 스마트폰으로 하루 중 실시간 상황에 맞춘 중재를 제공하는 방식입니다. 그러나 기존 연구 대부분은 몇 주 뒤의 원위 결과만 봤고, 중재 직후 순간 수준에서 무엇이 바뀌는지는 거의 확인되지 않았습니다.\n\n## 방법\nEMIcompass는 도움을 요청한 14~25세 초기 정신건강 문제 청년을 위한 범진단적·자비중심 하이브리드 중재입니다. 탐색적 무작위 대조시험의 실험군 자료를 2차 분석해, 참가자가 자발적으로 과제를 완료한 뒤 이어지는 순간평가에서 부정정서, 스트레스, 스트레스 반응성이 어떻게 달라지는지 개인 내 수준에서 살펴봤습니다. 분석 대상은 37명이었습니다.\n\n## 결과\n부정정서는 베타 -0.07, 95% 신뢰구간 -0.18에서 0.04, d형 효과크기 -0.12였고, 스트레스는 베타 -0.12, 신뢰구간 -0.31에서 0.06, d형 -0.14, 스트레스 반응성은 베타 -0.04, d형 -0.05였습니다. 방향은 모두 감소 쪽이고 개인 내 수준에서는 임상적으로 의미 있는 크기였지만, 신뢰구간이 모두 0을 포함했습니다. 누적 훈련 횟수의 효과는 매우 작았고, 27명만 분석된 과제 유형별 효과는 -0.12에서 0.16 사이로 역시 0을 포함했습니다.\n\n## 시사점\n순간 단위 기전을 추적하는 분석이 실행 가능함을 보여준 방법론적 진전입니다. 다만 표본이 작아 결론은 유보적이며, 마이크로 무작위화나 개인 단위 반복 설계를 쓴 대규모 후속 연구가 필요합니다."
+  },
+  {
+   "id": "doi-10-1016-j-landig-2026-101029",
+   "title": "Status, challenges, and future directions of machine learning in the management of epilepsy: a systematic review and meta-analysis",
+   "year": "2026",
+   "pub_date": "2026-09-03",
+   "journal": "The Lancet. Digital health",
+   "authors": "Chang RS, Nguyen S, Mishra D, Nazem-Zadeh MR, Jiang Y, Feng W, Thom D, Nhu D, Sinclair B, Mehta D, Chen Z, Ge Z, O'Brien TJ, Foster E, Kwan P.",
+   "affiliation": "Department of Neuroscience, School of Translational Medicine, Monash University, Melbourne, VIC, Australia",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.1016/j.landig.2026.101029",
+   "has_audio": true,
+   "title_ko": "뇌전증 관리에서 머신러닝의 현황, 과제, 그리고 미래 방향: 체계적 문헌고찰 및 메타분석",
+   "one_liner": "뇌전증 치료 예측 인공지능, 성능은 좋지만 편향이 발목을 잡았다",
+   "summary_md": "## 배경\n뇌전증은 치료 선택지가 늘었음에도, 개인에게 맞는 약을 찾는 과정은 여전히 시행착오에 의존한다. 머신러닝이 이 임상 의사결정을 도울 수 있을지 확인하기 위한 연구다.\n\n## 방법\n엠베이스, 메드라인, 스코퍼스, 웹오브사이언스에서 2025년 3월 31일까지 발표된 연구를 검색했다. 항발작제 치료 반응, 약물난치성 뇌전증, 수술 결과, 수술 적합성을 예측하는 사람 대상 연구만 포함하고, 진단·발작 예측·기기 공학 연구는 제외했다. 보고 품질은 트라이포드 플러스 에이아이로, 비뚤림 위험은 프로바스트로 평가했다.\n\n## 결과\n총 1만 6771편 중 135편이 포함됐다. 수술 결과 예측이 79편으로 59퍼센트를 차지했고, 항발작제 반응 예측이 33편으로 24퍼센트였다. 통합 곡선하면적은 항발작제 반응 예측 0.82, 수술 결과 예측 0.82, 수술 적합성 예측 0.94였다. 그러나 보고 지침을 70퍼센트 이상 충족한 연구는 단 10편, 7퍼센트뿐이었고, 135편 전부가 비뚤림 위험 높음으로 평가됐다. 이질성도 아이제곱 86에서 99퍼센트로 매우 높았다.\n\n## 시사점\n예측 성능 자체는 임상적으로 유의미한 수준이지만, 작은 표본, 결측치 처리 미흡, 외부 검증 부재가 실제 적용을 가로막는다. 대규모 다기관 데이터와 표준화된 보고, 그리고 전향적 임상시험이 다음 단계다."
+  },
+  {
+   "id": "doi-10-1177-15209156261485635",
+   "title": "Optimizing Continuous Glucose Monitoring for Older Adults with Diabetes: From Clinical Evidence to a Practical Implementation Pathway",
+   "year": "2026",
+   "pub_date": "2026-09-03",
+   "journal": "Diabetes technology & therapeutics",
+   "authors": "Yang T, Cai J, Ni J, Lu J, Zhou J.",
+   "affiliation": "Department of Endocrinology and Metabolism, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai Clinical Center for Diabetes, Shanghai Diabetes Institute, Shanghai Key Laboratory of Diabetes Mellitus, Shanghai, China",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.1177/15209156261485635",
+   "has_audio": true,
+   "title_ko": "당뇨병이 있는 고령자를 위한 연속혈당측정 최적화: 임상 근거에서 실행 가능한 도입 경로까지",
+   "one_liner": "고령 당뇨 환자에게 연속혈당측정은 저혈당 예방과 의사결정 지원 도구",
+   "summary_md": "## 배경\n고령 당뇨 환자는 저혈당, 혈당 변동성, 다중질환, 노쇠, 치료 관련 취약성을 함께 겪는데 이런 위험은 당화혈색소 하나로는 충분히 드러나지 않습니다. 연속혈당측정은 시간 단위 혈당 곡선, 추세 정보, 경보, 원격 데이터 공유를 제공해 안전 중심의 노인 당뇨 관리에 적합합니다.\n\n## 방법\n서술적 문헌고찰로, 기기 특성, 무작위배정 임상시험과 실제 진료 자료의 결과, 환자와 돌봄제공자 경험, 지속 사용의 장벽, 실제 도입 방안을 종합했습니다.\n\n## 결과\n이득은 당뇨 유형과 치료 맥락에 따라 달랐습니다. 1형 당뇨 고령자에서는 저혈당 노출과 목표 범위 미달 시간이 일관되게 줄었고, 기저 인슐린을 쓰는 2형 당뇨에서는 목표 범위 내 시간이 늘고 고혈당이 줄었습니다. 간헐 측정으로 놓치던 야간 저혈당, 혈당 변동성, 식후 패턴이 드러나 개별 치료 조정에 도움이 됐습니다. 실제 진료 자료에서는 인슐린 사용 집단의 급성 사건과 입원 감소가 관찰됐지만 잔여 교란으로 인과 해석에는 한계가 있었습니다. 사용 편의성, 피부 반응, 교육, 경보 부담, 돌봄 workflow, 디지털 활용 능력, 비용, 형평성 있는 접근이 지속 사용을 크게 좌우했습니다.\n\n## 시사점\n저자들은 위험 기반 대상자 선별, 기능 평가, 맞춤형 기기와 지원 모델, 개별화된 경보와 혈당 목표, 핵심 지표 중심의 판독, 구조화된 교육, 조기 추적을 담은 노인 전용 도입 알고리즘을 제안합니다. 현재 근거는 인슐린을 쓰거나 저혈당 위험이 높은 선별된 고령자에서 안전 및 의사결정 지원 기술로서의 활용을 뒷받침합니다."
+  },
+  {
+   "id": "doi-10-1136-bjsports-2025-110863",
+   "title": "Digital therapeutic combining exercise and cognitive-behavioural therapy reduces pain in patients with chronic patellofemoral pain: a multicentre randomised controlled trial",
+   "year": "2026",
+   "pub_date": "2026-09-03",
+   "journal": "British journal of sports medicine",
+   "authors": "Park JY, Lee S, Kim JM, Lee SH, Chang MJ, Chung KS, Kim MS, Kim SH, Ryu DJ, Park TH, Choi CH, Yoon C, Chang CB, Kim JG.",
+   "affiliation": "CHA Bundang Medical Center, Seongnam-si, Korea (the Republic of)",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.1136/bjsports-2025-110863",
+   "has_audio": true,
+   "title_ko": "운동과 인지행동치료를 결합한 디지털 치료기기가 만성 슬개대퇴통증 환자의 통증을 줄인다: 다기관 무작위 대조 시험",
+   "one_liner": "스마트폰 디지털 치료기기 8주, 무릎 통증 12.5밀리미터 추가 감소",
+   "summary_md": "## 배경\n만성 슬개대퇴통증은 무릎 앞쪽이나 슬개골 뒤쪽에 3개월 이상 지속되는 통증으로, 활동 시 악화되는 흔한 질환입니다. 운동치료가 표준이지만 순응도가 낮고, 통증 파국화 같은 심리적 요인이 회복을 방해합니다.\n\n## 방법\n한국 10개 병원 정형외과 외래에서 만성 슬개대퇴통증 환자 216명을 모집한 다기관 무작위 대조 시험입니다. 스마트폰 디지털 치료기기 모라 큐어 피에프피 군과 대조군으로 배정했습니다. 치료기기군은 개인 맞춤 가정 운동, 주간 인지행동치료 세션, 자기성찰 일일 워크시트를 8주간 수행했고, 대조군은 교육, 1회 운동 지도, 인쇄물, 운동 일지를 받았습니다. 1차 지표는 8주째 평상시 통증으로 0에서 100밀리미터 시각통증척도로 측정했습니다.\n\n## 결과\n8주째 평상시 통증은 치료기기군이 12.5밀리미터 더 감소했습니다. 95퍼센트 신뢰구간은 마이너스 17.1에서 마이너스 7.8입니다. 최악의 통증은 10.7밀리미터 감소, 무릎 기능 점수는 5.2점 향상, 삶의 질 시각척도는 10.7점 향상, 통증 파국화 척도는 1.8점 개선됐습니다. 운동 순응도는 80퍼센트를 넘었고 기기 관련 중대 이상반응은 없었습니다.\n\n## 시사점\n운동과 심리치료를 하나의 앱으로 묶은 통합 패키지가 기존 교육 방식보다 우수함을 보여줍니다. 다만 대조군이 최소 개입이라 효과 크기 해석에 주의가 필요하고, 12주 이후 장기 효과는 추가 연구가 필요합니다."
+  },
+  {
+   "id": "doi-10-2196-92981",
+   "title": "User Engagement and Feature Preferences in an AI-Powered mHealth Intervention for Diabetes Prevention: Secondary Analysis of a Randomized Controlled Trial",
+   "year": "2026",
+   "pub_date": "2026-09-02",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Lalani B, Siew G, Valdez Y, Shehadeh A, Zade D, Riekert K, Mathioudakis N, AI-DPP Study Group.",
+   "affiliation": "Harvard Medical School, Harvard University, Boston, MA, United States",
+   "topics": [
+    "당뇨",
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/92981",
+   "has_audio": true,
+   "title_ko": "당뇨병 예방을 위한 인공지능 기반 모바일 헬스 중재에서의 사용자 참여도와 기능 선호도: 무작위 대조 시험의 이차 분석",
+   "one_liner": "앱 사용 일수가 많을수록 당뇨 위험 감소 성공률이 높았고, 고령층이 더 열심히 썼다",
+   "summary_md": "## 배경\n당뇨병 전단계는 전 세계적으로 유병률이 높고 계속 증가하지만, 생활습관 중재는 여전히 충분히 활용되지 못하고 있다. 인공지능 기반 모바일 헬스 도구는 당뇨병 예방 사업을 확장할 수 있는 수단이지만, 성공을 좌우하는 핵심 요인은 잘 알려져 있지 않다.\n\n## 방법\n모 무작위 대조 시험(NCT05056376)에서 인공지능 기반 당뇨병 예방 프로그램(Sweetch)에 배정된 당뇨병 전단계 및 과체중·비만 참가자 151명의 자료를 사후 이차 분석했다. 참여도는 앱 사용 총 일수로 정의해 저·중·고 3분위로 나누고, ANOVA·크루스칼-왈리스·카이제곱 검정으로 기저 특성을, 회귀모형으로 참여도와 12개월 시점 당뇨 위험 감소 성과(체중 5% 이상 감량, 체중 4% 이상 감량과 주 150분 이상 신체활동 병행, 또는 당화혈색소 0.2%p 이상 감소)의 연관성을 평가했다. 12개월 시점에 기능별 유용성 인식도 설문했다.\n\n## 결과\n참여도 중앙값은 98일(사분위범위 34~232일)이었다. 연령이 높을수록 참여도가 유의하게 높았다. 참여도가 높은 군은 당화혈색소 0.2%p 이상 감소 달성 오즈비가 3.57(95% 신뢰구간 1.19~10.75, P=.02)이었다. 가장 도움이 된 기능으로는 체중 기록, 신체활동 기록, 디지털 체중계가 가장 많이 꼽혔다.\n\n## 시사점\n사람의 개입이 전혀 없는 완전 자동화 인공지능 중재에서도 참여도가 높으면 당뇨 위험이 실제로 감소했다. 디지털 문해력 우려와 달리 고령층이 젊은층보다 더 적극적으로 참여했으므로, 고령 인구를 배제할 이유가 없다. 설계 시에는 체중과 신체활동 추적처럼 단순하고 눈에 보이는 기능에 우선순위를 두는 것이 효과적이다."
+  },
   {
    "id": "doi-10-2337-dc26-0692",
    "title": "Effects of Menstrual Cycle on Insulin Sensitivity in Type 1 Diabetes: An Observational Study of Individuals Using an Automated Insulin Delivery System",
@@ -19,6 +140,92 @@
    "summary_md": "## 배경\n제1형 당뇨병을 가진 월경 여성은 주기에 따른 호르몬 변동으로 인슐린 민감도와 혈당이 달라질 수 있다. 자동 인슐린 주입 시스템(AID)이 보편화된 지금도 이 문제가 해결됐는지는 불확실하다.\n\n## 방법\n분산형 관찰 연구로, 규칙적 월경 주기를 보고한 AID 사용 성인이 자발적으로 참여해 익명화된 연속혈당측정(CGM), 인슐린 주입, 탄수화물 섭취, 월경 주기 데이터를 기증했다. 총 77명이 380회 주기를 제공했고, CGM 시계열에서 잠재 인슐린 민감도를 추정하는 계층적 베이지안 상태공간 모델을 적용했다.\n\n## 결과\n총 일일 인슐린 용량과 탄수화물 섭취량은 황체기에 정점을 찍었고, 이 시기 평균 혈당은 더 높고 목표범위 내 시간(TIR)은 감소했다. 모델 추정 인슐린 민감도는 초기 난포기에 +2.6퍼센트(신뢰구간 0.3~5.0), 중기 황체기에 -2.6퍼센트(신뢰구간 -5.2~-0.1)로 두 시기 간 약 5퍼센트 차이를 보였다. 참여자의 84.7퍼센트가 이 집단 경향과 일치했으나 개인차는 상당했다.\n\n## 시사점\n월경 주기는 혈당 조절의 실질적 변수이며, 현재의 진료지침과 AID 알고리즘은 이를 반영하지 못하고 있다. 주기 단계를 입력으로 받는 개인화된 자동 조절이 필요하다."
   },
   {
+   "id": "doi-10-1249-mss-0000000000004128",
+   "title": "Exercise Timing Influences Autonomic and Psychological Adaptations but not Functional Capacity in Cancer Patients Undergoing Treatment",
+   "year": "2026",
+   "pub_date": "2026-09-01",
+   "journal": "Medicine and science in sports and exercise",
+   "authors": "Covington Ii BW, Mattocks B, Krynski L, Simon LH, Hayward J, Villafana M, Lazio M, Hayward R.",
+   "affiliation": "Department of Kinesiology, Nutrition, and Dietetics, University of Northern Colorado Cancer Rehabilitation Institute, University of Northern Colorado, Greeley, CO",
+   "topics": [
+    "웨어러블",
+    "운동"
+   ],
+   "url": "https://doi.org/10.1249/mss.0000000000004128",
+   "has_audio": true,
+   "title_ko": "운동 시간대가 암 치료 중인 환자의 자율신경 및 심리적 적응에 미치는 영향: 기능적 체력에는 차이 없어",
+   "one_liner": "아침 운동이 암 환자의 우울감과 수면, 자율신경 회복에 더 유리했다",
+   "summary_md": "## 배경\n암 치료 중인 환자에게 운동이 도움이 된다는 사실은 잘 알려져 있지만, 하루 중 언제 운동하느냐가 결과를 바꾸는지는 거의 검증되지 않았다. 이 연구는 아침 운동과 오후·저녁 운동을 비교해 기능적 체력, 심리 지표, 수면·회복 지표의 차이를 살펴봤다.\n\n## 방법\n노던콜로라도대학교 암재활연구소에서 치료 중인 암 환자 44명이 12주간 감독형 운동 프로그램에 참여했다. 참가자는 아침 7시에서 9시 사이 또는 오후 4시에서 6시 사이 중 원하는 시간대를 스스로 선택했고, 중재 전후로 신체·심리 평가를 받았다. 이 중 24명은 웨어러블 트래커로 수면과 회복을 객관적으로 측정했다.\n\n## 결과\n두 그룹 모두 기능적 체력이 유의하게 향상됐고, 그룹 간 차이는 없었다(p > 0.05). 반면 심리·자율신경 지표에서는 차이가 나타났다. 아침 운동군의 벡 우울척도 감소폭은 4.86점(표준편차 5.72)으로, 오후 운동군의 1.02점(표준편차 4.48)보다 컸다. 수면의 질과 자율신경 기능 개선도 아침 운동군에서 더 뚜렷했다.\n\n## 시사점\n체력 향상만이 목표라면 시간대는 자유롭게 선택해도 된다. 다만 우울감, 수면 문제, 자율신경 회복이 함께 문제되는 환자라면 아침 시간대를 우선 권할 근거가 생겼다. 다만 참가자가 시간대를 스스로 골랐다는 점에서 선택 편향 가능성은 남는다."
+  },
+  {
+   "id": "doi-10-2196-91407",
+   "title": "Digital Structured Education With Behavioral Nudge Tools for Adults With Type 2 Diabetes: Multicenter Randomized Controlled Trial",
+   "year": "2026",
+   "pub_date": "2026-09-01",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Lin Y, Zeng Y, Chen K, Chen Z, Ye C, Zhou Y, Zhou Q, Yu C, Wu VX, Seidu S, Li B, Jiang X.",
+   "affiliation": "School of Nursing, Hainan Medical University, No 3 Xueyuan Road, Longhua district, Haikou, Hainan, China, 86 18789028632",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/91407",
+   "has_audio": true,
+   "title_ko": "행동 넛지 도구를 결합한 디지털 구조화 교육이 성인 2형 당뇨병 환자에게 미치는 효과: 다기관 무작위 대조 시험",
+   "one_liner": "넛지 결합 디지털 교육 12주, 당화혈색소 0.38퍼센트포인트 추가 개선",
+   "summary_md": "## 배경\n디지털 당뇨 교육은 대면 교육을 대체할 확장 가능한 수단이지만, 임상 효과가 일관되지 않고 사용자 참여가 시간이 지나며 떨어지는 한계가 있었다. 연구진은 구조화된 디지털 교육에 행동경제학의 넛지 도구를 결합하면 대사·행동·심리 지표가 함께 개선될지 검증하고자 했다.\n\n## 방법\n중국 4개 병원 내분비내과에서 성인 2형 당뇨병 환자 293명을 무작위 배정했다. 중재군 146명은 넛지 도구가 결합된 디지털 구조화 교육을, 대조군 147명은 표준 디지털 당뇨 교육을 받았다. 평균 연령은 49.19세였고, 기저 시점과 12주 시점에 평가했다. 일차 결과는 기저 당화혈색소와 연구기관을 보정한 12주 당화혈색소였다.\n\n## 결과\n287명(97.9%)이 추적을 완료했다. 12주 시점에 중재군은 대조군보다 당화혈색소가 0.38%포인트 더 낮았고(95% 신뢰구간 -0.68~-0.09, P=.01), 공복혈당은 0.75 mmol/L(P<.001), 체질량지수는 0.38 kg/m²(P=.01) 더 감소했다. 수축기혈압은 2.71 mmHg, 이완기혈압은 2.92 mmHg 더 낮아졌으며, 체중과 지질 지표도 유의하게 개선됐다. 자기관리 행동, 자기효능감, 습관 강도 역시 모두 유의하게 향상됐다.\n\n## 시사점\n넛지 도구 결합은 표준 디지털 교육을 넘어서는 추가 효과를 냈고, 특히 습관 강도 향상은 행동 변화가 지속될 가능성을 시사한다. 다만 12주라는 짧은 관찰 기간의 한계가 있어, 장기 추적과 실제 진료 환경 적용 연구가 필요하다."
+  },
+  {
+   "id": "doi-10-1016-j-landig-2026-101092",
+   "title": "Development and external validation of a contrastive learning foundation model for ECG-based prediction of cardiovascular diseases and outcomes",
+   "year": "2026",
+   "pub_date": "2026-09-01",
+   "journal": "The Lancet. Digital health",
+   "authors": "Ko M, Gadaleta M, Topol EJ, Muse ED, Quer G.",
+   "affiliation": "Scripps Research Translational Institute, La Jolla, CA, USA; Halıcıoğlu Data Science Institute, UC San Diego, La Jolla, CA, USA",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.1016/j.landig.2026.101092",
+   "has_audio": true,
+   "title_ko": "심전도 기반 심혈관 질환 및 예후 예측을 위한 대조학습 파운데이션 모델의 개발과 외부 검증",
+   "one_liner": "심전도와 판독문을 함께 학습해 데이터 90퍼센트 적게도 더 정확",
+   "summary_md": "## 배경\n자동 심전도 판독 도구는 지난 10년간 크게 발전했지만, 기존 기계학습은 특정 과제용 라벨에 지나치게 의존해 심전도가 가진 진단·예측 잠재력을 충분히 끌어내지 못했다. 연구진은 범용성과 임상 적용성을 높인 대규모 심전도 파운데이션 모델 ECG-CLIP을 개발했다.\n\n## 방법\n스크립스 헬스 GE MUSE 시스템의 2008년 1월 15일부터 2019년 1월 15일까지 환자 54만 2288명, 170만 건 이상의 심전도와 임상의 판독문 쌍을 사용했다. 마스킹 기반 심전도 복원과 심전도·텍스트 대조학습의 2단계 사전학습을 거쳤고, 80만 건 이상의 심전도를 가진 독립 외부 데이터셋 MIMIC-IV로 5겹 교차검증(AUC)했다. 지도학습 기준 모델 2종, 비심전도 파운데이션 모델 1종, 심전도 신호 전용 파운데이션 모델 3종(ECGFounder, DeepECG-SL, DeepECG-SSL)과 비교했다.\n\n## 결과\n급성 심근경색·심장 아밀로이드증·비후성 심근병증 검출, 정상 동율동에서의 심방세동 예측, 30일 응급실 및 수술 후 사망과 3년 내 만성콩팥병·2형 당뇨병 발생 예측 전반에서 기준 모델을 상회했다. 질환 검출에서는 최고 성능 비교 모델과 동일한 AUC에 평균 90.8% 적은 학습 데이터로 도달했다. 양성 라벨이 10개뿐인 극저라벨 상황에서도 급성 심근경색 검출 AUC 0.910(0.903–0.916) 대 0.884(0.876–0.892), 심장 아밀로이드증 0.790 대 0.777, 비후성 심근병증 0.772 대 0.754, 심방세동 예측 0.777 대 0.765로 2위 모델을 유의하게 앞섰다. 단일 유도만 쓸 때도 전벽·하벽 급성 심근경색 검출에서 좋은 성능을 보였고, 정보가 적다고 여겨지던 유도에서도 지도학습 기준 모델을 능가했다.\n\n## 시사점\n심전도와 판독문을 함께 학습하면 임상적으로 의미 있는 표현을 얻어, 라벨이 부족한 환경에서도 정확하고 데이터 효율적이며 해석 가능한 위험 예측이 가능하다. 희귀질환처럼 사례 수집이 어려운 영역, 그리고 자원이 제한된 현장이나 단일 유도 웨어러블 기기로의 확장 배포에 실질적 근거를 제공한다."
+  },
+  {
+   "id": "doi-10-2196-109682",
+   "title": "From Measurement to Meaning: The Next Decade of the Quantified Self",
+   "year": "2026",
+   "pub_date": "2026-08-31",
+   "journal": "Journal of medical Internet research",
+   "authors": "Karow B.",
+   "affiliation": "",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/109682",
+   "has_audio": true,
+   "title_ko": "측정에서 의미로: 자기 정량화의 다음 10년",
+   "one_liner": "웨어러블은 이제 데이터가 아니라 해석과 지침을 팔아야 한다",
+   "summary_md": "## 배경\n손목 위 기기들은 지난 10여 년 동안 걸음 수, 심박수, 수면 단계 같은 숫자를 쏟아내는 데 집중해 왔습니다. 그러나 소비자들은 이제 숫자 자체가 아니라 그 숫자가 무엇을 뜻하는지, 그래서 무엇을 해야 하는지를 요구하고 있습니다. 이 글은 국제의료인터넷연구학회지 2026년 뉴스·관점 코너에 실린 기고문으로, 저널리스트 블라이스 카로우가 업계와 규제 현장을 취재해 정리했습니다.\n\n## 방법\n원저 연구가 아닌 관점 기사로, 인공지능 기술, 규제 환경, 웨어러블 하드웨어라는 세 축의 최근 변화를 종합해 자기 정량화 흐름의 다음 국면을 전망합니다.\n\n## 결과\n핵심 진단은 데이터와 해석 사이의 간극입니다. 현재 대부분의 기기는 웰니스 제품과 의료기기 사이 경계에 놓여 있는데, 웰니스 쪽에 머무르면 규제는 가볍지만 사용자에게 실질적 조언을 줄 수 없습니다. 반대로 의료기기로 올라서면 임상적 해석을 제공할 수 있지만 인허가 부담을 져야 합니다. 저자는 인공지능의 발전과 규제 당국의 디지털 헬스 심사 경로 정비가 이 간극을 메우는 방향으로 수렴하고 있으며, 이 간극을 해결하지 못하는 기업은 경쟁력을 잃을 것이라고 지적합니다.\n\n## 시사점\n웨어러블의 승부처는 센서 정확도 경쟁에서 해석과 개인화된 지침으로 이동합니다. 개발자는 규제 경로를 제품 설계 초기부터 고려해야 하고, 사용자는 숫자를 늘리는 앱보다 행동으로 이어지는 조언을 주는 서비스를 골라야 합니다."
+  },
+  {
+   "id": "doi-10-2196-71604",
+   "title": "Self-Monitoring of Weight Loss Over Time: Secondary Data Analysis of a Randomized Controlled Trial",
+   "year": "2026",
+   "pub_date": "2026-08-31",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "de Oliveira RSC, Nabwire S, Merikallio H, J Savolainen M, Hukkanen J, Oinas-Kukkonen H.",
+   "affiliation": "Software Engineering and Information Systems Unit, Oulu Advanced Research on Service and Information Systems, University of Oulu, Linnanmaa campus, Pentti Kaiteran katu 1, Oulu, 90570, Finland, 358 0442465690",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/71604",
+   "has_audio": true,
+   "title_ko": "시간에 따른 체중 감량 자가 모니터링: 무작위 대조 시험의 이차 자료 분석",
+   "one_liner": "자가 기록 효과는 초기에 크고 시간이 갈수록 줄어든다",
+   "summary_md": "## 배경\n행동 변화 지원 시스템은 강압이나 속임수 없이 태도와 행동을 형성·강화하는 것을 목표로 한다. 그중 핵심 기능인 자가 모니터링은 사용자가 자신의 수행이나 상태를 지속적으로 추적하게 해 목표 달성을 돕는다. 이 연구는 모바일 헬스 행동 변화 지원 시스템에서 체중 자가 입력 빈도와 시간의 상호작용이 체중 감량에 어떤 영향을 주는지 살폈다.\n\n## 방법\n비만 성인(체질량지수 30~40)을 대상으로 한 무작위·공개·대기자 대조 시험의 중재군 자료를 이차 분석했다. 참여자는 12개월간 시스템을 사용했고, 자가 모니터링을 최소 6개월 유지한 75명만 포함했다. 체중 변화를 9개 시간 구간으로 나누고, 25·50·75 백분위수에 대해 분위 회귀를 적용했다. 모형에는 자가 모니터링 빈도, 시간 구간, 그리고 둘의 상호작용을 넣었으며 다중대체 민감도 분석으로 강건성을 확인했다.\n\n## 결과\n시간 구간 변수는 25 백분위수(계수 -1.164, 95% 신뢰구간 -1.453~-0.756)와 50 백분위수(계수 -0.603, -0.733~-0.493)에서 유의했다. 상호작용 변수는 50 백분위수(-0.018, -0.047~-0.003)와 75 백분위수(-0.036, -0.051~-0.027)에서 유의했다. 반면 자가 모니터링 빈도 단독 효과는 통계적으로 유의하지 않았다.\n\n## 시사점\n자가 모니터링의 효과는 시간 의존적이다. 기록을 자주 할수록 중재 초기에는 체중 감량이 컸지만 시간이 지나면서 그 영향력은 감소했다. 따라서 빈도 자체보다 꾸준한 참여 유지가 중요하며, 중재 설계 시 전 기간에 걸쳐 일관된 기록 습관을 유지시키는 전략을 포함해야 한다."
+  },
+  {
    "id": "doi-10-1016-j-landig-2026-101031",
    "title": "Performance and label efficiency of traditional deep-learning models and a retina-specific foundation model for ocular and systemic disease detection: a retrospective comparative study",
    "year": "2026",
@@ -34,6 +241,38 @@
    "title_ko": "안과 및 전신 질환 검출에서 전통적 딥러닝 모델과 망막 특화 파운데이션 모델의 성능 및 라벨 효율성 비교: 후향적 비교 연구",
    "one_liner": "대규모 데이터에선 기존 모델과 대등, 소규모에선 파운데이션 모델 우세",
    "summary_md": "## 배경\n망막 영상으로 자기지도학습된 파운데이션 모델 렛파운드가 주목받고 있으나, 기존 지도학습 딥러닝 모델 대비 실제 우위는 불분명했다. 연구진은 렛파운드와 이미지넷 사전학습 모델 3종(레스넷50, 비전 트랜스포머 베이스, 스윈V2)을 비교했다.\n\n## 방법\n안과 질환 4종(질환 관련 시력저하, 임상적으로 유의한 백내장, 녹내장, 당뇨망막병증)과 전신 질환 3종(당뇨병, 고혈압, 만성콩팥병)을 대상으로 했다. 학습 데이터의 100퍼센트, 50퍼센트, 20퍼센트 및 고정 소규모(100, 200, 400장; 당뇨망막병증은 250, 500장)로 미세조정 후, 싱가포르 SEED 코호트(1842~1만 474장)와 베이징·중앙인도·영국 바이오뱅크 등 외부 데이터셋에서 검증했다. AUC를 2000회 부트스트랩으로 비교했다.\n\n## 결과\n전체 데이터 미세조정 시 안과 질환에서 전통 모델 AUC 0.914~0.965, 렛파운드 0.938~0.966으로 유사했다. 소규모에서는 당뇨망막병증(클래스당 100장 이하)과 녹내장(400장 이하)에서 레스넷50이 렛파운드보다 유의하게 낮았으나(p≤0.0001), 스윈V2는 렛파운드와 대등했다. 녹내장 400장 미세조정 시 렛파운드는 SEED 0.908, ODIR-5K 0.835, PAPILA 0.779, GAMMA 0.990을 기록했다.\n\n## 시사점\n파운데이션 모델은 만능이 아니다. 데이터가 충분하면 최신 전통 모델로 충분하고, 라벨이 부족하거나 전신 질환처럼 신호가 미묘한 과제에서 렛파운드의 라벨 효율성이 빛난다."
+  },
+  {
+   "id": "doi-10-2196-91461",
+   "title": "Application of Digital Health Technologies in Scoliosis Rehabilitation: Systematic Review Based on the Technology Classification Framework",
+   "year": "2026",
+   "pub_date": "2026-08-28",
+   "journal": "Journal of medical Internet research",
+   "authors": "Guan Y, Xu J, Liu Z, Qin Q, Wang X, An C, Wang G, Zhang Z, Gong M, Zhao B.",
+   "affiliation": "Second Clinical Medical College, Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang, China",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/91461",
+   "has_audio": true,
+   "title_ko": "척추측만증 재활에서의 디지털 헬스 기술 활용: 기술 분류 체계에 기반한 체계적 문헌고찰",
+   "one_liner": "디지털 재활은 척추 정렬·기능·삶의 질에 긍정적, 관건은 사람의 관리·감독",
+   "summary_md": "## 배경\n척추측만증 재활에 디지털 헬스 기술이 빠르게 도입되고 있지만, 근거가 흩어져 있어 기술 유형별 효과와 실제 현장 적용 가능성이 불분명했다.\n\n## 방법\n펍메드, 아이트리플이 엑스플로어, 엠베이스, 웹오브사이언스를 대상으로 2025년 11월 7일까지 검색하고 2026년 5월 12일에 추가 검색을 시행했다. 영어로 작성된 대조군 연구, 코호트 연구, 실현가능성 연구를 포함했고, 비뚤림 위험은 RoB 2와 ROBINS-I로, 중재 보고 충실도는 TIDieR로 평가했다. 중재는 5개 기술 유형으로 분류하고 근거 성숙도에 따라 3단계로 나눈 뒤, 효과 방향에 기반한 표 세기 방식으로 종합하고 GRADE로 근거 확실성을 판정했다.\n\n## 결과\n5개국 13편, 환자 574명이 포함됐다. 무작위 연구 중 14.3퍼센트(1편)가 높은 비뚤림 위험, 비무작위 연구 중 33.3퍼센트(2편)가 심각한 비뚤림 위험이었다. 콥각과 유연성은 대체로 긍정적 방향이었으나 몸통 회전각은 일관되지 않았고, 호흡기능과 자세 조절은 일관되게 긍정적이었다. 삶의 질은 대체로 긍정적이었지만 통증과 신체상은 엇갈렸다. 실행 성과가 가장 부진했으며, 순응도와 중도 탈락은 기술 종류보다 감독 강도와 더 밀접했다. 중대한 이상반응은 없었고 전체 근거 확실성은 낮음이었다.\n\n## 시사점\n디지털 중재는 유망하지만 근거 확실성이 낮아 해석에 주의가 필요하다. 초점을 기술의 효과에서 지속적 사용으로 옮기고, 성숙도 단계에 맞춰 기술을 고르되 적절한 사람의 감독 전략과 짝지어야 한다."
+  },
+  {
+   "id": "doi-10-2196-87324",
+   "title": "The Representation of Different Populations in Studies Assessing the Validity of Consumer Wearable Photoplethysmography-Based Measurements: Scoping Review",
+   "year": "2026",
+   "pub_date": "2026-08-28",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Schipper RM, Oumar Djibrillah F, Roosink M, Winkens L, John A, Hazebroek E, Witteveen A, Berendsen AAM.",
+   "affiliation": "Division of Human Nutrition and Health, Wageningen University & Research, P.O. Box 17, Wageningen, 6700 AA, The Netherlands, 31 655026289",
+   "topics": [
+    "웨어러블",
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/87324",
+   "has_audio": false
   },
   {
    "id": "doi-10-2196-91747",
@@ -65,6 +304,24 @@
    ],
    "url": "https://doi.org/10.2196/109935",
    "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-80119",
+   "title": "Digital Engagement and Predictors of Semaglutide Persistence and Weight Loss in Severe Obesity: 48-Week Observational Study",
+   "year": "2026",
+   "pub_date": "2026-08-26",
+   "journal": "Journal of medical Internet research",
+   "authors": "Tournayre S, Bonnet JB, Anitcheou J, Faivre M, Boegner C, Jalek A, Jullien D, Le Rouzic C, Attalin V, Myzia J, Kemba Y, Sultan A, Avignon A.",
+   "affiliation": "Nutrition-Diabetes Department, Montpellier University Hospital, Centre Hospitalier Universitaire de Montpellier, 191 Avenue Du Doyen Gaston Giraud, Montpellier, 34295, France, 33 467338402",
+   "topics": [
+    "당뇨",
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/80119",
+   "has_audio": true,
+   "title_ko": "중증 비만에서 디지털 참여도와 세마글루타이드 지속률·체중 감량 예측 인자: 48주 관찰 연구",
+   "one_liner": "초기 디지털 문진 참여도가 높을수록 48주 약물 지속률이 계단식으로 상승",
+   "summary_md": "## 배경\n비만 치료제의 실제 지속률은 낮아, 지-엘-피-원 계열 약물을 12개월간 이어가는 환자는 32에서 50퍼센트에 그치고 목표 용량인 주당 2.4밀리그램에 도달하는 비율은 15퍼센트 미만이다. 디지털 플랫폼이 참여를 도울 수 있다는 기대는 있으나 근거는 부족했다.\n\n## 방법\n프랑스 몽펠리에 대학병원 단일기관 전향적 코호트로, 체질량지수 40 이상이면서 세마글루타이드 2.4밀리그램을 시작한 성인 191명을 48주간 추적했다. 초기 디지털 평가 플랫폼 아비땀 사용을 미사용, 부분 사용, 전체 완료의 3단계 순서형 변수로 정의하고, 1차 결과로 48주 지속률을 보았다. 보정 로지스틱·선형 회귀와 바론-케니 매개분석, 다중대체 민감도 분석을 시행했다.\n\n## 결과\n평균 나이 51.7세, 평균 체질량지수 45.7이었다. 미사용 37명(19.4퍼센트), 부분 사용 32명(16.8퍼센트), 전체 완료 122명(63.9퍼센트)이었다. 48주 시점에 142명(74.3퍼센트)이 약물을 유지했고 그중 124명(87.3퍼센트)이 목표 용량에 도달했다. 지속률은 참여 수준에 따라 59.5퍼센트, 71.9퍼센트, 79.5퍼센트로 단조 증가했고(P=.02), 참여 단계가 한 칸 오를 때마다 보정 오즈비 1.62(95퍼센트 신뢰구간 1.05에서 2.50, P=.03)였다. 평균 체중 감소는 전체 11.8퍼센트, 지속군 14.6퍼센트였으며, 중단자 3.9퍼센트에서 목표 용량군 15.3퍼센트로 뚜렷한 용량-반응 관계를 보였다.\n\n## 시사점\n처방 전 간단한 디지털 문진에 대한 반응만으로도 이탈 위험이 높은 환자를 시작 시점에 선별할 수 있다. 저참여 환자에게 조기 집중 지원을 배치하면 지속률과 목표 용량 도달을 함께 끌어올릴 수 있다는 실용적 근거를 제공한다."
   },
   {
    "id": "doi-10-2196-56497",
@@ -322,6 +579,40 @@
    "summary_md": "## 배경\n만성질환자는 하루 대부분을 앉아서 보내며 충분한 신체활동을 유지하기 어렵다. 적시적응형중재(JITAI)는 앱, 웨어러블, 센서, 생태순간평가(EMA)를 활용해 개인의 상태 변화에 맞춰 '필요한 순간에' 맞춤 지원을 제공하는 방식이지만, 만성질환자 대상 근거는 흩어져 있었다.\n\n## 방법\nPubMed, Embase, Web of Science, CINAHL, Scopus에서 2025년 6월까지의 문헌을 검색해 총 14편의 연구를 포함한 주제범위 문헌고찰(scoping review)을 수행했다.\n\n## 결과\n14편 중 6편은 신체활동만, 1편은 좌식행동만, 5편은 둘 다를 다뤘다. 6편에서 JITAI가 신체활동 촉진에 긍정적이라는 예비 근거가, 3편에서 좌식행동 감소 효과가 보고됐다. 사용 장벽으로는 기술 사용성·리터러시, 중재의 부담감과 침습성, 프라이버시 우려 등이, 촉진 요인으로는 동기 강화, 자기모니터링 인식 증가, 일상 통합 용이성, 적시의 개인화 지원, 의료진의 지지가 확인됐다.\n\n## 시사점\nJITAI는 만성질환자의 활동 습관 개선에 유망하지만, 아직 대규모 무작위대조시험(RCT) 근거가 부족하다. 중재 설계 시 알림 부담을 줄이고 일상에 자연스럽게 스며들게 하는 것이 핵심이다."
   },
   {
+   "id": "doi-10-2196-81095",
+   "title": "Temporal Dynamics of Internal vs External Entrapment in Suicidal Ideation in Psychotherapy Outpatients: Prospective Longitudinal Cohort Study Using Ecological Momentary Assessment",
+   "year": "2026",
+   "pub_date": "2026-08-04",
+   "journal": "Journal of medical Internet research",
+   "authors": "Wichelhaus E, Schreiber D, Höller I, Forkmann T.",
+   "affiliation": "Department of Clinical Psychology and Psychotherapy, Institute of Psychology, University of Duisburg-Essen, Universitätsstr. 2, Essen, 45141, Germany, 49 2011834502",
+   "topics": [
+    "JITAI"
+   ],
+   "url": "https://doi.org/10.2196/81095",
+   "has_audio": true,
+   "title_ko": "심리치료 외래환자의 자살사고에서 내적 속박감과 외적 속박감의 시간적 역동: 생태순간평가를 활용한 전향적 종단 코호트 연구",
+   "one_liner": "내적 속박감은 분 단위로 즉각, 외적 속박감은 뒤늦게 자살사고와 연결된다",
+   "summary_md": "## 배경\n통합 동기-의지 모형은 '덫에 갇힌 느낌', 즉 속박감을 자살사고의 핵심 동인으로 봅니다. 그러나 기존 생태순간평가 연구는 속박감을 하나의 차원으로만 다루고 몇 시간 간격으로 측정해, 빠르게 변하는 위험 과정을 놓쳤을 가능성이 있습니다.\n\n## 방법\n외래 심리치료를 시작한 성인 91명(여성 62.2%, 평균 연령 31.6세, 표준편차 10.6)이 7일간 하루 10회, 30~120분 간격의 스마트폰 설문에 응답했습니다. 총 5414건(순응도 85%)을 다층모형으로 분석했고, 자살사고 4문항과 내적·외적 속박감 각 1문항을 5점 척도로 측정했습니다. 최대 약 6시간(1~3시점 지연)까지의 시차 효과를 이전 자살사고를 통제한 뒤 검증하고, 실제 측정 간격(분)을 조절변수로 넣었습니다.\n\n## 결과\n자살사고 변량의 대부분은 개인 내부에서 발생했습니다(급내상관 0.15). 동일 시점 분석에서 내적 속박감은 자살사고와 유의하게 연관됐고(추정치 0.16, 95% 신뢰구간 0.08~0.24), 외적 속박감도 연관을 보였습니다. 시간 흐름을 보면 내적 속박감은 수십 분 이내의 즉각적 효과를, 외적 속박감은 지연된 연관을 나타내 서로 다른 시간 경로가 확인됐습니다.\n\n## 시사점\n속박감은 고정된 특성이 아니라 하루 안에서 움직이는 역동적 지표이며, 특히 내적 속박감은 실시간 개입의 표적이 될 수 있습니다. 분 단위 고빈도 측정이 근접 위험 신호를 포착하는 데 유용함을 보여줍니다."
+  },
+  {
+   "id": "doi-10-2196-74121",
+   "title": "The ManageHF Just-in-Time Adaptive Mobile App Interventions to Promote Self-Management and Improve Outcomes in Heart Failure: Randomized Controlled Trial",
+   "year": "2026",
+   "pub_date": "2026-07-28",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Dorsch MP, Ali MS, Krambrink A, Kolenic G, Ganai S, Arzac J, Zhang X, Greer KM, Shah AJ, Cowger JA, Ewald G, Rodgers JE, Dixon DL, Koelling TM, Hummel SL.",
+   "affiliation": "College of Pharmacy, University of Michigan-Ann Arbor, 248 Church Street, Ann Arbor, 48109, United States, 1 734-647-1452",
+   "topics": [
+    "JITAI"
+   ],
+   "url": "https://doi.org/10.2196/74121",
+   "has_audio": true,
+   "title_ko": "심부전 자기관리 향상과 예후 개선을 위한 매니지에이치에프 적시 적응형 모바일 앱 중재: 무작위 대조 시험",
+   "one_liner": "심부전 앱 중재 시험, 코로나로 62명서 조기 종료돼 효과 입증은 미완",
+   "summary_md": "## 배경\n미국에서 심부전으로 입원하는 고령자는 연간 약 90만 명에 이릅니다. 악화 증상을 스스로 알아채지 못하거나 저염식을 지키지 못하는 자기관리의 빈틈이 삶의 질을 떨어뜨리고 재입원을 부릅니다. 기존 모바일 헬스 접근법은 성과가 엇갈려 새로운 전략이 필요했습니다.\n\n## 방법\n미국 여러 기관에서 진행된 2 곱하기 2 요인설계, 이중눈가림 무작위 대조 시험입니다. 급성 심부전으로 최근 입원했던 환자를 증상 인지 중재, 저염식 중재, 두 중재 병용, 활성 대조군의 네 군으로 나눠 12주간 관찰했습니다. 두 중재는 필요한 순간에 맞춤 메시지를 보내는 적시 적응형 방식이었고, 일차 결과는 전체 사망까지의 시간, 첫 심부전 재입원까지의 시간, 미네소타 심부전 삶의 질 설문 점수 변화를 묶은 복합 지표였습니다.\n\n## 결과\n코로나19 대유행으로 모집이 막혀 시험은 조기 중단됐습니다. 등록 62명 중 43명만 완료했습니다. 평균 연령 55세, 표준편차 14.4세였고 여성이 32퍼센트인 20명, 흑인 또는 아프리카계 미국인이 55퍼센트인 34명으로 참여자 구성은 다양했습니다. 대부분 좌심실 박출률이 감소한 심부전이었습니다. 다만 조기 종료와 작은 표본 탓에 통계적으로 유의한 차이를 확인할 검정력은 부족했습니다.\n\n## 시사점\n모바일 헬스 기술이 심부전 관리, 특히 건강 관련 삶의 질 개선을 도울 가능성은 확인됐지만 효능 입증은 다음 연구의 몫으로 남았습니다. 더 나은 모집·유지 전략이 핵심 과제입니다."
+  },
+  {
    "id": "doi-10-2196-87117",
    "title": "Within-Day Dynamics of Self-Efficacy and Smoking Attitudes: Ecological Momentary Assessment Study of Motivation to Quit and Forgoing Behavior",
    "year": "2026",
@@ -381,7 +672,8 @@
    "authors": "Li CY, Jiao ZZ, Zhang LQ, Li H, Wang MY, Guo WH, Wang YX, Wang Y.",
    "affiliation": "School of Nursing, Changchun University of Chinese Medicine, No 1035 Boshuo Road, Changchun Jingyue National High - Tech Industrial Development Zone, Changchun, Jilin, 130117, China, 86 15943030083",
    "topics": [
-    "비만"
+    "비만",
+    "JITAI"
    ],
    "url": "https://doi.org/10.2196/92139",
    "has_audio": true,
@@ -473,6 +765,41 @@
    "title_ko": "공동 설계 권고안을 통한 참여형 정밀 건강을 향하여: 청소년 및 청년 대상 적시 적응형 개입에 대한 체계적 문헌고찰",
    "one_liner": "청소년·청년용 실시간 맞춤 건강개입 61건, 설계는 얕고 보고는 부실했다",
    "summary_md": "## 배경\n10~25세는 생물학적·심리적·사회적 변화가 급격한 민감기로, 이 시기의 예방적 개입은 평생 건강을 좌우한다. 모바일 헬스는 접근성이 높지만 변화하는 맥락에 잘 적응하지 못해 참여와 효과가 들쭉날쭉하다. 실시간 데이터로 지원 시점과 내용을 조정하는 적시 적응형 개입(JITAI)이 대안으로 주목받지만, 청소년·청년 대상 설계·구현·평가는 체계적으로 정리된 적이 없었다.\n\n## 방법\nPRISMA와 SWiM 지침에 따라 12개 데이터베이스에서 2013~2025년 발표된 동료심사 논문을 검색했다. 10~25세를 대상으로 한 실시간 적응형 모바일 헬스 개입을 선정하고, 두 명의 연구자가 독립적으로 선별·자료추출·JBI 체크리스트 질 평가를 수행했다. 청년 공저자가 전 과정에 참여했으며, 이질성이 커 메타분석 없이 서술적으로 종합했다.\n\n## 결과\n총 61개 개입이 포함됐다. 주제는 물질 사용 24건(39.3%), 정신건강 23건(37.7%), 신체건강·만성질환 14건(23%) 순이었다. 맞춤화는 대부분 자가보고 행동 데이터에 의존했고, 결정 규칙은 증상 역치 기반, 결정 시점은 하루 단위 또는 이벤트 유발형이 주를 이뤘다. 개입 시행 방식, 참여자 선정, 결과 측정 신뢰도에 대한 보고 미비가 전 연구에 걸쳐 나타났고, 연구자 위치성·성찰성 등 윤리적 고려와 청년 참여 설계의 서술 깊이도 일관되지 않았다.\n\n## 시사점\n결과 효과성을 넘어 적응 기제 자체를 뜯어본 첫 리뷰로, 더 투명하고 맥락에 반응하며 청년 중심적인 개입 설계, 그리고 일상 맥락에서 적응 요소를 검증할 엄밀한 연구 설계가 필요함을 보여준다."
+  },
+  {
+   "id": "doi-10-1249-mss-0000000000004027",
+   "title": "The Agreement between Fat max and the Gas-Exchange and Blood Lactate Thresholds: A Systematic Review and Meta-Analysis",
+   "year": "2026",
+   "pub_date": "2026-05-18",
+   "journal": "Medicine and science in sports and exercise",
+   "authors": "Hogan C, Cross TJ, Tiong M, Pratheepan P, Blaxland A, Machan E, Rooney K.",
+   "affiliation": "Discipline of Exercise and Sport Science, Faculty of Medicine and Health, The University of Sydney, Camperdown, NSW, AUSTRALIA",
+   "topics": [
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.1249/mss.0000000000004027",
+   "has_audio": true,
+   "title_ko": "최대 지방산화 강도와 가스교환·젖산 역치의 일치도: 체계적 문헌고찰 및 메타분석",
+   "one_liner": "지방 최대 연소 강도는 젖산 역치보다 약 6퍼센트 낮은 지점에서 나타난다",
+   "summary_md": "## 배경\n운동 중 지방 산화가 가장 활발한 강도인 팻맥스와, 젖산 역치 또는 가스교환 역치가 같은 지점인지에 대한 논쟁이 이어져 왔다. 두 지표가 일치한다면 값비싼 호흡가스 분석 없이도 지방 연소 최적 강도를 추정할 수 있어 스포츠 현장과 건강관리 모두에서 활용도가 크다.\n\n## 방법\n펍메드, 메드라인, 엠베이스, 스코퍼스를 2025년 1월 20일까지 검색해 건강한 성인을 대상으로 팻맥스와 젖산·가스교환 역치를 함께 보고한 연구를 선별했다. 최종 42편을 대상으로 랜덤효과 다층 메타분석과 단변량 조절변수 분석을 수행했다.\n\n## 결과\n팻맥스는 젖산·가스교환 역치보다 유의하게 낮은 강도에서 나타났다. 차이는 최대산소섭취량 기준 약 5.78퍼센트, 산소섭취량 기준 4.75 밀리리터, 파워 기준 22와트, 심박수 기준 분당 11회였다. 효과크기는 0.74, 95퍼센트 신뢰구간 0.32에서 1.16, 유의확률 0.001이었다. 연령, 성별, 체력 수준, 공복 상태, 검사 프로토콜, 분석 방법이 조절변수로 작용했다.\n\n## 시사점\n20세 미만 비활동 집단, 6시간 미만 공복, 트레드밀에서 두 차례 분리 세션으로 검사한 경우 두 지표의 차이가 작았다. 이런 조건에서는 젖산·가스교환 역치를 팻맥스의 대체 지표로 쓸 수 있다. 그 외의 경우에는 역치보다 한 단계 낮은 강도를 지방 연소 목표로 잡는 것이 합리적이다."
+  },
+  {
+   "id": "doi-10-1249-mss-0000000000004028",
+   "title": "Exercise Intensity and 5-Yr Trajectories in Peak Oxygen Uptake in Older Adults: Analysis from the Generation 100 Study",
+   "year": "2026",
+   "pub_date": "2026-05-18",
+   "journal": "Medicine and science in sports and exercise",
+   "authors": "Midttun S, Lydersen S, Kaminsky LA, Wisløff U, Stensvold D.",
+   "affiliation": "Cardiac Exercise Research Group (CERG), Department of Circulation and Medical Imaging, Faculty of Medicine and Health Sciences, Norwegian University of Science and Technology, Trondheim, NORWAY",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.1249/mss.0000000000004028",
+   "has_audio": true,
+   "title_ko": "운동 강도와 고령자의 최대 산소 섭취량 5년 변화 궤적: 제너레이션 100 연구 분석",
+   "one_liner": "고강도 운동 지속 시 70대 심폐체력 5년 감소폭이 절반 이하",
+   "summary_md": "## 배경\n심폐체력, 즉 최대 산소 섭취량은 현재와 미래 건강을 예측하는 가장 강력한 지표 중 하나다. 그러나 운동 훈련이 나이에 따른 심폐체력 변화를 장기적으로 얼마나 늦출 수 있는지는 불확실했다.\n\n## 방법\n노르웨이 과학기술대학교 심장운동연구그룹이 수행한 제너레이션 100 연구의 사후 관찰 분석이다. 70~77세 고령자 500명(여성 52%)을 대상으로, 5년간 일관되게 고강도 운동(HIT) 또는 중강도 운동(MIT)을 수행했다고 보고한 참가자를 포함했다. 최대 산소 섭취량을 포함한 임상 평가를 5년간 네 시점에서 실시했고, 선형 혼합 모형으로 종단적 변화와 궤적 차이를 분석했다.\n\n## 결과\n5년간 남성에서 고강도 운동군은 -3.1%(P=0.007), 중강도 운동군은 -7.7%의 감소를 보여, 고강도 운동군의 감소폭이 절반 이하였다. 남녀 모두 유산소 운동을 꾸준히 지속한 경우 연령에 따른 심폐체력 궤적이 더 양호했다.\n\n## 시사점\n70대에도 유산소 운동을 꾸준히 하면 심폐체력 저하를 늦출 수 있으며, 특히 고강도 운동이 가장 효과적이었다. 탐색적 상호작용 분석은 시간이 지날수록 운동 강도의 중요성이 커질 수 있음을 시사한다."
   },
   {
    "id": "doi-10-1249-mss-0000000000004024",

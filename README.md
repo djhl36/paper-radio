@@ -67,3 +67,8 @@ python -m http.server 8080 -d docs
 - `lookback_days`: 수집 기간 (기본 120일)
 - `max_papers_per_topic`: 주제당 최대 수집 논문 수
 - `tts_voices`: TTS 음성 (edge-tts 음성 목록: `edge-tts --list-voices`)
+
+## 같은 저장소의 다른 앱
+
+- [`energy/`](energy/README.md) — 🔋 Energy Optimizer: HP·MP로 하루의 시간·에너지를 배분하는 PWA (빌드 결과물은 `docs/energy/`)
+- [`tennisvision/`](tennisvision/README.md) — 🎾 테니스 영상 심판·코칭·매칭 앱
