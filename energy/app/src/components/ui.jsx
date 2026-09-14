@@ -106,3 +106,78 @@ export function CostText({ hp, mp }) {
 export function Empty({ children }) {
   return <div className="empty">{children}</div>;
 }
+
+const QUICK_MIN = [15, 30, 45, 60, 90, 120];
+
+/** 소요 시간: 칩으로 고르거나 분을 직접 친다 */
+export function DurationField({ value, onChange, label = "얼마나" }) {
+  return (
+    <>
+      <label className="f">{label} <span className="dim">({durLabel(value || 0)})</span></label>
+      <div className="row wrap" style={{ gap: 6, marginBottom: 8 }}>
+        {QUICK_MIN.map((m) => (
+          <button key={m} className={`chip sm ${value === m ? "on" : ""}`} onClick={() => onChange(m)}>{durLabel(m)}</button>
+        ))}
+      </div>
+      <div className="row" style={{ gap: 8 }}>
+        <input
+          type="number" inputMode="numeric" min="1" max="1440" step="5" value={value}
+          onChange={(e) => onChange(Math.max(1, Math.min(1440, +e.target.value || 0)))}
+          style={{ flex: 1 }}
+        />
+        <span className="sub" style={{ whiteSpace: "nowrap" }}>분</span>
+        <button className="chip sm" onClick={() => onChange(Math.max(5, value - 15))}>−15</button>
+        <button className="chip sm" onClick={() => onChange(Math.min(1440, value + 15))}>+15</button>
+      </div>
+    </>
+  );
+}
+
+const pad2 = (n) => String(n).padStart(2, "0");
+export const tsToTime = (ts) => { const d = new Date(ts); return `${pad2(d.getHours())}:${pad2(d.getMinutes())}`; };
+const dayDiff = (ts, now) => {
+  const a = new Date(ts); a.setHours(0, 0, 0, 0);
+  const b = new Date(now); b.setHours(0, 0, 0, 0);
+  return Math.round((a - b) / 86400000);
+};
+
+/** 시각: 날짜는 칩으로, 시각은 직접 입력 */
+export function WhenField({ ts, onChange, now = Date.now(), label = "언제", days = [-1, 0, 1], quick = null }) {
+  const offset = dayDiff(ts, now);
+  const setOffset = (off) => {
+    const d = new Date(now);
+    d.setDate(d.getDate() + off);
+    const cur = new Date(ts);
+    d.setHours(cur.getHours(), cur.getMinutes(), 0, 0);
+    onChange(d.getTime());
+  };
+  const setTime = (v) => {
+    const [h, m] = String(v).split(":").map(Number);
+    if (!Number.isFinite(h)) return;
+    const d = new Date(ts);
+    d.setHours(h, m || 0, 0, 0);
+    onChange(d.getTime());
+  };
+  const name = (off) => (off === 0 ? "오늘" : off === -1 ? "어제" : off === 1 ? "내일" : off === -2 ? "그제" : `${off > 0 ? "+" : ""}${off}일`);
+
+  return (
+    <>
+      <label className="f">{label} <span className="dim">({name(offset)} {tsToTime(ts)})</span></label>
+      <div className="row" style={{ gap: 8 }}>
+        <div className="seg" style={{ flex: 1 }}>
+          {days.map((off) => (
+            <button key={off} className={offset === off ? "on" : ""} onClick={() => setOffset(off)}>{name(off)}</button>
+          ))}
+        </div>
+        <input type="time" value={tsToTime(ts)} onChange={(e) => setTime(e.target.value)} style={{ width: 138, flex: "0 0 auto", padding: "11px 8px" }} />
+      </div>
+      {quick?.length ? (
+        <div className="row wrap" style={{ gap: 6, marginTop: 8 }}>
+          {quick.map((q) => (
+            <button key={q.label} className="chip sm" onClick={() => onChange(q.ts())}>{q.label}</button>
+          ))}
+        </div>
+      ) : null}
+    </>
+  );
+}

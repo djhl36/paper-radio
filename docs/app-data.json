@@ -1,6 +1,233 @@
 {
- "generated": "2026-09-07 09:26",
+ "generated": "2026-09-14 11:39",
  "papers": [
+  {
+   "id": "doi-10-2196-93496",
+   "title": "Effectiveness of Wearable Digital Therapeutics in Improving Sleep Outcomes Among Individuals With Insomnia: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "year": "2026",
+   "pub_date": "2026-09-11",
+   "journal": "Journal of medical Internet research",
+   "authors": "Zhu W, Chen M, Guo Y, Zhang B, Luo C.",
+   "affiliation": "School of Nursing, Jinan University, Guangzhou, Guangdong, China",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/93496",
+   "has_audio": true,
+   "title_ko": "불면증 환자의 수면 개선에 대한 웨어러블 디지털 치료제의 효과: 무작위 대조 시험에 대한 체계적 문헌고찰 및 메타분석",
+   "one_liner": "웨어러블은 잠드는 시간과 수면 효율은 개선하지만 불면증 자체는 못 낮춘다",
+   "summary_md": "## 배경\n웨어러블 기기는 수면 모니터링과 보조 치료 수단으로 빠르게 확산되고 있지만, 기존 메타분석은 여러 디지털 치료를 뭉뚱그려 합산해 웨어러블 단독 효과를 분리하지 못했고 객관적 지표와 주관적 지표도 구분하지 않았다.\n\n## 방법\nPRISMA 2020 및 PRISMA-S 지침에 따라 5개 데이터베이스와 임상시험 등록부를 2026년 5월 18일까지 검색했다. 성인 불면증 환자를 대상으로 최소 1주 이상 웨어러블 개입을 가짜 자극, 대기자, 일상 치료, 능동 대조군과 비교한 무작위 대조 시험 16편, 총 910명을 포함했다. 제한최대우도 랜덤효과 모형에 하퉁-크납-시딕-용크만 보정을 적용하고 95퍼센트 예측구간과 GRADE 근거 확실성을 산출했다.\n\n## 결과\n객관적 수면 잠복기는 평균 4.52분 단축됐고(95퍼센트 신뢰구간 -8.38~-0.67), 주관적 수면 효율은 2.00퍼센트포인트 상승, 주관적 총 수면 시간은 19.11분 증가했다. 반면 불면증 심각도 지수는 유의한 개선이 없었고, 메타회귀에서 대조군 유형·개입 기간·착용 부위 모두 이질성을 설명하지 못했다(R제곱 0). 에거 검정상 소규모 연구 편향은 없었다(P=.07).\n\n## 시사점\n효과는 선택적이며 예측구간이 넓어 결론적이지 않다. 웨어러블은 저렴한 보조 도구이지 1차 치료인 불면증 인지행동치료의 대체재가 아니며, 대규모 장기 연구가 필요하다."
+  },
+  {
+   "id": "doi-10-2196-89773",
+   "title": "Continuous Temperature Monitoring via Wearable Devices for Fever or Infection Management in Acute Care Hospitals: Scoping Review of Clinical Implementation and Data Analytics",
+   "year": "2026",
+   "pub_date": "2026-09-11",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Liu Y, Zhao Q, Li K, Dowding D.",
+   "affiliation": "West China School of Nursing / West China Hospital, Sichuan University, Chengdu, Sichuan, China",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/89773",
+   "has_audio": true,
+   "title_ko": "급성기 병원에서 발열 및 감염 관리를 위한 웨어러블 기반 연속 체온 모니터링: 임상 적용과 데이터 분석에 관한 스코핑 리뷰",
+   "one_liner": "웨어러블 체온 데이터, 임상 통합은 아직 초기 단계에 머물러 있다",
+   "summary_md": "## 배경\n감염은 입원 환자의 주요 건강 위협이며, 발열은 감염의 초기 신호다. 웨어러블 기기를 이용한 연속 체온 모니터링이 급성기 병원에서 확대되고 있지만, 수집된 체온 데이터가 실제로 어떻게 표시되고 활용되는지는 거의 알려져 있지 않다.\n\n## 방법\n연구진은 메드라인, 엠베이스, 웹오브사이언스, 시나흘, 아이트리플이 엑스플로어 다섯 개 데이터베이스에서 2013년 1월부터 2026년 7월까지의 문헌을 검색했다. 체온 데이터 분석은 기술적, 진단적, 예측적, 처방적 분석 틀로 분류했고, 임상 통합 수준은 세계보건기구의 디지털 헬스 성숙도 단계를 변형해 평가했다.\n\n## 결과\n26개 연구의 29편이 포함됐고, 18종의 기기가 겨드랑이, 가슴, 손목, 위팔에서 체온을 측정했다. 대부분 실시간 전송이었고 5개 연구는 비실시간 방식이었다. 임상 현장에서 데이터를 실제로 표시한 연구는 7개뿐, 전자의무기록 알림을 구현한 연구는 단 1개였다. 분석은 기술적 19개, 예측적 9개, 진단적 6개였고 처방적 분석은 전무했다. 성숙도는 임상연구 17개, 임상검증 9개, 일상진료 3개였으며 다기관 구현 단계에 도달한 연구는 없었다.\n\n## 시사점\n기술적 가능성은 확인됐지만 데이터를 실행 가능한 임상 판단으로 바꾸는 고리가 끊겨 있다. 표준화된 데이터 정제 기준, 진료 흐름과의 통합, 해석 지침 마련이 다음 과제다."
+  },
+  {
+   "id": "doi-10-2196-101026",
+   "title": "Radiographic Knee Osteoarthritis Identification Using Wearable Plantar Pressure: Secondary Cross-Sectional Analysis of Interpretable Framework Integrating Biomechanical Descriptors and the Multiscale Synergy Index",
+   "year": "2026",
+   "pub_date": "2026-09-11",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Xin G, Yao H, Qiao J, Yao H, Li S, Liu L, Zhang J, Qin K, Shu L.",
+   "affiliation": "School of Future Technology, South China University of Technology, 777 Xingye Avenue East, Panyu District, Guangzhou, Guangdong, 511442, China, 86 13128120219",
+   "topics": [
+    "웨어러블",
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/101026",
+   "has_audio": true,
+   "title_ko": "웨어러블 족저압을 활용한 방사선학적 무릎 골관절염 식별: 생체역학 지표와 다중스케일 시너지 지수를 통합한 해석 가능 프레임워크의 이차 횡단 분석",
+   "one_liner": "깔창 족저압 융합 모델이 무릎 골관절염을 85퍼센트 정확도로 식별",
+   "summary_md": "## 배경\n방사선학적 무릎 골관절염은 비정상적인 족저 하중과 보행 협응 변화를 동반한다. 깔창형 족저압 센서는 실용적인 웨어러블 접근법이지만, 기존 방법은 전통적 생체역학 지표나 종단간 시계열 모델 중 하나에만 의존해 국소 이상과 분산된 협응을 함께 포착하지 못했다.\n\n## 방법\n중국 광저우 주장병원 기반 진주강 골관절염 코호트의 족저압 데이터를 이차 분석했다. 참가자 92명 중 골관절염군 43명, 대조군 49명이며 평균 연령 63.0세, 표준편차 8.4년이다. 생체역학 지표에 협응 수준의 족저 시너지 지수를 결합한 개인 단위 해석 가능 분류 프레임워크를 개발했다. 72명은 5겹 교차검증, 20명은 독립 평가용으로 분리했고 피셔 점수 상위 50개 특징을 선택, 2000회 부트스트랩 95퍼센트 신뢰구간과 드롱 검정을 적용했다.\n\n## 결과\n융합 모델의 독립 검정 세트 F1 점수는 0.842, 신뢰구간 0.615에서 1.000이었고 정확도는 0.850, 신뢰구간 0.700에서 1.000이었다. 곡선하면적 0.818, 정밀도 0.800, 재현율 0.889, 특이도 0.818로 균형 잡힌 성능을 보였다. 드롱 검정에서 융합 모델은 시너지 지수 단독 모델보다 곡선하면적이 유의하게 높았다. P값은 0.02였다. 안정적으로 유지된 특징은 생체역학 지표가 주도했고 시너지 지수 성분도 재현성 있게 남았다.\n\n## 시사점\n족저압 분석을 국소 하중에서 분산된 협응으로 확장한 해석 가능 표현을 제시했다. 다만 신뢰구간이 넓어 결과는 예비적이며, 영상 검사의 보조 도구로 기능 평가와 장기 모니터링에 쓰이려면 다기관 전향적 외부 검증이 필요하다."
+  },
+  {
+   "id": "doi-10-2196-83908",
+   "title": "Smartphone Apps for Preventing Adolescent Health Problems Among Health Care Professionals: Systematic Search and Quality Assessment",
+   "year": "2026",
+   "pub_date": "2026-09-11",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Million E, Kuijper M, Bautista C, Pirat L, Falissard B, Lognos B, Carbonnel F.",
+   "affiliation": "Department of General Practice, University of Montpellier, Campus Arnaud de Villeneuve, 641 Av. du Doyen Gaston Giraud, Montpellier, 34090, France, +33(0)662865261",
+   "topics": [
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/83908",
+   "has_audio": true,
+   "title_ko": "청소년 건강 문제 예방을 위한 의료 전문가용 스마트폰 앱: 체계적 검색 및 품질 평가",
+   "one_liner": "976개 앱 중 7개만 합격, 예방 8개 영역 중 3개만 다뤄",
+   "summary_md": "## 배경\n의료 전문가는 청소년 진료에서 정형외과, 정신건강, 약물 남용, 위험 행동, 성 건강, 예방접종, 사회적 관계, 영양 등 여러 예방 영역을 동시에 살펴야 합니다. 일차의료 의사들은 디지털 도구를 진료에 도입하려는 의지가 크지만, 그 임상적 타당성은 검증되지 않은 경우가 많습니다.\n\n## 방법\n연구진 4명이 프리즈마 체크리스트에 따라 앱스토어와 구글플레이를 체계적으로 검색했습니다. 무료, 최근 업데이트, 프랑스어 또는 영어 지원, 청소년 예방 관련성, 과학적 검증을 포함 기준으로 삼았고, 선별된 앱은 모바일 앱 평가 척도 프랑스어판인 마스 에프로 평가했습니다.\n\n## 결과\n총 976개 앱이 확인되었고 이 중 49개는 분석 전에 이미 플랫폼에서 사라졌습니다. 최종 9개가 남았으며 마스 에프 평가를 거쳐 7개, 즉 전체의 0.72퍼센트만 포함되었습니다. 2개는 정신건강, 5개는 성 건강 앱이었고 그중 3개는 피임에만 국한되었습니다. 평균 점수는 5점 만점에 2.5점에서 3.8점 사이였으며, 평가자 간 급내상관계수는 0.0003으로 사실상 일치도가 없었습니다. 통합 표준편차는 0.60, 측정 표준오차도 0.60, 평균 절대 오차는 0.53이었습니다.\n\n## 시사점\n청소년 예방 8개 영역 중 단 3개만 검증된 앱이 존재해, 현재의 모바일 앱만으로는 의료진의 포괄적 예방 진료를 뒷받침하기 어렵습니다. 새 도구를 개발하기 전 이런 체계적 검토를 선행해 중복을 피하고, 권장 웹사이트 분석을 병행해야 합니다."
+  },
+  {
+   "id": "doi-10-2196-81610",
+   "title": "The Effectiveness of Digital Intervention on Psychological Resilience in Postoperative Breast Cancer Patients During Chemotherapy Intervals: Quasi-Experimental Study",
+   "year": "2026",
+   "pub_date": "2026-09-11",
+   "journal": "Journal of medical Internet research",
+   "authors": "He X, Zhang Q, Wang L, Fang Q, Chen C, Wang S, Sun E, Yang J, Liu W.",
+   "affiliation": "School of Public Health and Nursing, Hangzhou Normal University, No. 2318 Yuhangtang Road, Hangzhou Normal University Cangqian Campus, Hangzhou, Zhejiang, 311121, China, 86 57128861971",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/81610",
+   "has_audio": true,
+   "title_ko": "항암 치료 간격기 유방암 수술 환자의 심리적 회복탄력성에 대한 디지털 중재 효과: 준실험 연구",
+   "one_liner": "8주 디지털 마음챙김 중재, 3개월 시점 회복탄력성과 자기효능감 개선",
+   "summary_md": "## 배경\n유방암 수술 후 항암 치료를 받는 환자들은 치료와 치료 사이 집에서 회복하는 기간에 심리적 고통을 겪고 회복탄력성이 떨어지기 쉽다. 디지털 마음챙김 중재가 이 취약한 시기에 접근성 높은 심리 지원이 될 수 있지만, 항암 간격기 환자에 맞춘 중재의 근거는 부족했다.\n\n## 방법\n2021년 10월부터 2022년 6월까지 중국 저장성 3차 병원 유방외과에서 80명을 모집해 71명이 완료한 반복측정 준실험 연구다. 대조군은 통상적 퇴원 교육과 간호 추적을 받았고, 중재군은 추가로 8주간 디지털 심리 회복탄력성 중재를 받았다. 기저(T0), 중재 후 3개월(T1), 6개월(T2)에 CD-RISC 회복탄력성 척도, HADS 불안·우울 척도, SSRS 사회적 지지 척도, BCSSS 자기효능감 척도, FACT-B 삶의 질 척도를 측정했다.\n\n## 결과\n기저 시점에는 두 군 간 유의한 차이가 없었다. T1에서 중재군의 CD-RISC 점수는 평균 67.58(SD 11.41)로 대조군 62.09(SD 10.18)보다 높았고(P=.036), BCSSS 점수도 42.36(SD 3.59) 대 39.23(SD 4.90)으로 높았다(P=.003). 그러나 T2에서는 두 군 간 차이가 통계적으로 유의하지 않았다(P>.05). 회복탄력성과 자기효능감 모두에서 유의한 시간 효과와 군×시간 상호작용 효과가 관찰되었다.\n\n## 시사점\n디지털 심리 회복탄력성 중재는 항암 간격기 유방암 수술 환자의 불안과 우울을 완화하고, 중재 직후 초기 단계에서 회복탄력성과 자기효능감을 유의하게 높였다. 6개월 시점에는 대조군 대비 우위가 유지되지 않았으나 회복 궤적 자체를 개선했다. 향후 연구는 이 효과를 장기간 유지하는 전략을 탐색해야 한다."
+  },
+  {
+   "id": "doi-10-2196-93691",
+   "title": "Association Between Behavioral Phenotypes and Paid Subscription and Renewal Among New mHealth App Users: Six-Month Prospective Cohort Study",
+   "year": "2026",
+   "pub_date": "2026-09-10",
+   "journal": "Journal of medical Internet research",
+   "authors": "Genaidy Y, Hasan R, Incitti J, Bloom EL, Tremblay P, Mitchell MS.",
+   "affiliation": "Western University, 1151 Richmond Street, London, ON, N6A 3K7, Canada, 1 519-661-2111 ext 87936",
+   "topics": [
+    "웨어러블",
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/93691",
+   "has_audio": true,
+   "title_ko": "신규 모바일 헬스 앱 사용자의 행동 표현형과 유료 구독 및 갱신의 연관성: 6개월 전향적 코호트 연구",
+   "one_liner": "무료 체험 첫 7일의 앱 사용량이 유료 구독을 21배까지 갈랐다",
+   "summary_md": "## 배경\n모바일 헬스 앱은 사용자의 낮은 참여도 때문에 효과가 제한됩니다. 특히 상업용 앱 개발자에게는 유료 구독 전환과 이후 갱신이 핵심 지표입니다.\n\n## 방법\n구독형 앱 웨이베터의 신규 사용자 934명을 2023년 11월부터 2024년 1월까지 모집해 6개월간 추적했습니다. 설문, 기기 측정 건강 데이터, 7일 무료 체험 기간 사용 기록 등 33개 지표로 잠재계층분석을 수행해 행동 표현형을 도출했습니다.\n\n## 결과\n평균 연령 41.5세, 여성 91.97퍼센트, 만성질환 진단자 72.16퍼센트였습니다. 5개 계층 모형이 선택되었고, 체험 기간 참여 수준과 만성질환 동반 여부가 구분의 핵심이었습니다. 기준군인 저참여·질환부담 낮은 집단 대비 구독 오즈비는 고참여군 21.31, 중간참여 다중질환군 7.11, 중간참여 저질환군 8.28이었으나, 저참여 다중질환군은 0.82로 차이가 없었습니다. 반면 6개월 갱신 오즈비는 0.90에서 1.06 사이로 모든 집단에서 유의한 차이가 없었습니다.\n\n## 시사점\n초기 일주일 데이터만으로 구독하지 않을 사용자를 조기에 식별할 수 있습니다. 다만 장기 갱신은 다른 기제가 작동하므로, 온보딩 개입과 장기 유지 전략을 분리해 설계해야 합니다."
+  },
+  {
+   "id": "doi-10-2196-111088",
+   "title": "More Than a Signature: Voice as a Clinical Biomarker",
+   "year": "2026",
+   "pub_date": "2026-09-10",
+   "journal": "Journal of medical Internet research",
+   "authors": "Dominy C.",
+   "affiliation": "",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/111088",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-91516",
+   "title": "Health-Related Rumor Debunking on Sina Weibo in China (2009-2024): 15-Year Retrospective Infodemiology Study",
+   "year": "2026",
+   "pub_date": "2026-09-10",
+   "journal": "Journal of medical Internet research",
+   "authors": "Fang Y, He C, Hu Y, Tian X.",
+   "affiliation": "College of Management Science, Chengdu University of Technology, No. 1, East Third Road, Erxianqiao, Chenghua District, Chengdu, Sichuan, 610059, China, 86 17794550089",
+   "topics": [
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/91516",
+   "has_audio": true,
+   "title_ko": "중국 시나 웨이보의 건강 관련 루머 반박 활동 15년 회고 연구 (2009-2024)",
+   "one_liner": "건강 루머 반박 내용은 다양해졌지만 확산은 여전히 팔로워 수가 좌우",
+   "summary_md": "## 배경\n소셜미디어에서 건강 루머를 바로잡는 공식 반박 활동이 어떻게 변해왔는지는 공중보건 소통 정책의 핵심 과제다. 그러나 기존 연구는 코로나19 같은 특정 위기 사건에 집중되어, 장기적인 주제 변화나 인구집단별 차이, 확산 동력에 대한 이해가 부족했다.\n\n## 방법\n2009년부터 2024년까지 시나 웨이보에 올라온 루머 반박 게시물을 수집해, 문장 임베딩 모델 미세조정 기반 2단계 분류로 건강 관련 게시물을 선별했다. 버트토픽으로 주제 지형을 그리고, 대규모 언어모델로 성별·연령·사회적 역할 등 인구 언급과 건강 내용을 추출했다. 확산과 반응 예측에는 익스트림 그래디언트 부스팅 회귀와 섀플리 기여도 분석을 적용했다.\n\n## 결과\n블루 인증 계정 2만 4742개가 올린 37만 7520건 중 9만 3799건, 즉 24.8퍼센트가 건강 관련이었다. 코로나19 시기에 급증한 뒤 2024년까지 팬데믹 이전보다 높은 수준을 유지했지만, 전체 반박 중 건강 주제의 비중은 2024년에 뚜렷이 감소했다. 주요 주제는 백신, 반박 보도, 개인 위생 관리, 수면 습관이었고 시계열은 사건 촉발형 급증, 지속 성장형, 반복 변동형 세 가지로 나뉘었다. 인구 언급은 불균형해 여성이 남성보다, 청년층이 가장 많이 언급된 반면 고령층 언급이 가장 적었다. 공유·댓글·좋아요 모두 팔로워 수가 최강 예측변수였고 임계값 형태의 비선형 패턴을 보였다.\n\n## 시사점\n반박 생태계에는 구조적 비대칭이 존재한다. 내용은 다양해지는데 유통은 발신자의 도달 범위가 지배한다. 신뢰할 만하지만 팔로워가 적은 기관의 정정 정보를 플랫폼이 끌어올리는 장치가 필요하며, 상대적으로 소외된 고령층을 겨냥한 반박 콘텐츠 보강도 과제로 남는다."
+  },
+  {
+   "id": "doi-10-2196-81290",
+   "title": "Intensive Longitudinal Data Collection Methods in Health Research: Tutorial for Selecting Measures and Designing a Sampling Protocol",
+   "year": "2026",
+   "pub_date": "2026-09-08",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Courtney J, Dunton G.",
+   "affiliation": "Department of Exercise and Sport Science, College of Arts and Sciences, University of North Carolina at Chapel Hill, 124A Fetzer Hall, Chapel Hill, NC, 27599, United States, 1 9194451520, 1 (919) 962-0489",
+   "topics": [
+    "JITAI",
+    "웨어러블",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/81290",
+   "has_audio": true,
+   "title_ko": "건강 연구에서의 집중 종단 데이터 수집 방법: 측정 도구 선택과 표집 프로토콜 설계를 위한 튜토리얼",
+   "one_liner": "촘촘한 반복 측정 연구, 빈도와 시점 결정이 결과를 좌우한다",
+   "summary_md": "## 배경\n집중 종단 데이터는 초, 시간, 하루 같은 짧은 시간 단위로 촘촘하게 반복 측정한 자료를 말한다. 웨어러블 센서, 생태순간평가, 일일 일기 등으로 수집되며, 실험실이 아닌 실제 생활 속에서 개인 내부의 변화 과정을 포착한다. 모바일 기술 발전으로 관련 연구가 폭증했지만, 연구 설계에 대한 정식 교육은 그 속도를 따라가지 못했다.\n\n## 방법\n이 논문은 단계별 의사결정 튜토리얼 형식의 방법론 지침서다. 신체활동과 음주처럼 짧은 시간 안에 오르내리는 건강행동 연구 사례를 적용해, 측정 빈도와 시점을 정하는 과정을 순서대로 안내한다.\n\n## 결과\n측정 빈도와 시점은 개인 간 및 구성개념 간 변동성, 평가 목적, 회상 편향, 현저성, 결측 우려, 참여자 부담을 함께 고려해 정해야 한다. 또한 측정 간 시간 지연, 하루를 어떻게 정의하는지, 데이터를 어떤 단위로 묶는지가 결과 해석과 인과 추론, 예측력을 크게 바꾼다고 지적한다.\n\n## 시사점\n연구 질문의 시간 척도와 측정 설계를 처음부터 일치시키는 것이 핵심이며, 이는 적시 적응형 개입 개발의 토대가 된다."
+  },
+  {
+   "id": "doi-10-2196-87506",
+   "title": "Compliance With Ecological Momentary Assessment Among Patients With Cancer: Systematic Review and Meta-Analysis",
+   "year": "2026",
+   "pub_date": "2026-09-08",
+   "journal": "Journal of medical Internet research",
+   "authors": "Ma G, Deng C, Zhang Z, Ding Q, Gu C.",
+   "affiliation": "Xiangya School of Nursing, Central South University, No. 172 Tongzipo Road, Yuelu District, Changsha, Hunan, 410013, China, 86 13874881548",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/87506",
+   "has_audio": true,
+   "title_ko": "암 환자의 생태순간평가 순응도: 체계적 문헌고찰 및 메타분석",
+   "one_liner": "암 환자 생태순간평가 순응률 78.6퍼센트, 다만 편차가 매우 크다",
+   "summary_md": "## 배경\n암 환자는 치료 과정에서 심리 상태가 하루에도 크게 출렁이지만, 기존의 설문 도구는 이런 변화를 실시간으로 잡아내지 못합니다. 생태순간평가는 스마트폰 알림으로 하루 여러 번 지금 이 순간의 상태를 묻는 방식이라 생태학적 타당도가 높습니다. 다만 연구의 성패는 환자가 알림에 얼마나 응답하느냐에 달려 있고, 보고된 순응률은 연구마다 편차가 커 종합 분석이 없었습니다.\n\n## 방법\n2026년 4월 30일까지 웹오브사이언스, 펍메드, 엠베이스, 코크란, 시날, 사이크인포, 중국 CNKI와 완팡 등 8개 데이터베이스를 검색했습니다. 순응도는 완료한 알림 수를 전달된 알림 수로 나눈 값으로 정의했고, 로짓 변환과 무작위효과 모형에 하퉁카니크 보정을 적용해 통합했습니다. 예측구간, 하위군 분석, 메타회귀, 하나씩 제외 민감도 분석을 함께 수행했습니다.\n\n## 결과\n23편, 총 1만 3565명이 포함됐습니다. 통합 순응률은 78.55퍼센트, 95퍼센트 신뢰구간은 73.48에서 82.87퍼센트였습니다. 그러나 예측구간은 48.59에서 93.41퍼센트로 매우 넓었습니다. 연구 기간, 하루 알림 횟수, 알림당 문항 수, 응답 제한 시간 어느 것도 순응도와 유의한 선형 관계를 보이지 않았습니다. 비뚤림 위험은 23편 중 21편이 중간, 2편이 낮음이었고 근거 확실성은 매우 낮음으로 평가됐습니다.\n\n## 시사점\n암 환자 대상 반복 실시간 평가는 현실적으로 실행 가능하지만, 78.55퍼센트는 보편적 기대치가 아니라 대략적 기준점으로 읽어야 합니다. 향후 연구는 순응도 분모를 표준화하고 누락 알림을 투명하게 보고하며, 환자 부담을 줄이는 설계 전략을 전향적으로 검증해야 합니다."
+  },
+  {
+   "id": "doi-10-2196-72435",
+   "title": "A Smartphone-Based Ecological Momentary Intervention for Workplace Mental Health: Randomized Controlled Trial",
+   "year": "2026",
+   "pub_date": "2026-09-08",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Li S, Lo LHL, Lau CYC, Lam M, Chan M.",
+   "affiliation": "Department of Community Health and Behavioral Medicine, School of Public Health, Shanghai Jiao Tong University School of Medicine, Shanghai, China",
+   "topics": [
+    "당뇨",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/72435",
+   "has_audio": true,
+   "title_ko": "직장인 정신건강을 위한 스마트폰 기반 생태순간중재: 무작위대조시험",
+   "one_liner": "4주 스마트폰 중재로 직장인 우울·불안·스트레스 크게 감소",
+   "summary_md": "## 배경\n업무 스트레스는 다양한 정신질환 위험과 정신적 웰빙 저하와 폭넓게 연관되어 왔다. 빠르게 성장하는 모바일 헬스 산업은 직장 정신건강 관리에 새로운 기회를 제공하고 있다. 이 연구는 실시간·실생활 환경에서 직장 스트레스를 줄이는 것을 목표로 하는 스마트폰 기반 도구 뉴럼(Neurum)의 효과를 검증했다.\n\n## 방법\n중국 상하이에서 근로 성인 201명을 모집해 단순 무작위배정으로 중재군 102명, 대조군 99명으로 나누고 4주간 진행했다. 뉴럼은 생태순간평가와 생태순간중재, 즉 일상 속에서 그때그때 기분을 기록하고 즉시 개입을 제공하는 방식을 기반으로 인지행동치료, 마음챙김, 자기조절 훈련을 제공했다. 주요 결과지표는 우울·불안·스트레스 척도 21문항(DASS-21, 크론바흐 알파 0.87)이었다.\n\n## 결과\n중재군의 DASS-21 총점은 평균 14.518점 감소한 반면 대조군은 3.319점 증가해 뚜렷한 군간 차이를 보였다(F1,176=59.358, 부분 에타제곱 0.252). 이 효과는 주로 스트레스 감소가 이끌었으며(F1,176=64.679), 중재군은 스트레스 하위점수가 6.692점 감소한 반면 대조군은 2.000점 증가했다. 참가자는 평균 6.27회(SD 9.4) 운동을 완료하고 9.74회(SD 18.2) 기분일지를 기록했으며 하루 평균 4.95분(SD 6.89) 사용했다. 다만 중도탈락은 중재군 21명, 대조군 2명으로 중재군에서 유의하게 많았다(카이제곱 18.259). 사용량과 점수 변화 사이의 연관성은 통계적으로 유의하지 않았다.\n\n## 시사점\n비임상 근로자 집단에서 스마트폰 기반 생태순간중재가 우울·불안·스트레스를 완화할 수 있음을 확인했다. 하루 5분 남짓의 짧은 사용으로도 효과가 나타났다는 점은, 고비용 대면 상담의 접근성 한계를 보완하는 대안으로서 디지털 정신건강 서비스의 가능성을 보여준다. 다만 중재군의 높은 탈락률은 지속 사용을 유도하는 개인 맞춤형 설계가 향후 과제임을 시사한다."
+  },
+  {
+   "id": "doi-10-2196-98330",
+   "title": "Multidisciplinary mHealth Rehabilitation for Patients With Abdominal Cancer Who Are Receiving Chemoradiotherapy: Randomized Phase II Trial",
+   "year": "2026",
+   "pub_date": "2026-09-08",
+   "journal": "Journal of medical Internet research",
+   "authors": "Yang L, Wang W, Su J, Xiong Y, Wu H, Wang Y, Dai J, Cao D, Peng J, Xia L, Jiang H, Xu H, Wang Q, Chen F, Shu Q, Hao C, Lv K, Shang W, Xu H, Zhang Y, Chen W, Xu X, Shi H, Zhou F.",
+   "affiliation": "Department of Radiation and Medical Oncology, Hubei Key Laboratory of Tumor Biological Behaviors, and Hubei Cancer Clinical Study Center, Zhongnan Hospital of Wuhan University, Donghu Road 169, Wuhan, 430071, China, 86 02767812592",
+   "topics": [
+    "당뇨",
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/98330",
+   "has_audio": true,
+   "title_ko": "항암화학방사선요법을 받는 복부암 환자를 위한 다학제 모바일 헬스 재활: 무작위 2상 임상시험",
+   "one_liner": "모바일 재활 프로그램이 복부암 환자의 악력을 약 4.9킬로그램 더 지켜냈다",
+   "summary_md": "## 배경\n복부암에서 항암제와 방사선을 동시에 쓰는 동시항암화학방사선요법은 치료 효과는 크지만 근육 감소, 체중 감소, 영양실조를 자주 일으킵니다. 치료 중 근력과 근육량을 지킬 방법이 필요했습니다.\n\n## 방법\n중국 다기관에서 진행된 전향적 무작위 공개 2상 시험으로, 복부 악성종양 환자 111명을 다학제 모바일 헬스 재활군 57명과 표준치료군 54명에 1대 1로 배정했습니다. 재활군은 전담 다학제 팀이 AiNST 모바일 플랫폼과 착용형 심박수 측정기를 활용해 운동·영양·심리 관리를 제공했고, 1차 평가변수는 치료 종료 시점의 악력이었습니다. 등록 기간은 2022년 2월부터 2023년 4월까지입니다.\n\n## 결과\n운동 목표 달성률은 93명, 83.9퍼센트로 높았습니다. 기저 악력을 보정했을 때 재활군의 치료 종료 시 악력은 표준치료군보다 4.87킬로그램 높았습니다. 95퍼센트 신뢰구간은 3.36에서 6.38이었습니다. 체중 유지, 골격근량, 영양지표인 프리알부민도 재활군이 유의하게 나았고 혈액학적 독성 발생률은 더 낮았습니다.\n\n## 시사점\n모바일 기반 다학제 재활이 치료 중 체력과 영양 상태를 지키는 실용적 수단이 될 수 있음을 보여줍니다. 다만 공개 라벨 설계, 종양 종류의 이질성, 짧은 추적 기간 때문에 확정적 결론은 이르며, 더 큰 규모의 눈가림 3상 시험이 필요합니다."
+  },
+  {
+   "id": "doi-10-2196-104227",
+   "title": "Digital Behavioral Infrastructure for Glucagon-Like Peptide-1 Pharmacotherapy: Viewpoint on Persistence, Tolerability, and Postcessation Durability",
+   "year": "2026",
+   "pub_date": "2026-09-08",
+   "journal": "Journal of medical Internet research",
+   "authors": "Cook G.",
+   "affiliation": "Friedman School of Nutrition Science and Policy, Tufts University, Boston, MA, United States",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/104227",
+   "has_audio": true,
+   "title_ko": "글루카곤 유사 펩타이드-1 약물치료를 위한 디지털 행동 인프라: 지속복용, 내약성, 중단 후 지속효과에 관한 관점 논문",
+   "one_liner": "비만약이 여는 '습관 형성의 창'을 디지털 행동 프로그램으로 채우자는 제안",
+   "summary_md": "## 배경\n글루카곤 유사 펩타이드-1 수용체 작용제, 이른바 지엘피원 계열 비만·당뇨 치료제는 임상적으로 의미 있는 체중 감량을 일으킵니다. 그러나 실제 진료 현장에서는 세 가지 벽에 부딪힙니다. 첫째 낮은 복약 지속률, 둘째 치료를 중단하게 만드는 위장관 부작용, 셋째 약을 끊은 뒤의 빠른 체중 재증가입니다.\n\n## 방법\n미국 터프츠대학교 프리드먼 영양과학정책대학원의 쿡 연구자가 2026년 Journal of Medical Internet Research에 발표한 관점 논문입니다. 사회인지이론과 행동경제학의 이론적 결정 요인을 위 세 가지 문제 영역에 각각 대응시키고, 이를 구체적인 디지털 개입 유형과 연결했습니다. 근거는 확립됨, 관찰연구 수준, 가설 수준의 3단계로 등급화했습니다.\n\n## 결과\n핵심 가설은 약물이 만들어내는 '습관의 창'입니다. 식욕 충동이 약해지면 음식에 쓰이던 자기통제 부담과 인지 자원이 줄고, 그 기간 동안 습관 형성이 평소보다 쉬워진다는 것입니다. 자기효능감과 성공 경험, 현재 편향, 기본값 설정, 손실 회피 같은 기제가 각각 복약 알림, 부작용 대처 코칭, 중단 후 유지 프로그램에 매핑됩니다. 다만 인용된 관찰 데이터는 가설 생성 수준이며 선택 편향에 노출되어 있습니다.\n\n## 시사점\n디지털 행동 프로그램은 선택적 부가물이 아니라 약물치료의 구조적 보완재로 봐야 한다는 주장입니다. 저자는 약물 중단 후 추적관찰을 포함한 무작위 대조시험과 기전 매개 분석을 우선 연구 과제로 제시했습니다."
+  },
   {
    "id": "doi-10-2196-94675",
    "title": "Prevalence of Use of Mobile Food Delivery Services During School Hours in the United States: Survey Study",
@@ -102,6 +329,23 @@
    "title_ko": "운동과 인지행동치료를 결합한 디지털 치료기기가 만성 슬개대퇴통증 환자의 통증을 줄인다: 다기관 무작위 대조 시험",
    "one_liner": "스마트폰 디지털 치료기기 8주, 무릎 통증 12.5밀리미터 추가 감소",
    "summary_md": "## 배경\n만성 슬개대퇴통증은 무릎 앞쪽이나 슬개골 뒤쪽에 3개월 이상 지속되는 통증으로, 활동 시 악화되는 흔한 질환입니다. 운동치료가 표준이지만 순응도가 낮고, 통증 파국화 같은 심리적 요인이 회복을 방해합니다.\n\n## 방법\n한국 10개 병원 정형외과 외래에서 만성 슬개대퇴통증 환자 216명을 모집한 다기관 무작위 대조 시험입니다. 스마트폰 디지털 치료기기 모라 큐어 피에프피 군과 대조군으로 배정했습니다. 치료기기군은 개인 맞춤 가정 운동, 주간 인지행동치료 세션, 자기성찰 일일 워크시트를 8주간 수행했고, 대조군은 교육, 1회 운동 지도, 인쇄물, 운동 일지를 받았습니다. 1차 지표는 8주째 평상시 통증으로 0에서 100밀리미터 시각통증척도로 측정했습니다.\n\n## 결과\n8주째 평상시 통증은 치료기기군이 12.5밀리미터 더 감소했습니다. 95퍼센트 신뢰구간은 마이너스 17.1에서 마이너스 7.8입니다. 최악의 통증은 10.7밀리미터 감소, 무릎 기능 점수는 5.2점 향상, 삶의 질 시각척도는 10.7점 향상, 통증 파국화 척도는 1.8점 개선됐습니다. 운동 순응도는 80퍼센트를 넘었고 기기 관련 중대 이상반응은 없었습니다.\n\n## 시사점\n운동과 심리치료를 하나의 앱으로 묶은 통합 패키지가 기존 교육 방식보다 우수함을 보여줍니다. 다만 대조군이 최소 개입이라 효과 크기 해석에 주의가 필요하고, 12주 이후 장기 효과는 추가 연구가 필요합니다."
+  },
+  {
+   "id": "doi-10-2196-94390",
+   "title": "Digital Health Engagement Behaviors in US Family Caregivers: Trend Analysis Using the Health Information National Trends Survey 2019-2022 Data",
+   "year": "2026",
+   "pub_date": "2026-09-03",
+   "journal": "Journal of medical Internet research",
+   "authors": "Lee L, Son E, Yang L, Gerrard C, Yarmovsky J, Wallen G.",
+   "affiliation": "Translational Biobehavioral and Health Promotion, National Institutes of Health (NIH) Clinical Center, 10 Center Drive, Bethesda, MD, 20892-1151, United States, 1 301-451-1266",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/94390",
+   "has_audio": true,
+   "title_ko": "미국 가족 돌봄제공자의 디지털 헬스 참여 행동: 2019~2022년 건강정보 국가동향조사 자료를 활용한 추세 분석",
+   "one_liner": "코로나 이후 돌봄자의 온라인 진료기록 열람이 48.7%에서 72.6%로 급증",
+   "summary_md": "## 배경\n디지털 헬스는 가족 돌봄제공자가 시간과 공간의 제약 없이 지원 자원에 접근할 수 있게 해준다. 돌봄자는 온라인 진료기록으로 자신과 돌봄 대상자의 건강을 추적하고 소셜미디어로 정보를 나눌 수 있다. 그러나 코로나19 이후 돌봄자의 참여 추세는 충분히 연구되지 않았다.\n\n## 방법\n미국 건강정보 국가동향조사(HINTS) 5기 3주기와 4주기, 6기(2019~2022년) 자료에서 가족 돌봄제공자 1,676명(각 570명, 412명, 694명)을 대상으로 한 횡단 분석을 수행했다. 종속변수는 온라인 진료기록 접근(본인 및 돌봄 대상자)과 건강 관련 소셜미디어 사용(정보 공유, 타인과의 교류, 건강 영상 시청)이며, 가중치를 적용한 다변량 로지스틱 회귀분석을 실시했다.\n\n## 결과\n돌봄자 본인의 온라인 진료기록 접근은 2019년 48.7%에서 2022년 72.6%로 크게 증가했고, 돌봄 대상자 기록 접근과 소셜미디어 활용도 함께 늘었다. 보정 분석에서 대졸 이상 학력은 고졸 이하 대비 본인 기록 접근 오즈비 2.75(95% 신뢰구간 1.56~4.85)였고, 여성은 돌봄 대상자 기록 접근 오즈비 1.96(1.36~2.84)이었다. 고속 인터넷 접근은 모든 지표와 강하게 연관되어 건강정보 공유의 오즈비가 3.98(2.15~7.35)에 달했다.\n\n## 시사점\n디지털 도구 설계 시 연령, 인종, 지역, 학력, 보험, 디지털 접근성 등 다층적 요인을 고려해야 하며, 특히 고속 인터넷 격차 해소가 핵심 과제다. 향후 인공지능과 시스템 간 자동 연동이 돌봄자의 정보 요구와 돌봄 조율을 어떻게 지원할지 평가할 필요가 있다."
   },
   {
    "id": "doi-10-2196-92981",
@@ -272,7 +516,10 @@
     "비만"
    ],
    "url": "https://doi.org/10.2196/87324",
-   "has_audio": false
+   "has_audio": true,
+   "title_ko": "소비자용 웨어러블 광용적맥파 측정의 타당성 연구에서 다양한 인구집단의 대표성: 스코핑 리뷰",
+   "one_liner": "고령자·저체중·비만·어두운 피부톤은 웨어러블 검증 연구에서 중앙값 0퍼센트 수준으로 배제돼 있다",
+   "summary_md": "## 배경\n소비자용 웨어러블은 손목 혈류를 빛으로 측정하는 광용적맥파 방식으로 맥박수 등을 잰다. 이 정확도는 성별, 나이, 체질량지수, 피부톤에 따라 달라질 수 있는데, 검증이 특정 집단에 치우쳐 있으면 건강 격차로 이어질 수 있다.\n\n## 방법\n2025년 7월 스코퍼스, 펍메드, 아이트리플이 엑스플로어를 검색해 중복 제거 후 734편을 선별했고, 제목·초록 심사로 238편, 전문 심사로 186편을 최종 포함했다. 각 연구의 성별·나이·체질량지수·피츠패트릭 피부톤 분포를 추출하고, 평균과 표준편차로 집단별 비율을 추정해 중앙값과 전체 합산 비율을 계산했다.\n\n## 결과\n160편이 맥박수를 다뤘다. 보고율은 성별 179편 96퍼센트, 나이 178편 96퍼센트, 체질량지수 101편 54퍼센트, 피부톤은 35편 19퍼센트에 그쳤다. 65세 초과 고령자와 체질량지수 30 이상 비만은 연구당 참여 비율 중앙값이 모두 0퍼센트였고, 전체 합산으로는 각각 6367명 중 1290명인 20퍼센트, 3428명 중 473명인 14퍼센트였다. 저체중은 중앙값 3퍼센트, 합산 3428명 중 225명인 7퍼센트였다. 피츠패트릭 5형과 6형의 어두운 피부톤 참여 비율은 중앙값 0퍼센트였다.\n\n## 시사점\n소수 대규모 연구가 전체 수치를 끌어올릴 뿐, 대부분의 연구는 이들 집단을 아예 포함하지 않는다. 향후 검증 연구는 대표성 기준을 미리 정하고 설계 단계부터 해당 집단 대표를 참여시켜야 한다."
   },
   {
    "id": "doi-10-2196-91747",
@@ -526,6 +773,23 @@
    "title_ko": "부인암 생존자의 신체활동 앱 장기 사용 실태: 레츠고 연구의 12개월 전향적 다기관 준실험 연구",
    "one_liner": "부인암 생존자 72퍼센트가 1년간 앱을 반복 사용했지만 활동량은 보통 수준",
    "summary_md": "## 배경\n신체활동은 부인암 생존자의 치료 부작용을 완화하지만, 장기적인 활동량은 여전히 낮은 수준에 머물러 있다. 모바일 헬스 중재가 자기관리를 도울 수 있으나, 실제 진료 현장에서 1년간 앱을 어떻게 쓰는지에 대한 근거는 부족했다.\n\n## 방법\n노르웨이 5개 병원에서 2019년 12월부터 2022년 7월까지 레츠고 시험(NCT04122235) 중재군에 등록된 난소암, 자궁내막암, 자궁경부암, 외음부암, 질암 생존자 378명을 대상으로 했다. 참가자에게 스마트폰 앱과 가민 비보핏 4 활동 추적기를 제공하고, 간호사 주도 정기 진료와 병행하며 등록 후 52주간의 서버 로그 데이터를 분석했다.\n\n## 결과\n평균 연령 63세, 체질량지수 28.5였다. 378명 중 272명(72퍼센트)이 2주 이상 신체활동을 기록했고, 225명(60퍼센트)이 걸음 수 데이터를 동기화했다. 일평균 걸음 수는 5657보(중앙값 5533, 사분위수 범위 3499~7498)였다. 걸음 수 추적이 평균 21주로 앱 사용의 중심이었고, 자가 보고 걷기 23주, 근력운동 15주가 뒤따랐다. 16주, 32주, 44주경 기록자 수가 감소했으나 3주 이내에 30~50명이 복귀했다. 앱 사용자는 비사용자보다 평균 6.7세 젊었다(95퍼센트 신뢰구간 -9.6~-3.9).\n\n## 시사점\n일상 진료 환경에서 블렌디드 모바일 헬스 추적관찰이 실현 가능함을 보여준다. 다만 참여가 젊고 취업 상태이며 학력이 높은 층에 집중되므로, 재참여 유도 알림과 형평성을 고려한 도입 설계로 디지털 격차를 좁힐 필요가 있다."
+  },
+  {
+   "id": "doi-10-2196-87395",
+   "title": "Psychological Processes of Telecommunications Fraud: Development of a Three-Stage Framework and Cross-Sectional Quantitative Elaboration in a Mixed Methods Study",
+   "year": "2026",
+   "pub_date": "2026-08-13",
+   "journal": "Journal of medical Internet research",
+   "authors": "Huang Y, Gao J, Zhou Y, He Q, Gao X.",
+   "affiliation": "Psychological Research and Consultation Center, Southwest Jiaotong University, No. 999, Xi'an Road, Pidu District, Chengdu, Sichuan, 611756, China, 86 17383011768",
+   "topics": [
+    "JITAI"
+   ],
+   "url": "https://doi.org/10.2196/87395",
+   "has_audio": true,
+   "title_ko": "통신사기의 심리적 과정: 3단계 틀 개발과 혼합연구법 기반 횡단 양적 정교화",
+   "one_liner": "통신사기는 맹신 점화, 정서 조작, 행동 통제 상실의 3단계를 거친다",
+   "summary_md": "## 배경\n통신사기는 금전 손실과 심리적 상처를 함께 남기지만, 피해자가 처음 믿음을 갖는 순간부터 감정이 고조되고 행동 통제력을 잃기까지의 과정은 잘 정리되지 않았다.\n\n## 방법\n연구 1은 통신사기 피해자 71명을 반구조화 면접해 근거이론으로 분석했다. 46명은 모형 개발, 25명은 이론적 포화 검증에 썼다. 연구 2는 중국 충칭의 대학 기반 설문 4722명 중 피해가 확인된 409명과 무작위 선정 비피해자 409명으로 사례-대조 표본을 만들고, t검정과 보정 로지스틱 회귀, 10회 비중복 재표집, 부트스트랩 5000회 매개분석을 수행했다.\n\n## 결과\n3단계 틀은 맹신 점화, 정서 조작, 행동 통제 상실로 구성됐다. 욕망과 공포의 반복 고리, 과도한 기대 사건이 상승 서사를 만들었다. 피해자군은 진실 추구와 인지 성숙도가 낮고 잘 속는 성향, 정서조절 곤란, 자기통제 척도 점수가 높았다. 보정 분석에서 잘 속는 성향이 높을수록 피해 승산이 높고, 진실 추구가 높을수록 낮았다.\n\n## 시사점\n신뢰 판단 단계가 가장 일관된 개입 지점이다. 다만 사건 이후 동시 측정이라 시간 순서나 인과 해석은 불가하며, 전향적 검증이 필요하다."
   },
   {
    "id": "doi-10-2196-79081",

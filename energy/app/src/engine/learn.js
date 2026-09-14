@@ -138,3 +138,18 @@ export function dayHistory(days = {}) {
     .sort((a, b) => a.key.localeCompare(b.key));
 }
 
+
+/** 기록 전체에서 개인계수를 처음부터 다시 만든다 (수정·삭제 후 호출) */
+export function rebuildLearn(logs = []) {
+  let learn = {};
+  for (const l of [...logs].sort((a, b) => a.startTs - b.startTs)) {
+    if (!l.pred) continue;
+    learn = updateLearn(learn, l.actId, {
+      rHp: l.ratio?.hp ?? 1,
+      rMp: l.ratio?.mp ?? 1,
+      predHp: l.pred.hp,
+      predMp: l.pred.mp
+    });
+  }
+  return learn;
+}

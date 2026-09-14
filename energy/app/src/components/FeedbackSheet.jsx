@@ -2,31 +2,57 @@ import React, { useEffect, useState } from "react";
 import { FEEL_SCALE, REST_SCALE } from "../engine/learn.js";
 import { r1 } from "../engine/model.js";
 import { useApp } from "../store.js";
-import { CostText, Feel, Sheet, durLabel } from "./ui.jsx";
+import { CostText, DurationField, Feel, Sheet, WhenField } from "./ui.jsx";
 
 const OUT = ["거의 못함", "조금", "보통", "잘함", "최고"];
 
+/** 비율에서 가장 가까운 4단계 눈금 찾기 (기록 수정 시 원래 답을 되살린다) */
+const feelIndexOf = (scale, r) => {
+  if (r == null) return 1;
+  let best = 1;
+  let diff = Infinity;
+  scale.forEach((s, i) => {
+    const d = Math.abs(s.r - r);
+    if (d < diff) { diff = d; best = i; }
+  });
+  return best;
+};
+
 /**
  * 활동 종료 후 피드백. 사용자는 "앱 예상 대비 어땠는지"만 답한다.
- * session: { act, durationMin, intensity, startTs }
+ * session: { act, durationMin, intensity, startTs, logId?, ratio?, output?, note? }
+ * logId 가 있으면 기존 기록을 고치는 모드.
  */
-export default function FeedbackSheet({ open, session, onClose, onDone }) {
-  const { predictFor, data } = useApp();
-  const [dur, setDur] = useState(session?.durationMin || 60);
+export default function FeedbackSheet({ open, session, onClose, onDone, onDelete }) {
+  const { predictFor, state, now } = useApp();
+  const [dur, setDur] = useState(60);
+  const [startTs, setStartTs] = useState(Date.now());
+  const [intensity, setIntensity] = useState(5);
   const [hpFeel, setHpFeel] = useState(1);
   const [mpFeel, setMpFeel] = useState(1);
   const [output, setOutput] = useState(null);
   const [note, setNote] = useState("");
 
+  const editing = !!session?.logId;
+
   useEffect(() => {
-    if (session) { setDur(session.durationMin); setHpFeel(1); setMpFeel(1); setOutput(null); setNote(""); }
-  }, [session?.startTs]);
+    if (!session) return;
+    const restorative = session.act.hp < 0 || session.act.mp < 0;
+    const scale = restorative ? REST_SCALE : FEEL_SCALE;
+    setDur(session.durationMin || 60);
+    setStartTs(session.startTs || Date.now());
+    setIntensity(session.intensity ?? 5);
+    setHpFeel(feelIndexOf(scale, session.ratio?.hp));
+    setMpFeel(feelIndexOf(scale, session.ratio?.mp));
+    setOutput(session.output != null ? session.output - 1 : null);
+    setNote(session.note || "");
+  }, [session?.logId, session?.startTs, session?.act?.id]);
 
   if (!session) return null;
   const act = session.act;
   const restorative = act.hp < 0 || act.mp < 0;
   const scale = restorative ? REST_SCALE : FEEL_SCALE;
-  const pred = predictFor(act, { durationMin: dur, intensity: session.intensity });
+  const pred = predictFor(act, { durationMin: dur, intensity });
   const askHp = Math.abs(pred.hp) >= 3;
   const askMp = Math.abs(pred.mp) >= 3;
 
@@ -37,9 +63,9 @@ export default function FeedbackSheet({ open, session, onClose, onDone }) {
   const submit = () => {
     onDone({
       actId: act.id,
-      startTs: session.startTs,
+      startTs,
       durationMin: dur,
-      intensity: session.intensity,
+      intensity,
       pred,
       actual,
       ratio: { hp: rHp, mp: rMp },
@@ -50,15 +76,21 @@ export default function FeedbackSheet({ open, session, onClose, onDone }) {
   };
 
   return (
-    <Sheet open={open} onClose={onClose} title={`${act.emoji} ${act.name} · 어땠나요?`}>
+    <Sheet open={open} onClose={onClose} title={`${act.emoji} ${act.name} · ${editing ? "기록 수정" : "어땠나요?"}`}>
       <div className="sub" style={{ marginBottom: 12 }}>
         앱의 예상은 <CostText hp={pred.hp} mp={pred.mp} /> 였습니다. 체감과 비교해 주세요.
       </div>
 
-      <label className="f">실제 시간 <span className="dim">({durLabel(dur)})</span></label>
-      <div className="row wrap" style={{ gap: 6 }}>
-        {[15, 30, 45, 60, 90, 120, 180].map((m) => (
-          <button key={m} className={`chip sm ${dur === m ? "on" : ""}`} onClick={() => setDur(m)}>{durLabel(m)}</button>
+      <DurationField value={dur} onChange={setDur} label="실제 시간" />
+
+      <WhenField ts={startTs} onChange={setStartTs} now={now} label="시작 시각" days={[-1, 0]} />
+
+      <label className="f">강도 · 몰입도 <span className="dim">({intensity}/10, 보통 5)</span></label>
+      <div className="row wrap" style={{ gap: 5 }}>
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i) => (
+          <button key={i} className={`chip sm ${intensity === i ? "on" : ""}`} style={{ minWidth: 30, justifyContent: "center" }} onClick={() => setIntensity(i)}>
+            {i}
+          </button>
         ))}
       </div>
 
@@ -100,12 +132,24 @@ export default function FeedbackSheet({ open, session, onClose, onDone }) {
         <div className="row between mt">
           <span className="sub">반영 후</span>
           <strong className="mono">
-            HP {Math.round(Math.max(0, data.state.hp - actual.hp))} · MP {Math.round(Math.max(0, data.state.mp - actual.mp))}
+            HP {Math.round(Math.max(0, state.hp - actual.hp))} · MP {Math.round(Math.max(0, state.mp - actual.mp))}
           </strong>
         </div>
       </div>
 
-      <button className="btn primary block" style={{ marginTop: 14 }} onClick={submit}>완료</button>
+      {editing ? (
+        <div className="grid2" style={{ marginTop: 14 }}>
+          <button
+            className="btn danger"
+            onClick={() => { if (confirm("이 기록을 지울까요?")) { onDelete?.(session.logId); onClose(); } }}
+          >
+            삭제
+          </button>
+          <button className="btn primary" onClick={submit}>저장</button>
+        </div>
+      ) : (
+        <button className="btn primary block" style={{ marginTop: 14 }} onClick={submit}>완료</button>
+      )}
     </Sheet>
   );
 }

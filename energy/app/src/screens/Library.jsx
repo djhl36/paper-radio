@@ -17,7 +17,7 @@ const blank = () => ({
 });
 
 export default function Library() {
-  const { data, dispatch, activities } = useApp();
+  const { data, dispatch, activities, fit } = useApp();
   const [cat, setCat] = useState("all");
   const [edit, setEdit] = useState(null);
   const [adv, setAdv] = useState(false);
@@ -61,9 +61,11 @@ export default function Library() {
                 </span>
               </span>
               <span className="cost">
-                <span className="h">{r1(a.hp * k.kHp)}</span> <span className="dim">/</span> <span className="m">{r1(a.mp * k.kMp)}</span>
+                <span className="h">{r1(a.fitHp ?? a.hp * k.kHp)}</span> <span className="dim">/</span> <span className="m">{r1(a.fitMp ?? a.mp * k.kMp)}</span>
                 <br />
-                <span className="dim" style={{ fontSize: 11 }}>{learned ? "보정됨" : "시간당"}</span>
+                <span className="dim" style={{ fontSize: 11 }}>
+                  {a.fitHp != null ? `측정 ${a.fitN}회` : learned ? "보정됨" : "시간당"}
+                </span>
               </span>
             </button>
           );
@@ -120,6 +122,35 @@ export default function Library() {
                   </div>
                 ))}
               </>
+            ) : null}
+
+            {fit[edit.id]?.ok ? (
+              <div className="card" style={{ marginTop: 16 }}>
+                <h2>기록으로 맞춘 파라미터</h2>
+                <table className="t">
+                  <thead><tr><th></th><th>모델값</th><th>측정값</th><th>강도 1당</th></tr></thead>
+                  <tbody>
+                    <tr>
+                      <td>시간당 HP</td><td className="dim">{fit[edit.id].priorHp}</td>
+                      <td style={{ color: "var(--hp)" }}>{fit[edit.id].hp}</td>
+                      <td>{fit[edit.id].iHp > 0 ? "+" : ""}{fit[edit.id].iHp}</td>
+                    </tr>
+                    <tr>
+                      <td>시간당 MP</td><td className="dim">{fit[edit.id].priorMp}</td>
+                      <td style={{ color: "var(--mp)" }}>{fit[edit.id].mp}</td>
+                      <td>{fit[edit.id].iMp > 0 ? "+" : ""}{fit[edit.id].iMp}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div className="sub mt">
+                  기록 {fit[edit.id].n}회 · 측정값 반영 비중 {Math.round(fit[edit.id].weight * 100)}% ·
+                  설명력 R² {fit[edit.id].r2Hp}/{fit[edit.id].r2Mp}
+                  {fit[edit.id].iHp === 0 && fit[edit.id].iMp === 0 ? " · 강도를 거의 바꾸지 않아 강도 민감도는 추정하지 않았습니다" : ""}
+                </div>
+                <div className="sub" style={{ marginTop: 6, fontSize: 11.5 }}>
+                  기록이 {6}회 이상 쌓이면 모델 대신 이 값으로 예측합니다. 기록을 지우면 모델값으로 돌아갑니다.
+                </div>
+              </div>
             ) : null}
 
             {data.learn[edit.id]?.n ? (

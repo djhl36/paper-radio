@@ -1,6 +1,9 @@
 // ── 개인 에너지 모델 ────────────────────────────────────────────────
-// Load = 활동 기본치 × 시간 × 강도 × 지속시간 패널티 × 개인계수 × 컨텍스트
-// 상태(HP/MP)는 0~100. 회복은 시간·수면·회복부채(debt)로 결정된다.
+// 상태(HP/MP)는 "깎아온 누적값"이 아니라 Real Life RPG 엔진(rlr.js)으로
+// 잠·시계·운동·인지부하·영양에서 매번 다시 계산한다.
+// 이 파일은 그 위에 계획·판정·제안 같은 Energy Optimizer 고유 층을 올린다.
+
+import { MS_HOUR, activityCost, computeVitals } from "./rlr.js";
 
 export const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
 export const r1 = (v) => Math.round(v * 10) / 10;
@@ -13,82 +16,49 @@ export const FLAGS = [
   { id: "peak", emoji: "✨", name: "컨디션 최고", hp: 0.85, mp: 0.85 }
 ];
 
+export const NUTRITION = [
+  { v: 0, emoji: "🥲", label: "부실했다" },
+  { v: 1, emoji: "🙂", label: "보통" },
+  { v: 2, emoji: "😋", label: "잘 챙겼다" }
+];
+
 export const DEFAULT_PROFILE = {
   sleepTarget: 7.5,
-  floor: 20,        // 이 아래로 내려가면 위험 (안전 예비분)
-  wakeHour: 7,
-  bedHour: 23
+  floor: 25,        // 이 아래로 내려가면 위험 (안전 예비분)
+  wakeHour: 8,
+  bedHour: 24
 };
 
-/** 현재 상태·수면·플래그로부터 부하 배수를 계산 */
+/** 지금 상태에서 활동이 얼마나 비싸질지 — 고갈될수록, 잠이 모자랄수록 비싸다 */
 export function contextMult(state, ctx = {}) {
   const sleepTarget = ctx.sleepTarget ?? DEFAULT_PROFILE.sleepTarget;
   const slept = ctx.sleepHours ?? sleepTarget;
   const deficit = Math.max(0, sleepTarget - slept);
-  const debt = state.debt || 0;
 
-  let hp = (1 + 0.05 * deficit) * (1 + 0.35 * Math.max(0, (45 - state.hp) / 45)) * (1 + debt / 60);
-  let mp = (1 + 0.09 * deficit) * (1 + 0.45 * Math.max(0, (45 - state.mp) / 45)) * (1 + debt / 80);
+  let hp = (1 + 0.05 * deficit) * (1 + 0.35 * Math.max(0, (45 - state.hp) / 45));
+  let mp = (1 + 0.09 * deficit) * (1 + 0.45 * Math.max(0, (45 - state.mp) / 45));
 
   for (const id of ctx.flags || []) {
     const f = FLAGS.find((x) => x.id === id);
     if (f) { hp *= f.hp; mp *= f.mp; }
   }
-  // 지칠수록 회복형 활동의 효율은 올라간다
   const rest = 1 + 0.4 * (1 - (state.hp + state.mp) / 200);
   return { hp: clamp(hp, 0.6, 2.6), mp: clamp(mp, 0.6, 2.6), rest };
 }
 
-/** 활동 1회의 예상 부하 */
+/** 활동 1회의 예상 부하 = RLR 비용 × 개인계수 × 상황 배수 */
 export function predict(act, { durationMin, intensity = 5 } = {}, mult = { hp: 1, mp: 1, rest: 1 }, learn = {}) {
-  const h = Math.max(0, durationMin || 0) / 60;
-  const fi = 0.55 + 0.09 * clamp(intensity, 1, 10);   // 강도 5 → 1.0
-  const fm = 1 + (fi - 1) * 0.55;                     // 정신 부하는 강도 민감도가 낮다
-  const dp = 1 + 0.15 * Math.max(0, h - 1.5);         // 오래 할수록 시간당 비용 상승
-  const hRest = h <= 1 ? h : 1 + (h - 1) * 0.6;       // 회복은 길어질수록 체감 효율 감소
+  const base = activityCost(act, { durationMin, intensity });
   const kHp = learn.kHp ?? 1;
   const kMp = learn.kMp ?? 1;
-
-  const hp = act.hp >= 0
-    ? act.hp * h * fi * dp * kHp * mult.hp
-    : act.hp * hRest * kHp * (mult.rest ?? 1);
-  const mp = act.mp >= 0
-    ? act.mp * h * fm * dp * kMp * mult.mp
-    : act.mp * hRest * kMp * (mult.rest ?? 1);
-
-  const spent = Math.max(0, hp) * 0.6 + Math.max(0, mp) * 0.4;
-  const debt = (act.rec || 0) * spent / 6;
-  return { hp: r1(hp), mp: r1(mp), debt: r1(debt) };
+  const hp = base.hp >= 0 ? base.hp * kHp * mult.hp : base.hp * kHp * (mult.rest ?? 1);
+  const mp = base.mp >= 0 ? base.mp * kMp * mult.mp : base.mp * kMp * (mult.rest ?? 1);
+  return { hp: r1(hp), mp: r1(mp), debt: r1(base.debt * kHp), fast: base.fast, slow: base.slow };
 }
 
-/** 부하를 상태에 적용 */
-export function applyLoad(state, load) {
-  return {
-    hp: clamp(state.hp - load.hp, 0, 100),
-    mp: clamp(state.mp - load.mp, 0, 100),
-    debt: Math.max(0, (state.debt || 0) + (load.debt || 0))
-  };
-}
-
-/** 깨어 있는 동안의 자연 회복 (hours 시간 경과) */
-export function recover(state, hours) {
-  const h = Math.max(0, hours);
-  const dq = 1 / (1 + (state.debt || 0) / 12);
-  const hp = clamp(state.hp + 2.8 * h * (1 - state.hp / 100) * dq, 0, 100);
-  const mp = clamp(state.mp + 2.4 * h * (1 - state.mp / 100) * dq, 0, 100);
-  return { hp, mp, debt: (state.debt || 0) * Math.pow(0.5, h / 6) };
-}
-
-/** 수면 회복 */
-export function sleepRecover(state, hours, quality = 0.8) {
-  const q = clamp(quality, 0.2, 1);
-  const eff = Math.min(1, Math.max(0, hours) / 8) * q;
-  return {
-    hp: clamp(state.hp + (100 - state.hp) * eff * 0.9, 0, 100),
-    mp: clamp(state.mp + (100 - state.mp) * eff * 0.95, 0, 100),
-    debt: Math.max(0, (state.debt || 0) * Math.max(0, 1 - Math.max(0, hours) / 9))
-  };
-}
+/** 남은 계획 없이 시간만 흐를 때의 상태 */
+export const stateAt = (ctx, ts, extraSessions = []) =>
+  computeVitals({ ...ctx, now: ts, sessions: [...(ctx.sessions || []), ...extraSessions] });
 
 /** 취침까지 남은 시간(h) */
 export function hoursUntilBed(now, profile = DEFAULT_PROFILE) {
@@ -96,58 +66,73 @@ export function hoursUntilBed(now, profile = DEFAULT_PROFILE) {
   const bed = new Date(d);
   bed.setHours(profile.bedHour, 0, 0, 0);
   if (bed <= d) bed.setDate(bed.getDate() + 1);
-  return Math.min(18, (bed - d) / 3600000);
+  return Math.min(18, (bed - d) / MS_HOUR);
 }
 
-/** 오늘 남은 "안전하게 쓸 수 있는" 예산 */
-export function budget(state, profile = DEFAULT_PROFILE, now = Date.now()) {
+export const bedTimeOf = (now, profile) => now + hoursUntilBed(now, profile) * MS_HOUR;
+
+/**
+ * 오늘 남은 예산 = 아무것도 더 하지 않았을 때 취침 시점에 남아 있을 양에서 예비분을 뺀 것.
+ * 시간이 흐르는 것만으로도 MP는 줄기 때문에, 이 값이 "지금부터 쓸 수 있는 양"이다.
+ */
+export function budget(ctx, profile = DEFAULT_PROFILE, now = Date.now()) {
   const hours = hoursUntilBed(now, profile);
-  const rec = recover(state, hours);
+  const atBed = stateAt(ctx, now + hours * MS_HOUR);
   return {
     hours: r1(hours),
-    hp: Math.max(0, r1(rec.hp - profile.floor)),
-    mp: Math.max(0, r1(rec.mp - profile.floor))
+    hp: Math.max(0, r1(atBed.hp - profile.floor)),
+    mp: Math.max(0, r1(atBed.mp - profile.floor)),
+    atBed
   };
 }
 
 /**
- * 하루 시뮬레이션.
- * items: [{ act, durationMin, intensity, startTs }] (시간순 정렬 불필요)
- * 각 단계에서 상태가 변하므로 부하도 상태에 맞춰 다시 계산된다.
+ * 하루 시뮬레이션. 각 시점의 상태를 RLR 엔진으로 다시 계산하므로
+ * 활동 비용뿐 아니라 수면압·일주기 같은 "가만히 있어도 빠지는 몫"까지 포함된다.
+ * items: [{ act, durationMin, intensity, startTs }]
  */
-export function simulate(state0, items, { now = Date.now(), profile = DEFAULT_PROFILE, ctx = {}, learn = {} } = {}) {
+export function simulate(items, ctx, { now = Date.now(), profile = DEFAULT_PROFILE } = {}) {
   const sorted = [...items].filter(Boolean).sort((a, b) => a.startTs - b.startTs);
-  const bedTs = now + hoursUntilBed(now, profile) * 3600000;
-  let state = { ...state0 };
-  let t = now;
-  let minHp = state.hp;
-  let minMp = state.mp;
+  const bedTs = bedTimeOf(now, profile);
+  const start = stateAt(ctx, now);
+  const planned = [];
   const steps = [];
+  let minHp = start.hp;
+  let minMp = start.mp;
+  let t = now;
 
   for (const it of sorted) {
-    const start = Math.max(t, it.startTs);
-    if (start > t) state = recover(state, (start - t) / 3600000);
-    t = start;
-    const mult = contextMult(state, ctx);
-    const load = predict(it.act, it, mult, learn[it.act.id] || {});
-    const after = applyLoad(state, load);
-    steps.push({ item: it, before: state, load, after, ts: t });
-    state = after;
-    t += (it.durationMin || 0) * 60000;
-    minHp = Math.min(minHp, state.hp);
-    minMp = Math.min(minMp, state.mp);
+    const st = Math.max(t, it.startTs);
+    const before = stateAt(ctx, st, planned);
+    planned.push({ ...it, startTs: st });
+    const end = st + (it.durationMin || 0) * 60000;
+    const after = stateAt(ctx, end, planned);
+    steps.push({ item: it, ts: st, before, after, load: { hp: r1(before.hp - after.hp), mp: r1(before.mp - after.mp) } });
+    minHp = Math.min(minHp, after.hp);
+    minMp = Math.min(minMp, after.mp);
+    t = end;
   }
-  if (bedTs > t) state = recover(state, (bedTs - t) / 3600000);
 
-  const total = steps.reduce(
-    (a, s) => ({ hp: a.hp + s.load.hp, mp: a.mp + s.load.mp, min: a.min + (s.item.durationMin || 0) }),
-    { hp: 0, mp: 0, min: 0 }
-  );
+  const end = stateAt(ctx, bedTs, planned);
+  const baseline = stateAt(ctx, bedTs);
+  minHp = Math.min(minHp, end.hp);
+  minMp = Math.min(minMp, end.mp);
+
+  const minutes = sorted.reduce((a, x) => a + (x.durationMin || 0), 0);
   return {
     steps,
-    end: { hp: r1(state.hp), mp: r1(state.mp), debt: r1(state.debt || 0) },
+    start: { hp: r1(start.hp), mp: r1(start.mp) },
+    end: { hp: r1(end.hp), mp: r1(end.mp), debt: r1(end.debt) },
+    baseline: { hp: r1(baseline.hp), mp: r1(baseline.mp) },
     min: { hp: r1(minHp), mp: r1(minMp) },
-    total: { hp: r1(total.hp), mp: r1(total.mp), min: total.min }
+    total: {
+      hp: r1(start.hp - end.hp),
+      mp: r1(start.mp - end.mp),
+      min: minutes,
+      // 계획 때문에 추가로 드는 몫 (시간이 흘러서 빠지는 몫을 뺀 값)
+      planHp: r1(baseline.hp - end.hp),
+      planMp: r1(baseline.mp - end.mp)
+    }
   };
 }
 
@@ -165,15 +150,15 @@ export function verdict(sim, profile = DEFAULT_PROFILE) {
 }
 
 /** 계획을 줄였을 때의 개선폭 제안 (상위 n개) */
-export function suggestions(state0, items, opt, n = 2) {
-  const base = simulate(state0, items, opt);
+export function suggestions(items, ctx, opt, n = 2) {
+  const base = simulate(items, ctx, opt);
   const out = [];
   for (let i = 0; i < items.length; i++) {
     const it = items[i];
-    if (!it.durationMin || it.durationMin < 45 || it.act.hp < 0) continue;
+    if (!it.durationMin || it.durationMin < 45 || (it.act?.hp ?? 0) < 0) continue;
     const cut = Math.min(30, Math.round(it.durationMin / 2 / 5) * 5);
     const alt = items.map((x, j) => (j === i ? { ...x, durationMin: x.durationMin - cut } : x));
-    const s = simulate(state0, alt, opt);
+    const s = simulate(alt, ctx, opt);
     const gain = { hp: r1(s.min.hp - base.min.hp), mp: r1(s.min.mp - base.min.mp) };
     const score = gain.hp * 0.5 + gain.mp * 0.5;
     if (score > 0.5) out.push({ item: it, cut, gain, score, end: s.end });
