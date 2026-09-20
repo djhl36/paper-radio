@@ -5,8 +5,80 @@
     <link>https://djhl36.github.io/paper-radio</link>
     <language>ko</language>
     <description>JITAI · 웨어러블 · mHealth · 당뇨 · 비만 · 운동 분야 최신 논문을 한국어 라디오로 듣는 자동 브리핑</description>
-    <lastBuildDate>Mon, 14 Sep 2026 02:39:09 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 22:05:17 GMT</lastBuildDate>
     <itunes:category text="Science"/>
+    <item>
+      <title>식이 상담과 디지털 도구 병행이 그리스 성인의 비만 관련 지표에 미치는 영향: 게이트키퍼 연구</title>
+      <description>영양 상담은 효과적이었지만 디지털 도구 추가는 체중 감량에 도움이 안 됐다 — Obesity (Silver Spring, Md.) (2026). 원문: https://doi.org/10.1002/oby.70284</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-1002-oby-70284</link>
+      <guid isPermaLink="false">doi-10-1002-oby-70284</guid>
+      <pubDate>Thu, 17 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-1002-oby-70284.mp3" length="1827216" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>임상 의사결정을 위한 언어모델의 미세조정, 검색증강생성, 하이브리드 적응 전략: 체계적 문헌고찰</title>
+      <description>과제에 맞는 적응 전략 선택이 성능을 가르고, 하이브리드가 가장 강했다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/104092</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-104092</link>
+      <guid isPermaLink="false">doi-10-2196-104092</guid>
+      <pubDate>Wed, 16 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-104092.mp3" length="2251152" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>성인의 걷기 행동 개선을 위한 개인 맞춤형 모바일 앱 메시지와 걸음 수 추적: 무작위 대조 시험</title>
+      <description>맞춤 메시지는 걸음 수를 늘리진 못했지만 2주 연속 실패 위험을 33퍼센트 낮췄다 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/84430</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-84430</link>
+      <guid isPermaLink="false">doi-10-2196-84430</guid>
+      <pubDate>Wed, 16 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-84430.mp3" length="1808784" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>가상현실로 야외의 녹색 환경을 실내로 가져오기: 심리적 웰빙을 위한 준실험 연구</title>
+      <description>12주 가상현실 숲 체험으로 우울·불안·신체화 증상이 뚜렷이 감소 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/93494</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-93494</link>
+      <guid isPermaLink="false">doi-10-2196-93494</guid>
+      <pubDate>Tue, 15 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-93494.mp3" length="1876752" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>챗봇 유형과 규범적 메시지가 건강 챗봇 사용 의도에 미치는 영향: 건강기술수용모형 기반 무작위 대조 실험</title>
+      <description>또래·가족 중심 메시지와 인공지능 챗봇이 사용 의도를 높였다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/97773</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-97773</link>
+      <guid isPermaLink="false">doi-10-2196-97773</guid>
+      <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-97773.mp3" length="1724256" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>영양사 주도 디지털 영양 플랫폼 활성 사용자의 체중 감소와 참여도: 후향적 코호트 연구</title>
+      <description>영양사와 두 달에 한 번만 만나도 3개월 체중 0.8킬로그램 더 감소 — JMIR mHealth and uHealth (2026). 원문: https://doi.org/10.2196/94732</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-94732</link>
+      <guid isPermaLink="false">doi-10-2196-94732</guid>
+      <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-94732.mp3" length="2034288" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>한국인 사회경제적 집단별 인공지능 건강서비스 이용과 건강 만족도: 도구변수 분석을 활용한 전국 단면연구</title>
+      <description>인공지능 건강서비스 이용이 건강 만족도를 높이며 취약계층에서 효과가 더 컸다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/95592</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-95592</link>
+      <guid isPermaLink="false">doi-10-2196-95592</guid>
+      <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-95592.mp3" length="2354976" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>독일 성인의 생활양식 프로파일과 정신적 웰빙에 대한 디지털 표현형 분석: 전향적 종단 코호트 연구</title>
+      <description>스마트폰 센싱으로 찾은 생활양식 유형은 '긍정적 기능'에서만 차이를 보였다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/101850</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-101850</link>
+      <guid isPermaLink="false">doi-10-2196-101850</guid>
+      <pubDate>Sun, 13 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-101850.mp3" length="2073600" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>웨어러블 카메라 이미지에서 아동의 디지털 기기를 찾아내는 스퀘어 아이즈 모델의 선별 도구 성능 평가: 실험실 연구</title>
+      <description>아동 착용 카메라 22만 장, 기기 자동 검출 정확도 78퍼센트 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/100559</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-100559</link>
+      <guid isPermaLink="false">doi-10-2196-100559</guid>
+      <pubDate>Sun, 13 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-100559.mp3" length="2273040" type="audio/mpeg"/>
+    </item>
     <item>
       <title>불면증 환자의 수면 개선에 대한 웨어러블 디지털 치료제의 효과: 무작위 대조 시험에 대한 체계적 문헌고찰 및 메타분석</title>
       <description>웨어러블은 잠드는 시간과 수면 효율은 개선하지만 불면증 자체는 못 낮춘다 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/93496</description>
@@ -62,6 +134,14 @@
       <guid isPermaLink="false">doi-10-2196-91516</guid>
       <pubDate>Wed, 09 Sep 2026 15:00:00 GMT</pubDate>
       <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-91516.mp3" length="1856736" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>전자의무기록에서 비처방 펜타닐 사용을 찾아내는 자연어처리 기술: 알고리즘 개발 및 검증 연구</title>
+      <description>라마 3 모델이 진료기록 속 비처방 펜타닐 사용을 F1 0.87로 식별 — Journal of medical Internet research (2026). 원문: https://doi.org/10.2196/97485</description>
+      <link>https://djhl36.github.io/paper-radio/#p/doi-10-2196-97485</link>
+      <guid isPermaLink="false">doi-10-2196-97485</guid>
+      <pubDate>Tue, 08 Sep 2026 15:00:00 GMT</pubDate>
+      <enclosure url="https://djhl36.github.io/paper-radio/audio/doi-10-2196-97485.mp3" length="2400912" type="audio/mpeg"/>
     </item>
     <item>
       <title>건강 연구에서의 집중 종단 데이터 수집 방법: 측정 도구 선택과 표집 프로토콜 설계를 위한 튜토리얼</title>
