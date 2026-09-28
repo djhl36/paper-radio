@@ -1,6 +1,76 @@
 {
- "generated": "2026-09-21 07:05",
+ "generated": "2026-09-28 13:39",
  "papers": [
+  {
+   "id": "doi-10-2196-105329",
+   "title": "Stakeholder Perspectives on the Integration of AI in Diabetes Care: Systematic Review of Qualitative Studies",
+   "year": "2026",
+   "pub_date": "2026-09-22",
+   "journal": "Journal of medical Internet research",
+   "authors": "Martínez-Martínez H, Martínez-Alfonso J, Sánchez-Rojo-Huertas B, Visier-Alfonso ME, Sebastián-Valles F, Díez-Fernández A, Pérez-Moreno A, Martínez-Vizcaíno V.",
+   "affiliation": "Health and Social Research Center, Universidad de Castilla-La Mancha, Cuenca, Castilla-La Mancha, Spain",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/105329",
+   "has_audio": true,
+   "title_ko": "당뇨병 진료에서 인공지능 도입에 대한 이해관계자 관점: 질적 연구 체계적 문헌고찰",
+   "one_liner": "환자와 의료진은 인공지능의 효용을 인정하면서도 정확성과 책임 소재를 우려했다",
+   "summary_md": "## 배경\n인공지능은 당뇨병 진료의 임상 의사결정, 위험 예측, 자가관리를 개선할 잠재력이 있다는 근거가 쌓이고 있다. 그러나 실제로 이를 사용하고 도입해야 하는 사람들의 경험과 기대, 우려는 충분히 종합된 적이 없었다.\n\n## 방법\n연구진은 메드라인, 웹오브사이언스, 스코퍼스, 시나올, 사이크인포 등 5개 데이터베이스를 2026년 2월 17일까지 검색했다. 당뇨병 관리·자가관리·임상의사결정지원·합병증 예방에 쓰이는 인공지능 도구에 대한 성인 환자, 보호자, 의료전문가, 관리자의 관점을 다룬 질적 연구를 대상으로 했다. 영상 기반 진단만 다루거나 인공지능 요소가 불분명한 연구는 제외했다. 두 명의 연구자가 독립적으로 선별·추출했고, JBI 체크리스트와 CAMELOT으로 방법론적 한계를, GRADE-CERQual로 근거 확신도를 평가했으며 주제적 종합을 수행했다.\n\n## 결과\n2023년부터 2025년 사이 발표된 14편, 9개국 최소 738명이 포함됐다. 참여자는 1형·2형 당뇨병 환자, 가족 돌봄자, 의사, 간호사, 전문의, 관리자였고, 대상 기술은 거대언어모델, 인공지능 기반 앱과 웨어러블, 혈당 예측 시스템, 임상의사결정지원 도구였다. 4개 분석 주제와 13개 하위 주제가 도출됐다. 긍정적 인식은 예방적·개별화된 진료, 교육, 자가관리, 의사결정 지원이었고, 우려는 정확성, 편향, 프라이버시, 책임 소재, 업무량 증가, 돌봄 부담, 전문가 자율성 상실, 인간 중심 진료의 훼손이었다. 11개 결과는 높은 확신도, 2개는 중간 확신도로 평가됐다.\n\n## 시사점\n이해관계자들이 유용성을 인정했다고 해서 임상적 효과나 안전성, 환자 결과 개선이 입증된 것은 아니다. 다수 연구가 프로토타입이나 가상 시나리오에 의존했다는 한계도 있다. 도입 시에는 투명한 설계, 임상 검증, 데이터 거버넌스, 인간의 감독, 맞춤형 교육을 우선하면서 전문가의 판단과 사람 중심 관계를 지켜야 한다."
+  },
+  {
+   "id": "doi-10-2196-92493",
+   "title": "Timed Up-and-Go Test Using Instrumented Insoles to Monitor Tibial or Malleolar Fracture Healing in Patients With Healing Fractures or Nonunion: Longitudinal and Cross-Sectional Exploratory Study",
+   "year": "2026",
+   "pub_date": "2026-09-21",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Warmerdam E, Burger LM, Ganse B.",
+   "affiliation": "Innovative Implant Development (Fracture Healing), Departments and Institutes of Surgery, Saarland University, Kirrberger Str. 100, Building 57, Homburg, Saarland, 66421, Germany, +49 68411631570",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/92493",
+   "has_audio": true,
+   "title_ko": "치유 중 골절 또는 불유합 환자에서 계측형 인솔을 활용한 일어나 걸어가기 검사로 경골 및 복사뼈 골절 치유를 모니터링하기: 종단적·횡단적 탐색 연구",
+   "one_liner": "압력감지 인솔 일어나 걸어가기 검사가 골절 불유합 위험을 조기에 가려낸다",
+   "summary_md": "## 배경\n일어나 걸어가기 검사는 의자에서 일어나 3미터를 걸어 돌아와 다시 앉는 시간을 재는 대표적 기능 검사다. 여기에 센서를 붙이면 단순 소요 시간을 넘어선 추가 지표를 얻을 수 있고, 압력감지 인솔은 가장 유망한 웨어러블 후보로 꼽힌다.\n\n## 방법\n경골 또는 복사뼈 골절 환자 27명, 비슷한 수의 건강한 성인, 그리고 불유합으로 치료에 의뢰된 환자 9명이 참여했다. 골절 환자는 수술 후 6주, 3개월, 6개월에 종단적으로 측정했고, 불유합 환자는 수술 후 6개월 시점에 횡단적으로 비교했다. 검사는 영상으로 구간별 시간을 측정하는 기존 방식과, 인솔에서 얻은 일어설 때와 앉을 때의 최대 힘, 보행 중 접지 시간과 활보 시간, 그리고 이들의 좌우 비대칭을 함께 분석했다.\n\n## 결과\n모든 검사 지표는 치유 과정에 걸쳐 유의하게 개선됐다. 수술 후 6개월 시점에 불유합 환자는 유합 환자보다 여러 지표에서 유의하게 나빴다(P=.004, .01, .03, .002). 인솔 기반 추가 지표에서는 6개월 시점에도 환자의 부상측 하중이 일어서기와 앉기 동작 모두에서 건강 대조군보다 유의하게 낮았다.\n\n## 시사점\n기능적 결과 지표가 불유합 위험군을 선별하는 도구가 될 수 있음을 시사한다. 인솔은 일상 신발에 넣을 수 있어 임상 현장 부담이 적고, 시간만 재던 검사를 좌우 하중 균형까지 보는 검사로 확장한다. 다만 표본이 작고 탐색적 연구이므로 추가 과제와 지표에 대한 후속 검증이 필요하다."
+  },
+  {
+   "id": "doi-10-2196-95923",
+   "title": "Effects of Telerehabilitation With Exercise as the Core Component on Peak Oxygen Uptake and Blood Pressure in Patients With Cardiovascular Disease: Systematic Review and Meta-Analysis",
+   "year": "2026",
+   "pub_date": "2026-09-21",
+   "journal": "Journal of medical Internet research",
+   "authors": "Zhu Z, Fan Y, Tang Z, Song N, Mao Y, Zhu Z.",
+   "affiliation": "Institute of Physical Education, Xinyu University, No. 2666 Sunshine Road, Xinyu, Jiangxi, 338004, China, 86 15679002091",
+   "topics": [
+    "웨어러블",
+    "당뇨",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/95923",
+   "has_audio": true,
+   "title_ko": "운동을 핵심 요소로 한 원격재활이 심혈관질환 환자의 최대산소섭취량과 혈압에 미치는 효과: 체계적 문헌고찰 및 메타분석",
+   "one_liner": "운동 중심 원격재활, 심폐체력은 올리지만 혈압 강하 효과는 근거 부족",
+   "summary_md": "## 배경\n심혈관질환은 여전히 전 세계 사망 원인 1위이며, 운동 기반 심장재활은 심폐체력을 높이고 재발을 줄인다. 그러나 병원 중심 재활은 접근성 제약이 크다. 원격재활이 대안으로 떠올랐지만, 기존 연구들은 운동을 건강교육·식이상담·심리지원과 한 묶음으로 다뤄 운동 자체의 기여를 분리하기 어려웠다.\n\n## 방법\nPRISMA 2020과 PRISMA-S 지침에 따라 PubMed, Cochrane Library, Web of Science, Embase, MEDLINE을 2026년 3월 20일까지 검색했다. 운동을 핵심 치료 요소로 한 원격재활과 통상 치료를 비교한 무작위 대조시험 13편, 총 958명을 포함했다. 편향 위험은 RoB 2로, 근거 확실성은 GRADE로 평가했으며, Hartung-Knapp-Sidik-Jonkman 방식의 변량효과 메타분석과 5가지 디지털 헬스 차원에 대한 메타회귀·하위군 분석을 수행했다.\n\n## 결과\n최대산소섭취량은 평균 2.58 mL/kg/min 증가했다(95% 신뢰구간 1.16~4.00, P=.003, I²=74.45%). 다만 95% 예측구간은 -1.28~6.44로 0을 포함해 모든 임상 현장에서 재현되지는 않을 수 있다. 수축기혈압은 -1.80 mmHg(P=.42), 이완기혈압은 -2.00 mmHg(P=.11)로 유의한 효과가 없었다. 5가지 조절변수 모두 이질성의 유의한 원인이 아니었으나, 스마트폰·모바일 헬스 전달과 전문가 주도 지도에서 더 크고 균일한 효과가 관찰됐다. Egger 검정 P=.03으로 소규모 연구 편향이 시사되며, GRADE 확실성은 모든 결과에서 매우 낮았다.\n\n## 시사점\n운동 중심 원격재활은 심폐체력 개선 수단으로는 유망하지만 항고혈압 효과의 근거는 빈약하다. 병원 재활에 접근할 수 없는 환자를 위한 환자 중심 대안으로 고려해야 하며, 일률적인 동등 대체물로 보기는 어렵다. 향후 운동 요소를 분리한 시험과 고혈압 코호트 연구, 표준화된 디지털 헬스 보고가 필요하다."
+  },
+  {
+   "id": "doi-10-2196-84076",
+   "title": "The Usage Effects, Effect Modifiers, and Experiences of a Web-Based App for Healthy Habit Formation in Adults: Exploratory Analysis of a Quasi-Experimental Real-World Intervention",
+   "year": "2026",
+   "pub_date": "2026-09-21",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Rantala E, Valtanen M, Umer A, Parikka S, Pihlajamäki J, Ruotsalainen I, Lindström J.",
+   "affiliation": "Department of Public Health, Finnish Institute for Health and Welfare, P.O. Box 30, Helsinki, 00271, Finland, 358 (0)29 524 7224",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/84076",
+   "has_audio": true,
+   "title_ko": "성인의 건강 습관 형성을 지원하는 웹 기반 앱의 사용 효과, 효과 조절 요인 및 사용 경험: 준실험적 실제 환경 중재의 탐색적 분석",
+   "one_liner": "앱을 자주 쓴 사람만 신체활동과 식사 질이 소폭 개선됐다",
+   "summary_md": "## 배경\n디지털 중재는 건강한 생활습관을 확산시킬 확장성 있는 수단이지만, 대규모 실제 환경에서의 효과와 효과 조절 요인 근거는 부족하다. 특히 '습관 형성'을 표적으로 한 디지털 중재의 근거는 더욱 드물다.\n\n## 방법\n핀란드 인구기반 Healthy Finland 설문 참여자(20~74세) 중 일부에게 문자 또는 우편으로 3개월간 웹 앱 접근권을 제공했다. 앱은 근거 기반 생활습관 지침을 단순·반복 가능한 행동(습관)으로 바꿔 개인화 제안하고, 사용자가 습관을 선택·수행 보고·모니터링하도록 했다. 앱 로그 데이터, 기저·45일·90일 설문, 국가 인구등록 정보를 선형 혼합효과모형으로 분석했다.\n\n## 결과\n초청 6975명 중 1282명(18.4%)이 수락, 382명(5.5%, 평균 51세, 여성 69%)이 분석에 필요한 자료를 완료했다. 90일간 앱 사용일 비율 중위값은 5.9%(사분위 3.3~11%), 보고된 습관 수행 횟수는 22회(사분위 3~68.5)에 그쳤다. 사용일 비율이 10퍼센트포인트 높을 때 신체활동은 주당 3.09 MET-시간 더 증가(95% 신뢰구간 0.79~5.39), 수행 보고 횟수의 로그값 1단위 증가는 건강식이지수 0.51점 더 개선(0.07~0.95)과 연관됐다. BMI 등 나머지 연관성은 유의하지 않았다. 기저 신체활동이 많고 전자서비스에 긍정적인 사람에서 효과가 더 컸다.\n\n## 시사점\n저비용·저강도 디지털 습관 지원은 작지만 유익한 변화를 만들 수 있으나, 효과는 참여도에 달려 있고 개인차가 크다. 누가 이득을 볼지 선별하는 연구와 더 엄격한 설계의 확증이 필요하다."
+  },
   {
    "id": "doi-10-1002-oby-70284",
    "title": "Impact of Dietetic Counseling Combined With Digital Tools on Obesity-Related Indices in Greek Adults: The GATEKEEPER Study",
@@ -64,7 +134,27 @@
     "운동"
    ],
    "url": "https://doi.org/10.2196/91065",
-   "has_audio": false
+   "has_audio": true,
+   "title_ko": "알코올 사용장애 환자를 위한 가상 상담원 기반 디지털 치료(에코 앱 2.0)의 효과: 무작위 대조 시험",
+   "one_liner": "가상 상담원 앱이 퇴원 후 음주 갈망 상승을 눌러줬다",
+   "summary_md": "## 배경\n알코올 사용장애 치료에서 글자만 주고받는 디지털 개입은 참여 유지가 어렵습니다. 연구팀은 대화 트리로 작동하는 가상 상담원을 넣은 에코 앱 2.0을 만들어, 표준치료 단독과 비교했습니다.\n\n## 방법\n중국 푸양 제3인민병원에서 2023년 4월부터 12월까지 진행된 2군 무작위 대조 시험입니다. 18~55세 알코올 사용장애 환자 93명을 개입군 47명, 대조군 46명으로 난수표 배정했고, 평가자와 분석자는 배정을 몰랐습니다. 개입군은 4주간 회당 30~45분의 인지행동치료 세션 10회를 앱으로 받았습니다. 두 군 모두 약물, 하루 30분 운동, 심리교육을 포함한 표준치료를 받았습니다. 주요 결과는 시각통증척도로 측정한 갈망 변화로, 기저치와 4주, 퇴원 1개월, 퇴원 3개월 시점에 평가했습니다.\n\n## 결과\n갈망은 두 군 모두 퇴원 후 올라갔지만, 개입군의 상승폭이 유의하게 작았습니다. 퇴원 1개월 베타 -1.81, 3개월 베타 -1.97로 각각 p=.03, p=.02였습니다. 퇴원 1개월 재발률도 개입군이 낮았으나(카이제곱 4.09, p=.04) 결측치 가정에 민감했고, 3개월에는 차이가 없었습니다(p=.86). 수면의 질은 4주 시점에 베타 -3.28로 더 크게 개선됐습니다. 스트레스 지각 척도 변화도 갈망 변화를 예측했고, 이상반응은 보고되지 않았습니다.\n\n## 시사점\n가상 상담원 앱은 퇴원 직후의 갈망 급증을 완충하는 안전한 보조수단이 될 수 있습니다. 다만 효과가 3개월까지 유지되지 않았으므로, 퇴원 후에도 개입을 이어가는 연장 전략과 스트레스 관리를 함께 설계해야 합니다."
+  },
+  {
+   "id": "doi-10-2196-90168",
+   "title": "Perceptions of Technology and Digital Health Tools Among Recently Incarcerated Adults With Opioid Use Disorder: Semistructured Interview Study",
+   "year": "2026",
+   "pub_date": "2026-09-17",
+   "journal": "Journal of medical Internet research",
+   "authors": "Satcher MF, Saunders EC, Bell KD, Moore SK, Lee JD, Marsch LA.",
+   "affiliation": "Department of Community & Family Medicine, Dartmouth Health, 1 Medical Center Drive, Lebanon, NH, United States, 1 603-646-7014",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/90168",
+   "has_audio": true,
+   "title_ko": "오피오이드 사용장애가 있는 출소 직후 성인들의 기술 및 디지털 헬스 도구에 대한 인식: 반구조화 면담 연구",
+   "one_liner": "출소자 대부분이 디지털 진료를 선호하지만 대면 인간관계는 대체 불가라 답했다",
+   "summary_md": "## 배경\n오피오이드 사용장애를 가진 사람이 교정시설에서 지역사회로 돌아오는 시기는 약물 과용량 사망 위험이 가장 높은 구간입니다. 의료 접근성, 사회적 지지, 정착 자원이 모두 부족하기 때문입니다. 디지털 헬스 도구는 중독 치료와 회복 지원에 효과를 보여왔지만, 이 고위험 재진입 시기에 어떤 역할을 할 수 있는지는 거의 연구되지 않았습니다.\n\n## 방법\n미국 뉴햄프셔주 교도소와 구치소에서 최근 출석한 성인 39명을 목적 표집해 반구조화 면담을 진행했습니다. 참여자는 서방형 부프레노르핀, 날트렉손, 강화된 통상치료의 치료 유지율을 비교하는 무작위 임상시험 EXIT-CJS 참가자 중에서 모집했습니다. 면담은 녹음·전사 후 연역·귀납 혼합 내용분석으로 분석했고, 질적연구 보고 기준인 COREQ를 따랐습니다.\n\n## 결과\n대다수 참여자는 오피오이드 치료와 일반 진료 모두에서 대면보다 디지털 진료를 선호했습니다. 이유는 편의성과 재진입 과정의 혼란에 잘 견딘다는 점이었습니다. 동시에 대다수가 회복에서 대면으로 형성되는 치료적 인간관계는 대체할 수 없다고 강조하며, 이를 디지털 단독 진료의 트레이드오프로 인식했습니다. 참여자들은 교통수단 부족, 의료진 부족, 근무시간 충돌처럼 원래라면 진료를 막았을 장벽을 디지털 도구로 넘었다고 설명했습니다. 단 이는 인터넷 기기 보유, 감당 가능한 통신비, 디지털 문해력이 있어야 가능한 일이었습니다.\n\n## 시사점\n재진입기에 디지털 헬스의 효과를 극대화하려면 다면적 접근이 필요합니다. 정보격차를 메우는 인프라 투자, 진료 접근을 막는 상위 구조적 장벽 해소, 그리고 당사자와 함께 설계하는 혼합형 진료 모델입니다. 편의성과 인간적 연결을 모두 담고 환자 선호를 존중하는 설계가 핵심입니다."
   },
   {
    "id": "doi-10-2196-93494",
