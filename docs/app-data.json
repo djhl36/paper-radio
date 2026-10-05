@@ -1,6 +1,165 @@
 {
- "generated": "2026-09-28 13:39",
+ "generated": "2026-10-05 13:25",
  "papers": [
+  {
+   "id": "doi-10-2196-95863",
+   "title": "Reporting Gaps in mHealth Intervention Studies for Adults With Diabetes: Systematic Review",
+   "year": "2026",
+   "pub_date": "2026-10-01",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Yue X, Shen J, Peng J, Huang X, Hu M, Hu X.",
+   "affiliation": "Xiangya School of Nursing, Central South University, Changsha, Hunan, China",
+   "topics": [
+    "웨어러블",
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/95863",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2337-dc25-1693",
+   "title": "Diagnostic Tools to Establish the Presence of Peripheral Arterial Disease in People With Diabetes (DMPAD): A Multicenter Comparative Diagnostic Accuracy Study",
+   "year": "2026",
+   "pub_date": "2026-10-01",
+   "journal": "Diabetes care",
+   "authors": "Normahani P, Burgess L, Graham C, Norrie J, Epstein DM, Kandiyil N, Saratzis A, Heatley F, Smith S, Khunti K, Wingfield D, Branca Morim M, Coward T, Hartshorne T, Ashwell S, Shalhoub J, Pigott E, Jaffer U, Davies AH, DMPAD (Diagnostic Tools to Establish the Presence of Peripheral Arterial Disease in People With Diabetes) Study Investigators.",
+   "affiliation": "Department of Surgery and Cancer, Imperial College London, London, U.K",
+   "topics": [
+    "당뇨",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2337/dc25-1693",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-96371",
+   "title": "Digital and Out-of-Facility Care-Seeking Pathways After Acute Respiratory Infection Symptoms in China: Multicity Population-Based Cross-Sectional Study",
+   "year": "2026",
+   "pub_date": "2026-09-30",
+   "journal": "Journal of medical Internet research",
+   "authors": "Zhang T, Cui J, Zhang C, Zhang X, Chi Y, Huo D, Lai S, Yu J, Yang Y, Li Z, Yang W.",
+   "affiliation": "School of Population Medicine and Public Health, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/96371",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-91724",
+   "title": "Noninvasive Interstitial Glucose Estimation Using Wearables and Machine Learning in Healthy Individuals and Individuals With Obesity: Observational Cohort Study",
+   "year": "2026",
+   "pub_date": "2026-09-30",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Schmelter F, Huang X, Heidmann A, Beier P, Rundfeldt FM, Plöger C, Piet A, Hasan MA, Zhang Y, Jablonski L, Witt O, Schröder T, Derer S, Easthope Awai C, Grzegorzek M, Sina C.",
+   "affiliation": "Institute of Nutritional Medicine, University of Luebeck, Ratzeburger Allee 160, Luebeck, Schleswig-Holstein, Germany, 49 451 3101 ext 8422",
+   "topics": [
+    "웨어러블",
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/91724",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-90115",
+   "title": "Behavior Change and Compliance Outcomes of a Novel Web-Based Health Behavior Tool Integrated Into Certified Exercise Practitioner Services: Twelve-Week, Two-Arm, Randomized Pre-Post Trial",
+   "year": "2026",
+   "pub_date": "2026-09-30",
+   "journal": "Journal of medical Internet research",
+   "authors": "Davison K, Mezzini A, Harten N, Martin M, Lowrey D, Evans H, Onuzans J, Bastian W, Howard RS, Gower B.",
+   "affiliation": "Alliance for Research in Exercise, Nutrition and Activity, School of Allied Health and Human Performance, College of Health, Adelaide University, Adelaide, South Australia, Australia",
+   "topics": [
+    "당뇨",
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/90115",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-87527",
+   "title": "Impact of Digital Contact Tracing and Other Nonpharmaceutical Interventions on Pandemic Control: Microlevel, Behavior-Driven Agent-Based Model Analysis",
+   "year": "2026",
+   "pub_date": "2026-09-30",
+   "journal": "Journal of medical Internet research",
+   "authors": "Lopera Gonzalez LI, Köber G, Kirchner G, Benzler J, Amft O.",
+   "affiliation": "Chair of Digital Health, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/87527",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-92348",
+   "title": "Smartphone-Based Passive Sensing of Activity Levels and Behavioral Activation During Psychosocial Interventions for Older Adults With Depression: Longitudinal Observational Study",
+   "year": "2026",
+   "pub_date": "2026-09-30",
+   "journal": "Journal of medical Internet research",
+   "authors": "Kim S, Bein O, Carter E, Zhang H, Diaz JL, Yu Z, Marino P, Sirey JA, Kiosses D, Alexopoulos G, Solomonov N, Banerjee S.",
+   "affiliation": "Department of Population Health Sciences, Weill Cornell Medicine, 425 E 61st St, Dv319, New York, NY, 10065-6304, United States, 1 347-267-6424",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/92348",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-112911",
+   "title": "Smart Textiles Tackle Wound Healing, Climate Adaptation, and Reproductive Health",
+   "year": "2026",
+   "pub_date": "2026-09-29",
+   "journal": "Journal of medical Internet research",
+   "authors": "Gewin V.",
+   "affiliation": "",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/112911",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-112910",
+   "title": "Closing Treatment Gaps for Polyendocrine Metabolic Ovarian Syndrome in India",
+   "year": "2026",
+   "pub_date": "2026-09-29",
+   "journal": "Journal of medical Internet research",
+   "authors": "Thampi B.",
+   "affiliation": "",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/112910",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-90970",
+   "title": "Incremental Value of Smartphone Sensing for Monitoring Momentary Affect Intensity in Adults Using Transformer-Based Models: Observational Study",
+   "year": "2026",
+   "pub_date": "2026-09-28",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Zhu Y, Yang Y, Thompson RJ.",
+   "affiliation": "Department of Psychological and Brain Sciences, Washington University in St. Louis, 1 Brookings Drive, CB 1125, St. Louis, MO, 63130, United States, +1-314-935-3502",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/90970",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-79512",
+   "title": "A Cardiovascular Care Pathway Supported by Remote Patient Management in Dutch Primary Care: Cost-Effectiveness, Budget Impact, and Workload Analysis",
+   "year": "2026",
+   "pub_date": "2026-09-28",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Heijdra Suasnabar J, Rakers M, van Hattem N, Hiddink E, Haas M, Zhang X, Atsma D, Bonten TN, van den Akker-van Marle ME, van Os HJA.",
+   "affiliation": "Section of Medical Decision Making, Biomedical Data Science, Leiden University Medical Center, Albinusdreef 2, Leiden, 2333 ZB, The Netherlands, 31 71 526 45 74",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/79512",
+   "has_audio": false
+  },
   {
    "id": "doi-10-2196-105329",
    "title": "Stakeholder Perspectives on the Integration of AI in Diabetes Care: Systematic Review of Qualitative Studies",
@@ -80,7 +239,10 @@
    "authors": "Makri R, Evangelou I, Karaglani E, Vlachava M, Dafoulas GE, Drympeta I, Votis K, Georga EI, Fotiadis DI, Lupiáñez-Villanueva F, Folkvord F, Pecchia L, Fico G, Panagiotakos D, Androutsos O, Manios Y, GATEKEEPER study (Greek Use Case 1) group.",
    "affiliation": "Department of Nutrition and Dietetics, School of Health Science and Education, Harokopio University, Athens, Greece",
    "topics": [
-    "비만"
+    "비만",
+    "웨어러블",
+    "당뇨",
+    "운동"
    ],
    "url": "https://doi.org/10.1002/oby.70284",
    "has_audio": true,
@@ -883,6 +1045,22 @@
    "title_ko": "웨어러블 반사형 광용적맥파 측정의 기계적 접촉 조건에 관한 스코핑 리뷰",
    "one_liner": "손목 센서를 누르는 힘이 심박·산소포화도 측정 정확도를 좌우한다",
    "summary_md": "## 배경\n심혈관 질환은 여전히 세계적인 건강 부담이며, 장기 생체신호 모니터링의 필요성이 커지고 있다. 광용적맥파, 즉 피피지는 스마트워치 등 웨어러블에서 심박수, 심박 리듬, 산소포화도를 비침습적으로 측정하는 핵심 기술이다. 그러나 반사형 피피지의 신뢰도는 센서와 피부 사이의 접촉력과 접촉압력에 크게 좌우된다.\n\n## 방법\n펍메드, 아이트리플이 엑스플로어, 스코퍼스, 웹오브사이언스 코어 컬렉션을 데이터베이스 개설 시점부터 2026년 6월 1일까지 검색했다. 엔드노트로 중복을 제거하고 참고문헌 목록 스크리닝을 추가했다. 53편을 원문 확보 대상으로 삼아 1편은 확보 실패, 52편을 전문 평가했고 최종 21편이 선정 기준을 충족했다.\n\n## 결과\n포함된 21편은 이질성이 컸다. 표본 크기는 참가자 1명 실험부터 손목 피피지 데이터셋 1142명까지 분포했다. 대부분 건강한 자원자를 모집했고, 일부는 공개 데이터셋이나 조직-혈관 팬텀을 사용했으며, 1편은 이론 모델링과 인체 검증을 결합했다. 접촉 조건 변화는 교류 및 직류 성분, 진폭과 형태 관련 특징, 미분 기반 지표, 파장 의존적 반응, 기준점 검출에 영향을 주었다. 하위 과제로는 심박수, 산소포화도, 맥파 전달·도달 시간, 혈압 추정, 심박변이도가 다뤄졌다.\n\n## 시사점\n센서-피부 계면의 기계적 조건이 신호 특성, 파생 특징, 나아가 생리 지표 추정으로 이어지는 다층 경로가 확인되었다. 다만 소규모 표본, 단기 통제 프로토콜, 단위·접촉 면적·프로브 형상 등 기계적 파라미터 보고의 비일관성이 한계다. 향후 접촉 조건과 기기 형상의 표준화된 보고, 실생활 검증, 힘을 인지하는 신호품질 평가 알고리즘, 적응형 부착 설계가 필요하다."
+  },
+  {
+   "id": "doi-10-1002-oby-70290",
+   "title": "Trends of Obesity in Early Adulthood and Later Adulthood Across 196 Countries and Territories, 1990-2022",
+   "year": "2026",
+   "pub_date": "2026-08-23",
+   "journal": "Obesity (Silver Spring, Md.)",
+   "authors": "Ali AM, Giovannucci E, Liu JJ.",
+   "affiliation": "International Health Program, National Yang Ming Chiao Tung University, Taipei, Taiwan",
+   "topics": [
+    "당뇨",
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.1002/oby.70290",
+   "has_audio": false
   },
   {
    "id": "doi-10-1177-15209156261481005",
