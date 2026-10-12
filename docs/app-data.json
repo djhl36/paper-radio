@@ -1,6 +1,20 @@
 {
- "generated": "2026-10-05 13:25",
+ "generated": "2026-10-12 13:12",
  "papers": [
+  {
+   "id": "doi-10-2196-87781",
+   "title": "Periodontitis Risk Assessment and Prevention Planning: Comparative Study of Multimodal Large Language Models and Periodontist Evaluations",
+   "year": "2026",
+   "pub_date": "2026-10-02",
+   "journal": "Journal of medical Internet research",
+   "authors": "Swinckels L, Alves Rabelo K, Delamare EL, Loos BG, Lahoud P, Bijwaard H, de Keijzer A, Kim J, Bruers J.",
+   "affiliation": "Department of Oral Public Health, Academic Center for Dentistry Amsterdam, Gustav Mahlerplein 3004, Amsterdam, North Holland, 1182 DB, The Netherlands, 31 020 59 80888",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/87781",
+   "has_audio": false
+  },
   {
    "id": "doi-10-2196-95863",
    "title": "Reporting Gaps in mHealth Intervention Studies for Adults With Diabetes: Systematic Review",
@@ -161,6 +175,20 @@
    "has_audio": false
   },
   {
+   "id": "doi-10-2196-101150",
+   "title": "Digital Behavior Change Interventions for Digital Overuse: Scoping Review of Current Approaches and Emerging AI-Enabled Systems",
+   "year": "2026",
+   "pub_date": "2026-09-23",
+   "journal": "Journal of medical Internet research",
+   "authors": "Kim H, Kim S, Kim J, Park S.",
+   "affiliation": "Department of Industrial Data Engineering, Hanyang University, Seoul, Republic of Korea",
+   "topics": [
+    "JITAI"
+   ],
+   "url": "https://doi.org/10.2196/101150",
+   "has_audio": false
+  },
+  {
    "id": "doi-10-2196-105329",
    "title": "Stakeholder Perspectives on the Integration of AI in Diabetes Care: Systematic Review of Qualitative Studies",
    "year": "2026",
@@ -249,6 +277,20 @@
    "title_ko": "식이 상담과 디지털 도구 병행이 그리스 성인의 비만 관련 지표에 미치는 영향: 게이트키퍼 연구",
    "one_liner": "영양 상담은 효과적이었지만 디지털 도구 추가는 체중 감량에 도움이 안 됐다",
    "summary_md": "## 배경\n대사증후군 위험이 높은 55세 이상 성인에게 영양사 상담에 웹 플랫폼과 디지털 기기를 더하면 비만·대사 지표가 더 좋아질까? 그리스 게이트키퍼 연구가 이를 검증했다.\n\n## 방법\n대사증후군 위험인자를 1개 이상 가진 55세 이상 성인 984명을 3개월간 1대 1대 1로 무작위 배정했다. 표준 관리(월 1회 영양 상담), 표준 관리+웹 플랫폼, 표준 관리+플랫폼+디지털 기기 세 군으로 나눠 954명을 분석했으며, 나이와 성별을 보정한 선형혼합모형을 사용했다. 1차 지표는 허리둘레 변화였다.\n\n## 결과\n허리둘레는 세 군 모두 감소했다(각각 -6.29, -4.92, -4.69cm). 다만 플랫폼군(평균차 -1.38cm, 95% 신뢰구간 -2.37~-0.38)과 플랫폼+기기군(-1.61cm, -2.61~-0.60)의 감소폭이 오히려 더 작았다. 체질량지수, 체성분, 혈당 지표는 군 간 차이 없이 비슷하게 개선됐다. 신체활동만 플랫폼+기기군에서 주당 55.52 MET-분 더 늘었다.\n\n## 시사점\n대면 영양 상담 자체가 강력한 중재였고, 디지털 도구는 신체활동을 북돋우는 보조 역할에 그쳤다. 단기 대사 개선에서 기술이 상담을 대체하거나 증폭하지 못한다는 점은 디지털 헬스 설계에 중요한 시사점을 준다."
+  },
+  {
+   "id": "doi-10-2196-64278",
+   "title": "Engagement With a Relaxation-Based Mobile Health Intervention for Perioperative Anxiety: Prospective Longitudinal Cohort Mixed Methods Study",
+   "year": "2026",
+   "pub_date": "2026-09-18",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Yan X, Hassett AL, Waljee JF, Newman MW, Park SY, Bei R, Carlozzi NE.",
+   "affiliation": "School of Information, University of Michigan, Ann Arbor, MI, United States",
+   "topics": [
+    "JITAI"
+   ],
+   "url": "https://doi.org/10.2196/64278",
+   "has_audio": false
   },
   {
    "id": "doi-10-2196-104092",
