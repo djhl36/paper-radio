@@ -1,6 +1,65 @@
 {
- "generated": "2026-10-12 13:12",
+ "generated": "2026-10-19 16:16",
  "papers": [
+  {
+   "id": "doi-10-2196-88919",
+   "title": "Integration of Ecological Momentary Assessment and Intervention With Wearable-Based Digital Phenotypes to Treat Anxiety in Young Adults: Mixed Methods Experimental Study",
+   "year": "2026",
+   "pub_date": "2026-10-08",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Song H, Choi Y, Park J, Hwang H, Kim J, Park C.",
+   "affiliation": "HAII Corp, Jongno-gu, Republic of Korea",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/88919",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-95903",
+   "title": "Effects of Digital Health Interventions in Chronic Musculoskeletal Pain: Systematic Review and Bayesian Network Meta-Analysis of Randomized Controlled Trials",
+   "year": "2026",
+   "pub_date": "2026-10-07",
+   "journal": "Journal of medical Internet research",
+   "authors": "Wang X, Jing W, Li Y, Li H, Li J, Liu Y, Yuan S.",
+   "affiliation": "Teaching and Research Section of Clinical Nursing, Xiangya Hospital Central South University, Xiangya Hospital, Central South University, Changsha, Hunan, 410008, China, 86 13873158943, 86 13873158943",
+   "topics": [
+    "웨어러블",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/95903",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-95977",
+   "title": "Google Places API-Based US Built Environment Retail (UBER) Index and Its Spatial Association With Diabetes Prevalence Across US Counties: Cross-Sectional Ecological Study",
+   "year": "2026",
+   "pub_date": "2026-10-07",
+   "journal": "Journal of medical Internet research",
+   "authors": "Bhagavathula AS, Williams MA.",
+   "affiliation": "Public Health Program, School of Health Systems & Innovation, College of Health and Human Sciences, North Dakota State University, NDSU Dept 2662, Fargo, ND, 58102, United States, 1 701-231-6549",
+   "topics": [
+    "당뇨",
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/95977",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-1249-mss-0000000000004165",
+   "title": "Effects of Real-Time Visual Feedback on Performance and Motivation in Recreational Swimmers: A Randomized Controlled Trial",
+   "year": "2026",
+   "pub_date": "2026-10-06",
+   "journal": "Medicine and science in sports and exercise",
+   "authors": "Eisenhardt D, Kits A, Madeleine P, Samani A, Clarke DC, Kristiansen M.",
+   "affiliation": "ExerciseTech, Department of Health Science and Technology, Gistrup, Aalborg University, DENMARK",
+   "topics": [
+    "웨어러블",
+    "운동"
+   ],
+   "url": "https://doi.org/10.1249/mss.0000000000004165",
+   "has_audio": false
+  },
   {
    "id": "doi-10-2196-87781",
    "title": "Periodontitis Risk Assessment and Prevention Planning: Comparative Study of Multimodal Large Language Models and Periodontist Evaluations",
