@@ -1,6 +1,208 @@
 {
- "generated": "2026-10-19 16:16",
+ "generated": "2026-10-26 12:07",
  "papers": [
+  {
+   "id": "doi-10-2196-103569",
+   "title": "The Impact of Telemedicine Interventions on Maternal and Fetal Outcomes in Women With Gestational Diabetes: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "year": "2026",
+   "pub_date": "2026-10-23",
+   "journal": "Journal of medical Internet research",
+   "authors": "He H, Deng J, Liu J, Xu X, Chen J, Liu L, Zhang H, Wang F.",
+   "affiliation": "School of Nursing, Chengdu University of Traditional Chinese Medicine, No. 37, Shierqiao Road, Chengdu, Sichuan, China",
+   "topics": [
+    "웨어러블",
+    "당뇨",
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/103569",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-103706",
+   "title": "Data-Rich But Integration-Poor Human Trials: Conceptual Framework for Closing the AI Transformation Gap in Dietary Intervention and Cosmetic Human Trials",
+   "year": "2026",
+   "pub_date": "2026-10-23",
+   "journal": "Journal of medical Internet research",
+   "authors": "Lee S, Lee S, Lee S, Yoo H, Cho JM.",
+   "affiliation": "Department of Software, Daegu Haany University, Gyeongsan-si, Gyeongsangbuk-do, Republic of Korea",
+   "topics": [
+    "웨어러블",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/103706",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-91058",
+   "title": "Evaluation of a Clinical Protocol-Guided Chatbot to Support Telecarers in Diabetes Management: Embedded Mixed Methods Study",
+   "year": "2026",
+   "pub_date": "2026-10-23",
+   "journal": "Journal of medical Internet research",
+   "authors": "Ong RHS, Oh HC, Choo BP, Tan LZA, Gunn MHW, Ng JW, Teng ACC, Ong SYB, Ng AHK, Soo WYL, Lee YC, Sarim HB, Lee GC, Ibrahim JB, Kae KMY, Wu J, Liu Z, Erdt M, Md Salleh SU, Ahmad Subaidi SMB, Yusof SB, Md Johan NB, Ramdas K, Ang JS, Tay QY, Bee YM, Chen NF, Krishnaswamy P, Khoo JJC.",
+   "affiliation": "Health Services Research, Changi General Hospital, 2 Simei St 3, 529889, Singapore, 65 7888833",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/91058",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-1177-15209156261499152",
+   "title": "Continuous Glucose Monitoring Methods Evaluation and Recommendations for Reporting Guidelines",
+   "year": "2026",
+   "pub_date": "2026-10-22",
+   "journal": "Diabetes technology & therapeutics",
+   "authors": "DuNova AY, Rand CM, Shao MM, Scheideman AF, Ho CN, Ayers AT, Nguyen KT, Williams E, Shah SN, Klonoff DC, Espinoza JC.",
+   "affiliation": "Diabetes Technology Society, Burlingame, California, USA",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.1177/15209156261499152",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-93641",
+   "title": "The Role of Measurement in Identifying High-Intensity Secure Message Senders Among Older Adults: Observational Study",
+   "year": "2026",
+   "pub_date": "2026-10-21",
+   "journal": "Journal of medical Internet research",
+   "authors": "Wec A, Seale Reiff J, Gleason KT, Fabius CD, McGready J, Wolff JL.",
+   "affiliation": "Division of General Internal Medicine, Icahn School of Medicine at Mount Sinai, One Gustave L. Levy Place, Box 1087, New York, NY, 10029, United States, 1 908-899-3882",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/93641",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-99367",
+   "title": "A Typology of Moderator Practices and Community Guidelines in Online Mental Health Communities to Establish a Framework for Digital Safety: Systematized Review",
+   "year": "2026",
+   "pub_date": "2026-10-21",
+   "journal": "Journal of medical Internet research",
+   "authors": "Charles A, Rennick-Egglestone S, Fortuna KL, Coulson N, Bjerrum Moeller S, Geeleher M, Harrison J, Holden M, Slade M, Ng F.",
+   "affiliation": "School of Health Sciences, Institute of Mental Health, University of Nottingham, Innovation Park Triumph Road, Nottingham, NG7 2TU, United Kingdom, 44 0115 823 1294",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/99367",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-97371",
+   "title": "Conditions and Pathways for Integrating Smart Care Robots Into Long-Term Care Facilities: Qualitative Study From Nursing Assistants' Perspectives",
+   "year": "2026",
+   "pub_date": "2026-10-21",
+   "journal": "Journal of medical Internet research",
+   "authors": "An Y, Zhang F, Yang Y, Martin-Payo R, Xie X.",
+   "affiliation": "West China School of Nursing, West China Hospital, Sichuan University, No. 24, South Section, First Ring Road, Chengdu, Sichuan, 610041, China, 86 15397611001",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/97371",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-113384",
+   "title": "Catching the \"Pink Flags\": Using Smart Devices to Spot Early Signs of Postpartum Psychosis",
+   "year": "2026",
+   "pub_date": "2026-10-20",
+   "journal": "Journal of medical Internet research",
+   "authors": "Cuffari B.",
+   "affiliation": "",
+   "topics": [
+    "웨어러블",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/113384",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-102862",
+   "title": "Characterizing Cancer Symptom Experiences and Related Psychosocial Concerns Through Chinese Social Media Narratives: Computational Text Analysis",
+   "year": "2026",
+   "pub_date": "2026-10-20",
+   "journal": "Journal of medical Internet research",
+   "authors": "Yu H, Wang Y, Ding J, Wang Y, Zhang Y, Wang Y, Hong J.",
+   "affiliation": "Department of Epidemiology and Biostatistics, School of Public Health, Anhui Medical University, Hefei, Anhui, China",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/102862",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-96882",
+   "title": "AI-Based Clinical Decision Support Systems in Primary Care: Systematic Review of Clinical Implementation",
+   "year": "2026",
+   "pub_date": "2026-10-19",
+   "journal": "Journal of medical Internet research",
+   "authors": "Naye F, Ouellet S, Yousefi F, Cachinho C, Bergeron F, Bhattacharyya O, Stamenova V, Sasseville M.",
+   "affiliation": "Faculty of Nursing Sciences, Université Laval, 1050, avenue de la Médecine, Québec, QC, G1V 0A6, Canada, 1 418-290-3089",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/96882",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-113477",
+   "title": "GLP-1 Ads Are Everywhere. What Are They Doing to Our Body Image?",
+   "year": "2026",
+   "pub_date": "2026-10-19",
+   "journal": "Journal of medical Internet research",
+   "authors": "Zucker A.",
+   "affiliation": "",
+   "topics": [
+    "당뇨",
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/113477",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-89720",
+   "title": "Engagement and Influence of Food-Related Videos on Social Media Within the Dietary Realities of Young Adults in Jamaica and the United Kingdom: Qualitative Cross-National Study",
+   "year": "2026",
+   "pub_date": "2026-10-19",
+   "journal": "Journal of medical Internet research",
+   "authors": "Parks S, Albury C, Renzella J, Kaur A, Soares-Wynter S, Rayner M, Scarborough P.",
+   "affiliation": "Nuffield Department of Population Health, University of Oxford, Old Road Campus, Oxford, England, OX1 3JA, United Kingdom",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/89720",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-1249-mss-0000000000004191",
+   "title": "Consumer Grade Wearable Sensor Metrics Are Associated with Internal Forces at Common Running Injury Locations",
+   "year": "2026",
+   "pub_date": "2026-10-16",
+   "journal": "Medicine and science in sports and exercise",
+   "authors": "Davis Iv JJ, Meardon SA, Raglin JS, Brown AW, Harezlak J, Gruber AH.",
+   "affiliation": "Department of Kinesiology, School of Public Health - Bloomington, Bloomington, IN",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.1249/mss.0000000000004191",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-105647",
+   "title": "High accuracy of passive monitoring for detecting hypomanic symptoms in bipolar disorder: an explainable machine learning approach",
+   "year": "2026",
+   "pub_date": "2026-10-12",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Halabi R, Alda M, Tolend M, O'Donovan C, Hintze A, Mulsant BH, Ortiz A.",
+   "affiliation": "The University of Texas Southwestern Medical Center, 1440 Empire Central Dr. LD4.244, Dallas, US",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/105647",
+   "has_audio": false
+  },
   {
    "id": "doi-10-2196-88919",
    "title": "Integration of Ecological Momentary Assessment and Intervention With Wearable-Based Digital Phenotypes to Treat Anxiety in Young Adults: Mixed Methods Experimental Study",
@@ -10,7 +212,8 @@
    "authors": "Song H, Choi Y, Park J, Hwang H, Kim J, Park C.",
    "affiliation": "HAII Corp, Jongno-gu, Republic of Korea",
    "topics": [
-    "웨어러블"
+    "웨어러블",
+    "JITAI"
    ],
    "url": "https://doi.org/10.2196/88919",
    "has_audio": false
@@ -1520,6 +1723,20 @@
    "summary_md": "## 배경\n기계학습은 정신건강 증상 예측에 널리 쓰여 왔지만, 실제 환경에서 중독 위험을 예측한 연구는 아직 드뭅니다. 정서적, 기질적 취약성은 음주 문제의 확립된 상관 요인인데도 웨어러블 생체신호와 함께 통합한 예측 모델은 거의 없었습니다.\n\n## 방법\n전향적 관찰연구로 20대 성인 206명이 4주간 핏빗을 착용하고 매주 자기보고 설문에 응답했습니다. t주의 특징으로 t+1주의 한국판 알코올 사용장애 선별검사 기반 고위험 음주 여부를 예측했고, 양성 기준은 남성 20점 이상, 여성 10점 이상이었습니다. 엑스지부스트와 랜덤 포레스트를 자기보고 단독, 웨어러블 단독, 통합 특징 세트로 비교했으며 참가자 단위 5겹 교차검증을 사용했습니다.\n\n## 결과\n총 620개 주 단위 관측치 중 85개, 즉 13.7퍼센트가 고위험 음주로 분류됐습니다. 통합 랜덤 포레스트가 민감도 중심 성능에서 가장 우수해 정확도 0.617, 민감도 0.653, 곡선하면적 0.681, 정밀도-재현율 곡선하면적 0.255를 보였습니다. 통합 엑스지부스트는 정확도 0.670, 민감도 0.399, 곡선하면적 0.651이었습니다. 섀플리 값 분석에서 기저 취약성 지표와 웨어러블 주간 요약 모두가 예측에 기여했습니다.\n\n## 시사점\n웨어러블 기반 음주 위험 계층화의 예비적 가능성을 보여줬지만, 양성 예측력이 아직 낮아 실제 조기경보나 적시 개입에 쓰기 전에 외부 검증과 더 근접한 개인 내 측정이 필요합니다."
   },
   {
+   "id": "doi-10-1249-mss-0000000000004060",
+   "title": "The Influence of Interindividual Factors on Army Combat Fitness Test Performance",
+   "year": "2026",
+   "pub_date": "2026-07-09",
+   "journal": "Medicine and science in sports and exercise",
+   "authors": "Murray TA, Sellers JH, Friedl KE, Charkoudian N, Giersch GEW.",
+   "affiliation": "U.S. Army Research Institute of Environmental Medicine, Natick, MA",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.1249/mss.0000000000004060",
+   "has_audio": false
+  },
+  {
    "id": "doi-10-1002-oby-70252",
    "title": "The Sex-Stratified Effects of RSPO3 Expression on Body Fat and Blood Lipids: An Omics Mendelian Randomization Study",
    "year": "2026",
@@ -1535,6 +1752,35 @@
    "title_ko": "알스폰3 발현이 체지방과 혈중 지질에 미치는 성별 차이 효과: 오믹스 멘델 무작위화 연구",
    "one_liner": "여성에서만 알스폰3가 내장지방과 중성지방을 높였다",
    "summary_md": "## 배경\n알스폰3는 뼈와 지방 조직 발달에 관여하는 분비 단백질로, 체지방 분포와 관련이 있다고 알려져 왔습니다. 다만 이 효과가 남녀에서 동일한지, 성호르몬이 그 사이를 매개하는지는 밝혀지지 않았습니다.\n\n## 방법\n연구진은 남성 1만 8529명, 여성 2만 1323명을 대상으로 성별 층화 전장유전체연관분석을 수행해 알스폰3 단백질 수치와 연관된 유전 변이를 찾았습니다. 이후 이표본 멘델 무작위화로 체지방과 혈중 지질에 대한 인과 효과를 추정했고, 두 단계 멘델 무작위화로 성호르몬의 매개 효과를 분석했습니다. 성별 차이는 쌍별 z 검정과 코크란 Q 검정으로 비교했습니다.\n\n## 결과\n알스폰3 단백질 수치와 연관된 9개 유전자 자리를 확인했으며, 이 중 3개는 새로 발견된 신호였고 4개는 여성에서만 나타났습니다. 여성에서 알스폰3 수치가 높을수록 내장지방 0.22, 허리둘레 0.10, 엉덩이둘레 0.10, 중성지방 0.22가 증가했고, 고밀도지단백 콜레스테롤은 0.17, 아포지단백 A는 0.11 감소했습니다. 남성에서는 이런 연관이 뚜렷하지 않아 성별 차이가 확인됐습니다. 두 단계 분석에서는 여성의 6개 결과가 성호르몬결합글로불린을 통해 매개됐습니다.\n\n## 시사점\n알스폰3는 여성의 체지방 분포와 혈중 지질을 조절하는 약물 표적이 될 수 있으며, 대사질환 치료제 개발에서 성별을 고려한 접근이 필요함을 시사합니다."
+  },
+  {
+   "id": "doi-10-1249-mss-0000000000004078",
+   "title": "Ultrasound Muscle Thickness Is a Poor Index of Criterion Magnetic Resonance Imaging Measures of Resistance Training-Induced Muscle Growth",
+   "year": "2026",
+   "pub_date": "2026-07-07",
+   "journal": "Medicine and science in sports and exercise",
+   "authors": "Balshaw TG, Funnell MP, McDermott EJ, Maden-Wilkinson TM, James LJ, Folland JP.",
+   "affiliation": "National Centre for Sport & Exercise Medicine, School of Sport, Exercise, and Health Sciences, Loughborough University, Leicestershire, UNITED KINGDOM",
+   "topics": [
+    "당뇨",
+    "운동"
+   ],
+   "url": "https://doi.org/10.1249/mss.0000000000004078",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-1249-mss-0000000000004064",
+   "title": "Objectively Measured Cardiorespiratory Fitness as a Potential Biomarker for Alzheimer Disease Risk in Older Adults: Evidence from the Generation 100 Study",
+   "year": "2026",
+   "pub_date": "2026-07-03",
+   "journal": "Medicine and science in sports and exercise",
+   "authors": "Brissach DE, Berg HH, Stensvold D, Ingeström EML, Walker TL, Laukkanen JA, Vasankari T, Sando SB, Tari AR, Wisløff U.",
+   "affiliation": "The Cardiac Exercise Research Group at the Faculty of Medicine and Health Sciences, Department of Circulation and Medical Imaging, the Norwegian University of Science and Technology, Trondheim, NORWAY",
+   "topics": [
+    "운동"
+   ],
+   "url": "https://doi.org/10.1249/mss.0000000000004064",
+   "has_audio": false
   },
   {
    "id": "doi-10-2196-90709",
