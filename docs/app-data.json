@@ -1,6 +1,165 @@
 {
- "generated": "2026-10-26 12:07",
+ "generated": "2026-11-02 11:32",
  "papers": [
+  {
+   "id": "doi-10-2337-dc26-1042",
+   "title": "Continuous Glucose Monitoring Metrics and Risks of Severe Hypoglycemia and Diabetic Ketoacidosis in Type 1 Diabetes: A Pooled Analysis",
+   "year": "2026",
+   "pub_date": "2026-11-01",
+   "journal": "Diabetes care",
+   "authors": "He JH, Malek ND, Zeger SL, Echouffo-Tcheugui JB, Fang M, Selvin E.",
+   "affiliation": "Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD",
+   "topics": [
+    "웨어러블",
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2337/dc26-1042",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2337-dc26-0300",
+   "title": "State Insulin Out-of-Pocket Cap Policies and Estimated Eligible Populations in the United States, 2019-2026",
+   "year": "2026",
+   "pub_date": "2026-11-01",
+   "journal": "Diabetes care",
+   "authors": "Wang R, Naeem U, Everhart AO, Karaca Mandic P, Dusetzina SB, Lipska KJ, McCoy RG.",
+   "affiliation": "University of Maryland Institute for Health Computing, North Bethesda, MD",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2337/dc26-0300",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-1038-s41746-026-03406-7",
+   "title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
+   "year": "2026",
+   "pub_date": "2026-10-30",
+   "journal": "NPJ digital medicine",
+   "authors": "Grieger N, Raskob J, Mehrkanoon S, Bialonski S.",
+   "affiliation": "Department of Medical Engineering and Technomathematics, FH Aachen University of Applied Sciences, Jülich, Germany",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.1038/s41746-026-03406-7",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-95283",
+   "title": "Multidomain Outcomes of a Digital Self-Management Program in Rural Adults With Chronic Conditions: Single-Arm Prospective Interventional Study",
+   "year": "2026",
+   "pub_date": "2026-10-30",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Smith NK, Ilie G, MacDonald C, Langley JRB, Rutledge RDH.",
+   "affiliation": "Department of Community Health and Epidemiology, Faculty of Medicine, Dalhousie University, 5790 University Avenue, Halifax, NS, B3H 1V7, Canada, 1 9029894114",
+   "topics": [
+    "웨어러블",
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/95283",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-98987",
+   "title": "Acceptability of Wearable Digital Devices for Remote Continuous Mobility Monitoring in People With Parkinson Disease and Carers: Qualitative Study",
+   "year": "2026",
+   "pub_date": "2026-10-30",
+   "journal": "Journal of medical Internet research",
+   "authors": "Hanrahan M, Lumsdon J, Wilson C, Bhadra E, Keogh A, Gur-Arieh T, Noyce A, Yarnall A, Rochester L, Mc Ardle R, Brittain K.",
+   "affiliation": "Population Health Sciences Institute, Faculty of Medical Sciences, Newcastle University, Newcastle Biomedical Research Building, Clinical Ageing Research Unit (CARU), Campus for Ageing and Vitality, Westgate Road, Newcastle upon Tyne, England, NE4 5PL, United Kingdom, 44 0191 208 7565",
+   "topics": [
+    "웨어러블",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/98987",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-97657",
+   "title": "Real-World Functional Gait Recovery Trajectories After Total Hip and Total Knee Arthroplasty via Smartphone Sensors: Observational Longitudinal Study",
+   "year": "2026",
+   "pub_date": "2026-10-30",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Teitz LS, Granot-Hershkovitz E, Lee PA, Lo OY, Manor B, Naveh YY.",
+   "affiliation": "OneStep (Celloscope Ltd), Nachmani 14, Tel Aviv, 6579424, Israel, 972 547432106",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/97657",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-100064",
+   "title": "The Mediating Role of Sleep Quality in Associations of Smartphone Addiction and Time-Specific Use With Prenatal Depression and Anxiety: Cross-Sectional Observational Study",
+   "year": "2026",
+   "pub_date": "2026-10-30",
+   "journal": "JMIR mHealth and uHealth",
+   "authors": "Zhang X, Ouyang M, Wu X, Yang X, Wang X, Cao Y, Xu M, Shu Y, Wu M.",
+   "affiliation": "Department of Maternal and Child Health, Xiangya School of Public Health, Central South University, No. 172 Tongzipo Road, Changsha, Hunan, 410013, China, 86 1-597-147-1776",
+   "topics": [
+    "당뇨"
+   ],
+   "url": "https://doi.org/10.2196/100064",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-95757",
+   "title": "Effects of Parent-Involved Digital Health Interventions on Adiposity-Related Outcomes and Behaviors in Children and Adolescents With Overweight or Obesity: Systematic Review and Meta-Analysis",
+   "year": "2026",
+   "pub_date": "2026-10-30",
+   "journal": "Journal of medical Internet research",
+   "authors": "Zheng Y, Huang J, Peng Y, Wu K, Sun F, Huang W, Li C.",
+   "affiliation": "Physical Education & Sports Science, South China Normal University, Guangzhou, China",
+   "topics": [
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.2196/95757",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-103362",
+   "title": "AI-Enabled Patient Profiling for Personalized Nursing Care and Health Support: Scoping Review",
+   "year": "2026",
+   "pub_date": "2026-10-29",
+   "journal": "Journal of medical Internet research",
+   "authors": "Zhang J, Zhang F, Guo Y, Zhang J, Zhong H, Guo X, Tan M.",
+   "affiliation": "Affiliated Hospital of North Sichuan Medical College, Nanchong, Sichuan, China",
+   "topics": [
+    "웨어러블"
+   ],
+   "url": "https://doi.org/10.2196/103362",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-98961",
+   "title": "From Prediction to Interaction: A Behavioral Informatics Framework for AI in Preventive Health",
+   "year": "2026",
+   "pub_date": "2026-10-28",
+   "journal": "Journal of medical Internet research",
+   "authors": "Gavai A, Heringa J.",
+   "affiliation": "Bioinformatics Section, Department of Computer Science, Vrije Universiteit Amsterdam, De Boelelaan 1081A, Amsterdam, 1081 HV, The Netherlands, 0031 6 34 64 99 52",
+   "topics": [
+    "JITAI"
+   ],
+   "url": "https://doi.org/10.2196/98961",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-2196-100072",
+   "title": "Determinants of Age at First Exposure to Digital Devices Among Children Aged 2 to 6 Years: Survival Analysis",
+   "year": "2026",
+   "pub_date": "2026-10-28",
+   "journal": "Journal of medical Internet research",
+   "authors": "Rodrigues D, Costa G, Gonçalves R, Machado-Rodrigues AM, Tur JA, Männikkö N.",
+   "affiliation": "Research Centre for Anthropology and Health, University of Coimbra, Ed São Bento, Calçada Martim de Freitas, Coimbra, Coimbra, 3000-456, Portugal, 351 239 240 700",
+   "topics": [
+    "비만"
+   ],
+   "url": "https://doi.org/10.2196/100072",
+   "has_audio": false
+  },
   {
    "id": "doi-10-2196-103569",
    "title": "The Impact of Telemedicine Interventions on Maternal and Fetal Outcomes in Women With Gestational Diabetes: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
@@ -261,6 +420,22 @@
     "운동"
    ],
    "url": "https://doi.org/10.1249/mss.0000000000004165",
+   "has_audio": false
+  },
+  {
+   "id": "doi-10-1002-oby-70310",
+   "title": "Frequent Versus Single Active Bouts Differentially Affect Movement Behavior and Energy Balance in Adults With Overweight/Obesity",
+   "year": "2026",
+   "pub_date": "2026-10-06",
+   "journal": "Obesity (Silver Spring, Md.)",
+   "authors": "Santo Andre HC, Le Roux E, De Jong NP, Smith PR, Lange AH, Mendez C, Zahariev A, Mamele ML, Johnson G, Pan Z, Simon C, Bessesen DH, Pinto AJ, Bergouignan A.",
+   "affiliation": "Division of Endocrinology, Metabolism and Diabetes, Anschutz Health and Wellness Center, Department of Medicine, School of Medicine, University of Colorado Anschutz Medical Campus, Aurora, Colorado, USA",
+   "topics": [
+    "당뇨",
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.1002/oby.70310",
    "has_audio": false
   },
   {
@@ -882,6 +1057,22 @@
    "title_ko": "전자의무기록에서 비처방 펜타닐 사용을 찾아내는 자연어처리 기술: 알고리즘 개발 및 검증 연구",
    "one_liner": "라마 3 모델이 진료기록 속 비처방 펜타닐 사용을 F1 0.87로 식별",
    "summary_md": "## 배경\n비처방 펜타닐로 인한 과다복용과 자살이 급증하고 있지만, 의료 시스템에는 이를 사용하는 환자를 안정적으로 찾아낼 방법이 없다. 국제질병분류 코드는 일관성이 떨어지고 '비처방' 사용을 따로 구분하지도 못한다.\n\n## 방법\n미국 재향군인 보건청 환자를 대상으로 2023년 4월 5일부터 2024년 12월 23일까지의 진료기록을 후향적으로 분석했다. 'fent', 'blues', 'M30s', 'tranq' 등 펜타닐 관련 용어를 중심으로 앞뒤 250자 스니펫을 추출했고, 5개 사전 정의 그룹에서 재향군인 3878명을 무작위 추출했다. 의사 주석자가 각 스니펫을 비처방 사용·처방 사용·기타로 분류했으며, 벌점 로지스틱 회귀, 바이오클리니컬버트, 라마 3-8B, 미스트랄-7B를 환자 단위 교차검증으로 비교했다.\n\n## 결과\n전체 7389개 스니펫 중 비처방 사용이 9.6%인 709개, 처방 사용이 40.3%인 2981개, 기타가 50%인 3699개였다. 주석자 간 일치도는 카파 0.822로 높았다. 비처방 사용 분류에서 라마 3-8B가 F1 0.87로 가장 우수했고, 미스트랄-7B와 바이오클리니컬버트가 각각 0.80, 벌점 로지스틱 회귀가 0.74였다. 2025년 1월부터 2026년 6월까지 독립 표본 200건에 대한 외부 검증에서 바이오클리니컬버트의 정밀도는 0.79였다.\n\n## 시사점\n자연어처리로 전자의무기록 속 비처방 펜타닐 사용을 식별할 수 있으나, 해당 분류의 성능은 전체 성능보다 낮았다. 여성과 히스패닉 하위집단에서 성능 저하가 관찰되어 공정성 보정이 필요하다. 이 접근법은 위험 예측과 고위험 환자 대상 개입에 활용될 수 있다."
+  },
+  {
+   "id": "doi-10-1002-oby-70298",
+   "title": "Weight Loss and Physical Activity Reduces Perceived Physical Fatigability Among Older Adults With Obesity",
+   "year": "2026",
+   "pub_date": "2026-09-09",
+   "journal": "Obesity (Silver Spring, Md.)",
+   "authors": "Garcia RE, Fanning J, Kang C, Rockette-Wagner B, Kline CE, Nicklas BJ, Glynn NW.",
+   "affiliation": "Department of Epidemiology, University of Pittsburgh School of Public Health, Pittsburgh, Pennsylvania, USA",
+   "topics": [
+    "당뇨",
+    "비만",
+    "운동"
+   ],
+   "url": "https://doi.org/10.1002/oby.70298",
+   "has_audio": false
   },
   {
    "id": "doi-10-2196-81290",
